@@ -1,0 +1,29 @@
+        
+         keyword_trading=['pre-trade', 'execution','Dodd', 'Frank', 'SEF','Dodd-Frank', 
+                          'Dodd', 'Frank', 'CFTC', 'Volcker', 'MiFID', 'SEC', '15c3-5', 
+                          'FinfraG', 'reporting', 'trade', 'reporting', 'Mandatory', 'Trading', 
+                          'trade', 'clearing','clearance','electronic', 'trading','e-trading',
+                          'collateral', 'margin','research','conduct', 'behavior','transaction',
+                          'capital', 'requirement','adequacy','margin','reporting']
+       
+         keyword_risk_cap_mgt=['risk','capital','Basel','CVA','CCAR','Stress','solvency',
+                               'regulatory','stress test','Solvency II', 'reporting', 'trade reporting', 
+                               'Mandatory Trading', 'clearing', 'mandatory clearing','clearance','mandatory',
+                               'electronic trading','e-trading', 'collateral', 'margin','research','conduct', 
+                               'behavior','research','capital requirement','capital adequacy','requirement','protection']
+         
+         keyword_reg_acct_rep=['regulatory', 'accounting', 'reporting', 'FATCA', 'Form PF', 'PF', 'ASC 820', 
+                               'IFRS 13', 'IAS', 'GAAP', 'CRD IV', 'EBA', 'prudent valuation', 'IRS', 
+                               'fair value', 'value','reporting', 'trade reporting', 'Mandatory Trading', 
+                               'clearing', 'mandatory clearing','clearance','electronic trading',
+                               'e-trading','mandatory trading', 'collateral', 'margin','disclosure',
+                               'conduct', 'behavior','tax','capital requirement','capital adequacy',
+                               'mandatory','requirement','regulators']
+         
+         keyword_compliance=['compliance', 'AIFMD', 'OATS', 'CAT', 'Finra', 'EMIR', 'KYC', 'AML',
+                             'Anti-Money', 'Laundering', 'MiFID', 'regulation', 'stress test', 
+                             'Order Audit Trail System', 'Dodd-Frank','reporting', 
+                             'trade reporting', 'Mandatory Trading', 'clearing', 'mandatory clearing',
+                             'clearance','electronic trading','e-trading','mandatory trading', 
+                             'collateral', 'protection','research','conduct', 'behavior','criminal',
+                             'laundering','transparency','mandatory','requirement']
