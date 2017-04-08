@@ -13,6 +13,7 @@ There are 2 main approaches/parts to the end goal:
 #### 1. Mapping consultation papers to e.g MiFID
 
 ![Reg Tag Flowchart](https://raw.githubusercontent.com/vsellathurai/regtag/master/regtag.jpg)
+[example of a CP](regtag/cp215-published-19-August-2013.pdf)
 
 ## Methods:
 
