@@ -1,3 +1,3 @@
 # regtag
 
-![Reg Tag Flowchart](regtag/regtag.jpg)
+![Reg Tag Flowchart](https://raw.githubusercontent.com/vsellathurai/regtag/master/regtag.jpg)
