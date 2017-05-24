@@ -1,26 +1,22 @@
-# REG-TAG
+# AREG Dashboard
+# Internal only
 
-### Goal:
-
-Financial regulatory bodies worldwide are working doubly hard to create a prudent and safe environment for banks, businesses and communities to reap the benefits of the system. As such, many regulatory bodies put up Consultation Papers (CPs) to discuss impending regulations.
-
-The aim of this project is to digest CPs down and find their relationship against larger regulatory framework such as MiFID, BASEL III, Dodd-Frank etc. This could be extremely beneficial for major banks operating in multiple locations in understanding the local regulatory environment.
-
-### Process:
-
-There are 2 main approaches/parts to the end goal:
-
-#### 1. Mapping consultation papers to e.g MiFID
-
-![Reg Tag Flowchart](https://raw.githubusercontent.com/vsellathurai/regtag/master/regtag.jpg)
-[example of a CP](regtag/cp215-published-19-August-2013.pdf)
-
-## Methods:
-
-#### 1. 
-
-### Package used:
-
-[spaCy](https://spacy.io/)
-
-[spaCy Documentation](https://spacy.io/docs/usage/)
+This is a project to loop through selected regulation articles    
+and assigned articles into different buckets and hence linked to     
+Bloomberg products to produce an overview of:        
+       
+1) Pattern of new regulation releases     
+2) How regulation releases can be tackled with Bloomberg Products     
+3) What are the key words that appear in regulation articles       
+      
+```
+raw text from BBOT --> tokenization --> removing noise: stem/POS tags     
+         
+     1) Key words of each bucket                              
+-->                                                  
+     2) Key words of each products within the bucket      
+	      
+            1) four buckets        
+--> Assign: 	       
+            2) Bloomberg products within each bucket      
+```
