@@ -1,0 +1,716 @@
+﻿RTS 1:requirements in respect of shares, depositary receipts, exchange-traded funds, certificates and other similar financial instruments
+EUROPEAN COMMISSION
+Brussels,
+XXX
+[…]
+(2012)
+XXX
+draft
+COMMISSION DELEGATED REGULATION (EU) No …/..
+of
+XXX
+[…]
+EN 5 EN
+COMMISSION DELEGATED REGULATION (EU) …/..
+of [date]
+supplementing Regulation (EU) No 600/2014 of the European Parliament and of the Council on markets in financial instruments with regard to regulatory technical standards on transparency requirements for trading venues and investment firms in respect of shares, depositary receipts, exchange-traded funds, certificates and other similar financial instruments and the obligation for investment firms to execute transactions in certain shares on a trading venue or a systematic internaliser
+(Text with EEA relevance)
+THE EUROPEAN COMMISSION,
+Having regard to the Treaty on the Functioning of the European Union,
+Having regard to Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) No 648/20121, and in particular Articles 4(6), 7(2), 14(7), 20(3), 22(4) and 23(3) thereof,
+Whereas:
+A high degree of transparency is essential to ensure that investors are adequately (1)informed as to the true level of actual and potential transactions in shares, depositary receipts, exchange-traded funds (ETFs), certificates and other similar financial instruments irrespective of whether those transactions take place on regulated markets, multilateral trading facilities (MTFs), systematic internalisers, or outside those facilities. This high degree of transparency should also establish a level playing field between trading venues so that the price discovery process in respect of particular financial instruments is not impaired by the fragmentation of liquidity, and investors are not thereby penalised.
+At the same time, it is essential to recognise that there may be circumstances where (2)exemptions from pre-trade transparency or deferrals from post-trade transparency obligations should be provided to avoid the impairment of liquidity as an unintended consequence of obligations to disclose orders and transactions and thereby to make public risk positions. Therefore, it is appropriate to specify the precise circumstances
+1 OJ L 173, 12.6.2014, p. 84.
+EN 6 EN
+under which waivers from pre-trade transparency and deferrals from post-trade transparency may be granted.
+The provisions in this Regulation are closely linked, since they deal with the (3)transparency requirements applicable to trading venues and investment firms in respect of shares, depositary receipts, ETFs, certificates and other similar financial instruments. To ensure coherence between those provisions, which should enter into force at the same time, and to facilitate a comprehensive view and efficient access for stakeholders, in particular those subject to the obligations, it is desirable to include these regulatory technical standards in a single Regulation.
+Where competent authorities grant waivers in relation to pre-trade transparency (4)requirements or authorise the deferral of post-trade transparency obligations, they should treat all regulated markets, multilateral trading facilities and investment firms trading outside of trading venues equally and in a non-discriminatory manner.
+It is appropriate to provide for clarification of a limited number of technical terms. (5)Those technical definitions are necessary to ensure the uniform application in the Union of the provisions contained in this Regulation and, hence, contribute to the establishment of a single rulebook for financial markets in the Union. Those definitions are purely functional for the purpose of setting out the transparency obligations for equity and equity-like financial instruments and should be strictly limited to understanding this Regulation.
+Regulation (EU) No 600/2014 brings within the scope of the transparency regime (6)equity-like instruments such as depositary receipts, ETFs and certificates, as well as shares and other equity-like instruments only traded on a MTF. It is necessary, in order to establish a comprehensive and uniform transparency regime, to update Commission Regulation (EC) No 1287/2006 of 10 August 20062 by calibrating the content of the pre-trade information to be made public by trading venues.
+A trading venue operating a request for quote (RFQ) system should at least make (7)public all the firm bid and offer prices or actionable indications of interest and the depth attached to those prices no later than at the time when the requester is able to execute a transaction under the system’s rules. This is to ensure that members or participants who are providing their quotes to the requester first are not put at a disadvantage.
+While this Regulation sets out the specific methodology and data necessary to perform (8)calculations for the purpose of specifying the transparency regime applicable to equity
+2 Commission Regulation (EC) No 1287/2006 of 10 August 2006 implementing Directive 2004/39/EC of the European Parliament and of the Council as regards recordkeeping obligations for investment firms, transaction reporting, market transparency, admission of financial instruments to trading, and defined terms for the purposes of that Directive (OJ L 241, 2.9.2006, p. 1).
+EN 7 EN
+and equity-like financial instruments, it should be applied in conjunction with Regulation (EU) No [RTS on Article 22 and Double Volume Cap] which specifies in more general terms, the common elements with regard to the content and frequency of data requests to be addressed to trading venues, Approved Publication Arrangements (APAs) and Consolidated Tape Providers (CTPs) for the purposes of transparency and other calculations.
+This Regulation should ensure that the pre-trade and post-trade transparency regime (9)established by Regulation (EU) No 600/2014 is appropriately calibrated to the market. In particular, a static determination of the most relevant markets in terms of liquidity, the sizes of orders that are large in scale and standard market sizes would not adequately capture regular modifications of trading patterns affecting equity and equity-like instruments. Therefore, it is essential that this Regulation lays down the necessary calculations to be performed, including their periods and methods as well as the identification of the competent authority responsible for making the calculations in accordance with the determination of the relevant competent authority for the purpose of Article 26 Regulation (EU) No 600/2014 specified in Article xx of Commission Delegated Regulation (EU) [insert reference to Article 18 of RTS on reporting obligations under Article 26 of MiFIR]. In this respect, to avoid market distorting effects, the calculation periods specified in this Regulation should ensure that the relevant thresholds of the regime are updated at appropriate intervals to reflect market conditions. It is also appropriate to provide for the centralised publication of the results of the calculations so that they are made available to all financial market participants and competent authorities in the Union in a single place and in a user-friendly manner. To that end, competent authorities should notify ESMA of the results of their calculations and then ESMA should publish those calculations on its website.
+It is also appropriate to ensure that the pre-trade and post-trade transparency regime (10)established by Regulation (EU) No 600/201 is applied in a uniform manner throughout the Union. In order to carry out the calculations for determining the requirements for the pre-trade and post-trade transparency in accordance with Article 22(1) of Regulation (EU) No 600/2014, the content, frequency of data requests and the formats and timeframe in which trading venues, APAs and CTPs must respond to such requests in accordance with Article 22(4) of Regulation (EU) No 600/2014 should be developed. The results of the calculations made on the basis of the data collected according to Article 22(1) of Regulation (EU) No 600/2014 need to be published in order to inform market participants and achieve pre- and post-trade transparency in practice. It is also appropriate to provide for the possibility of centralised publication of the results of the calculations so that they are made available to all financial market participants and competent authorities in the Union in a single place and in a user-friendly manner. To that end, competent authorities should notify European Securities and Markets Authority (ESMA) of the results of their calculations and then ESMA should publish those calculations on its website.
+EN 8 EN
+For ETFs, and contrary to shares, depositary receipts, certificates and other similar (11)financial instruments, the average daily turnover does not appear as an appropriate proxy for the calibration of the large in scale thresholds. For these instruments, the measure of actual liquidity is not adequately captured by the average daily turnover since the creation and redemption mechanisms inherent to ETFs allow to access additional and non-displayed liquidity. In order to reduce the risk of circumvention, it is also important that two ETFs on the same underlying have the same large in scale thresholds regardless of whether they have similar average daily turnover or not. Therefore, this Regulation should establish a single large in scale threshold for all ETFs which should apply regardless of their underlying or of their liquidity.
+Information which is required to be made available as close to real time as possible (12)should be made available as instantaneously as technically possible, assuming a reasonable level of efficiency and of expenditure on systems on the part of the person concerned. The information should only be published close to the prescribed maximum time limit in exceptional cases where the systems available do not allow for publication in a shorter period of time.
+Investment firms should make public the details of transactions executed outside a (13)trading venue through an APA. This Regulation should set out the way investment firms report the details of the transactions to APAs and should apply in conjunction with the Regulation on [RTS 13 on DRSP] where the specific requirements applicable to APAs are specified.
+The transparency requirements aim to ensure that investors have reliable and timely (14)information about the level of trading interest in financial instruments. Information on certain types of transactions such as the transfer of financial instruments as collateral would not provide meaningful information to investors in respect of the level of genuine trading interest in a financial instrument. Requiring investment firms to make public those transactions would cause significant operational challenges and costs without improving the price formation process. Therefore, post-trade transparency obligations in respect of transactions executed outside a trading venue should only apply in the case of a purchase or sale of a share, depositary receipt, ETF, certificate or other similar financial instrument. It is essential that certain transactions such as those involving the use of any such instruments for collateral lending or other purposes where the exchange is determined by factors other than the current market valuation should not be published as they do not contribute to the price discovery process, would only blur the picture for investors and be a hindrance to achieving best execution.
+Pursuant to Regulation (EU) No 600/2014, transactions executed on a trading venue (15)should be made public by market operators and investment firms operating a trading venue. In respect of transactions executed outside the rules of a trading venue, it is essential to clarify which investment firm should make public a transaction in cases where both parties to the transaction are investment firms established in the Union to ensure the publication of transactions without duplication. Therefore, the
+EN 9 EN
+responsibility to make a transaction public should always fall on the selling investment firm unless only one of the counterparties is a systematic internaliser and it is the buying firm.
+Where only one of the counterparties is a systematic internaliser in a given financial (16)instrument and it is also the buying firm for that instrument, it should be responsible for making the transaction public as its clients would expect it to do so and it is better placed to fill in the reporting field mentioning its status of systematic internaliser. To ensure that a transaction is only published once, the systematic internaliser should inform the other party that it is making the transaction public.
+It is important to maintain current standards for the publication of transactions carried (17)out as back-to-back trades to avoid the publication of a single transaction as multiple trades and to provide legal certainty on which investment firm is responsible for publishing a transaction. Therefore, two matching trades entered at the same time and for the same price with a single party interposed should be published as a single transaction.
+The new legislation of the European Parliament and of the Council on markets in (18)financial instruments set out in Directive 2014/65/EU and Regulation (EU) No 600/2014 applies from 3 January 2017. To ensure consistency and legal certainty, this Regulation should apply from the same date. However, to ensure that the new transparency regulatory regime can operate effectively from 3 January 2017, and that market participants have sufficient time to implement the new requirements by that date, it is necessary for certain transitional provisions to apply from the date of entry into force of this Regulation. These transitional provisions should enable the collection of data for the calculations and provide for an earlier publication of the most relevant markets in terms of liquidity, the sizes of orders that are large in scale, the deferred publication thresholds and standard market sizes.
+This Regulation is based on the draft regulatory technical standards submitted by the (19)European Securities and Markets Authority (ESMA) to the Commission.
+ESMA has conducted open public consultations on the draft regulatory technical (20)standards on which this Regulation is based, analysed the potential related costs and benefits and requested the opinion of the Securities and Markets Stakeholder Group established by Article 37 of Regulation (EU) No 1095/2010 of the European Parliament and of the Council3,
+3 Regulation (EU) No 1095/2010 of the European Parliament and of the Council of 24 November 2010 establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84).
+EN 10 EN
+HAS ADOPTED THIS REGULATION:
+CHAPTER I
+GENERAL
+Article 1
+Definitions
+For the purposes of this Regulation, the following definitions apply:
+‘portfolio trade’ means transactions in five or more different financial instruments (1)where those transactions are traded at the same time by the same client and as a single lot against a specific reference price;
+‘give-up’ or ‘give-in’ means a transaction where an investment firm passes a client (2)trade to, or receives a client trade from, another investment firm for the purpose of post-trade processing;
+‘securities financing transaction’ means a securities financing transaction as defined in (3)(EU) Regulation [Article 3(6) of Regulation on reporting and transparency of securities financing transactions];
+Article 2
+(Article 23(1) of Regulation (EU) No 600/2014)
+Transactions not contributing to the price discovery process
+A transaction in shares does not contribute to the price discovery process if any of the following circumstances apply:
+(a) the transaction is executed by reference to a price that is calculated over multiple time instances according to a given benchmark, including transactions executed by reference to a volume-weighted average price or a time-weighted average price;
+(b) the transaction is part of a portfolio trade which includes five or more different shares;
+(c) the transaction is contingent on the purchase, sale, creation or redemption of a derivative contract or other financial instrument where all the components of the trade are to be executed only as a single lot such as exchanges for related positions;
+(d) the transaction is executed by a management company as defined in Article 2(1)(b) of Directive 2009/65/EC or an alternative investment fund manager as defined in Article 4(1)(b) of Directive 2011/61/EU which transfers the beneficial ownership of shares
+EN 11 EN
+from one collective investment undertaking to another and where no investment firm is a party to the transaction;
+(e) the transaction is a give-up or a give-in;
+(f) the transaction has as its purpose the transferring of shares as collateral in bilateral transactions or in the context of central counterparty margin or collateral requirements or as part of the default management process of a central counterparty;
+(g) the transaction results in the delivery of shares in the context of the exercise of convertible bonds, options, covered warrants or other similar derivatives;
+(h) the transaction is a securities financing transaction;
+(i) the transaction is carried out under the rules or procedures of a trading venue, a central counterparty or a central securities depository to effect a buy-in of unsettled transactions in accordance with Regulation (EU) No 909/2014.
+CHAPTER II
+PRE-TRADE TRANSPARENCY
+SECTION 1
+Pre-trade transparency for trading venues
+Article 3
+(Article 3(1) and (2) of Regulation (EU) No 600/2014)
+Pre-trade transparency obligations
+1. Market operators and investment firms operating a trading venue shall make public the range of bid and offer prices and the depth of trading interest at those prices in accordance with the type of trading system they operate and the information requirements set out in Table 1 of Annex I.
+2. The transparency requirements referred to in paragraph 1 shall also apply to any 'actionable indication of interest' as defined in Article 2(1)(33) of Regulation (EU) No 600/2014.
+Article 4
+(Article 4(1)(a) of Regulation (EU) No 600/2014)
+Most relevant market in terms of liquidity
+EN 12 EN
+1. The most relevant market in terms of liquidity for a share, depositary receipt, ETF, certificate or other similar financial instrument shall be the trading venue with the highest turnover within the Union for that financial instrument.
+2. For the purpose of determining the most relevant markets in terms of liquidity, competent authorities shall calculate the turnover as specified in Article 17(4) in respect of each financial instrument for which they are the competent authority and for each trading venue where that financial instrument is traded.
+3. The calculation referred to in paragraph 2 shall have the following characteristics:
+(a) it shall include, for each trading venue, transactions executed under the rules of that trading venue excluding reference price and negotiated transactions as set out in Table 4 of Annex I and transactions executed on the basis of at least one order that has benefitted from a large in scale waiver and where the transactions’ size is above the applicable large in scale threshold as determined in accordance with Article 7;
+(b) it shall cover the period in the preceding year beginning on 1 January and ending on 31 December or, where applicable, that part of the year during which the financial instrument was admitted to trading or traded on a trading venue and was not suspended from trading.
+This paragraph and paragraph 2 shall not apply to shares, depositary receipts, ETFs, certificates and other similar financial instruments that were first admitted to trading or first traded on a trading venue later than 30 November of the preceding year.
+4. Until the most relevant market in terms of liquidity for a specific financial instrument is determined in accordance with the procedure specified in paragraphs 1 to 3, the most relevant market in terms of liquidity shall be the trading venue where that financial instrument is first admitted to trading or first traded.
+Article 5
+(Article 4(1)(b) of Regulation (EU) No 600/2014)
+Specific characteristics of negotiated transactions
+A negotiated transaction in a share, depositary receipt, ETF, certificate or other similar financial instrument shall be a transaction which is negotiated privately but reported under the rules of a trading venue and where any one of the following circumstances applies:
+(a) two members or participants of that trading venue are involved in any one of the following capacities:
+(i) one is dealing on own account when the other is acting on behalf of a client;
+EN 13 EN
+(ii) both are dealing on own account;
+(iii) both are acting on behalf of a client.
+(b) one member or participant of that trading venue is either of the following:
+(i) acting on behalf of both the buyer and seller;
+(ii) dealing on own account against a client order.
+Article 6
+(Article 4(1)(b) of Regulation (EU) No 600/2014)
+Negotiated transactions subject to conditions other than the current market price
+A negotiated transaction in shares, depositary receipts, ETFs, certificates and other similar financial instruments is subject to conditions other than the current market price if any of the following circumstances applies:
+(a) the transaction is executed in reference to a price that is calculated over multiple time instances according to a given benchmark, including transactions executed by reference to a volume-weighted average price or a time-weighted average price;
+(b) the transaction is part of a portfolio trade;
+(c) the transaction is contingent on the purchase, sale, creation or redemption of a derivative contract or other financial instrument where all the components of the trade are meant to be executed only as a single lot such as exchanges for related positions;
+(d) the transaction is executed by a management company as defined in Article 2(1)(b) of Directive 2009/65/EC or an alternative investment fund manager as defined in Article 4(1)(b) of Directive 2011/61/EU of the European Parliament and of the Council4 which transfers the beneficial ownership of financial instruments from one collective investment undertaking to another and where no investment firm is a party to the transaction;
+(e) the transaction is a give-up or a give-in;
+4 Directive 2011/61/EU of the European Parliament and of the Council of 8 June 2011 on Alternative Investment Fund Managers and amending Directives 2003/41/EC and 2009/65/EC and Regulations (EC) No 1060/2009 and (EU) No 1095/2010, OJ L 174, 1.7.2011, p.16
+EN 14 EN
+(f) the transaction has as its purpose the transferring of financial instruments as collateral in bilateral transactions or in the context of a central counterparty margin or collateral requirements or as part of the default management process of a central counterparty;
+(g) the transaction results in the delivery of financial instruments in the context of the exercise of convertible bonds, options, covered warrants or other similar financial derivative;
+(h) the transaction is a securities financing transaction;
+(i) the transaction is carried out under the rules or procedures of a trading venue, a central counterparty or a central securities depository to effect buy-in of unsettled transactions in accordance with Regulation (EU) No 909/2014;
+(j) any other transaction equivalent to those described in points (a) to (i) and which is contingent on technical characteristics which are unrelated to the current market valuation of the financial instrument traded.
+Article 7
+(Article 4(1)(c) of Regulation (EU) No 600/2014)
+Size of orders which are large in scale
+1. An order in respect of a share, depositary receipt, certificate or other similar financial instrument shall be considered to be large in scale compared with normal market size if, on the basis of the average daily turnover for that financial instrument, the order is equal to or larger than the minimum size of orders set out in Tables 1 and 2 of Annex II.
+2. An order in respect of an ETF shall be considered to be large in scale compared with normal market size if the order is equal to or larger than EUR 1,000,000.
+3. For the purpose of determining sizes of orders that are large in scale, competent authorities shall calculate the average daily turnover in respect of shares, depositary receipts, certificates and other similar financial instruments traded on a trading venue.
+4. The calculation referred to in paragraph 3 shall have the following characteristics:
+(a) it shall include transactions executed in the Union in respect of the financial instrument, whether traded on or outside a trading venue;
+(b) it shall cover the period in the preceding year beginning on 1 January and ending on 31 December or, where applicable, that part of the year during which the financial instrument was admitted to trading or traded on a trading venue and was not suspended from trading.
+EN 15 EN
+This paragraph and paragraph 3 shall not apply to shares, depositary receipts, certificates and other similar financial instruments first admitted to trading or first traded on a trading venue after 30 November of the preceding year.
+5. Unless the price or other relevant conditions for the execution of an order are amended, the waiver from the obligation referred to in Article 3(1) of Regulation (EU) No 600/2014 shall continue to apply in respect of an order that is large in scale compared with normal market size when entered into an order book but that, following partial execution, falls below the threshold applicable for that financial instrument as determined in accordance with paragraphs 1 and 2.
+6. Before a share, depositary receipt, certificate or other similar financial instrument is traded for the first time on a trading venue in the Union, the competent authority shall estimate and publish the average daily turnover for that financial instrument. In doing so, the competent authority shall take into account any previous trading history of that financial instrument and of other financial instruments that are considered to have similar characteristics.
+7. The estimated average daily turnover laid down in paragraph 6 shall apply during a six-week period following the date that the share, depositary receipt, certificate or other similar financial instrument was admitted to trading or first traded on a trading venue.
+8. Before the end of the six-week period, the competent authority shall calculate and publish the average daily turnover based on the first four weeks of trading.
+9. The average daily turnover referred to in paragraph 8 shall apply immediately after its publication and until an average daily turnover calculated in accordance with paragraph 3 applies.
+10. For the purposes of this Article, the average daily turnover shall be calculated by dividing the total turnover for a particular financial instrument as specified in Article 17(4) by the number of trading days in the period considered on the most relevant market in terms of liquidity for that financial instrument as determined in accordance with Article 4.
+Article 8
+(Article 4(1)(d) of Regulation (EU) No 600/2014)
+Type and minimum size of orders held in an order management facility
+1. The type of order held in an order management facility of a trading venue pending disclosure for which pre-trade transparency obligations may be waived is an order which:
+(a) is intended to be disclosed to the order book operated by the trading venue and is contingent on objective conditions that are defined in advance by the system’s protocol;
+EN 16 EN
+(b) cannot interact with other trading interest prior to disclosure to the order book operated by the trading venue;
+(c) once disclosed to the order book, interacts with other orders in accordance with the rules applicable to orders of that kind at the time of disclosure.
+2. Orders held in an order management facility of a trading venue pending disclosure for which pre-trade transparency obligations may be waived shall, at the point of entry and following any amendment, have one of the following sizes:
+(a) in the case of a reserve order, a size that is greater than or equal to EUR 10,000;
+(b) for all other orders, a size that is greater than or equal to the minimum tradable quantity set in advance by the system operator under its rules and protocols.
+3. A reserve order as referred to in paragraph 2(a) is to be considered a limit order consisting of a disclosed order relating to a portion of a quantity and a non-disclosed order relating to the remainder of the quantity, where the non-disclosed quantity is capable of execution only after its release to the order book as a new disclosed order.
+SECTION 2
+Pre-trade transparency for systematic internalisers and investment firms trading outside a trading venue
+Article 9
+(Article 14(1) of Regulation (EU) No 600/2014)
+Arrangements for the publication of a firm quote
+Any arrangement that a systematic internaliser adopts in order to comply with the obligation to make public firm quotes shall satisfy the following conditions:
+(a) it includes all reasonable steps necessary to ensure that the information to be published is reliable, monitored continuously for errors, and corrected as soon as errors are detected;
+(b) it complies with technical arrangements equivalent to those specified for APAs in Article 15 of Commission Delegated Regulation (EU) [insert reference to RTS DRSP authorisation, organisational requirement and publication of transactions] that facilitate the consolidation of the data with similar data from other sources;
+(c) it makes the information available to the public on a non-discriminatory basis;
+(d) it includes the publication of the time the quotes have been entered or amended in accordance with Article 50 of Directive 2014/65/EU of the European Parliament and of
+EN 17 EN
+the Council5 as specified in Commission Delegated Regulation (EU) [insert reference to RTS on clock synchronisation].
+Article 10
+(Article 14(3) of Regulation (EU) No 600/2014)
+Prices reflecting prevailing market conditions
+The prices published by a systematic internaliser reflect prevailing market conditions where they are close in price to quotes of equivalent sizes for the same financial instrument on the most relevant market in terms of liquidity as determined in accordance with Article 4 for that financial instrument at the time of publication.
+Article 11
+(Article 14(2) and (4) of Regulation (EU) 600/2014)
+Standard market size
+1. The standard market size for shares, depositary receipts, ETFs, certificates and other similar financial instruments for which there is a liquid market shall be determined on the basis of the average value of transactions for each financial instrument and in accordance with Table 3 of Annex II.
+2. For the purpose of determining the standard market size which is applicable to a specific financial instrument as set out in paragraph 1, competent authorities shall calculate the average value of transactions in respect of all the shares, depositary receipts, ETFs, certificates and other similar financial instruments traded on a trading venue for which there is a liquid market and for which they are the competent authority.
+3. The calculation referred to in paragraph 2 shall have the following characteristics:
+(a) it shall take into account the transactions executed in the Union in respect of the financial instrument concerned whether executed on or outside a trading venue ;
+(b) it shall cover the period in the preceding year beginning on 1 January and ending on 31 December or, where applicable, that part of the year during which the financial instrument was traded on a trading venue and was not suspended from trading;
+5 Directive 2014/65/EU of the European Parliament and of the Council of 15 May 2014 on markets in financial instruments and amending Directive 2002/92/EC and Directive 2011/61/EU, OJ L 173, 12.6.2014, p. 349.
+EN 18 EN
+(c) it shall exclude reference price, negotiated and post-trade large in scale transactions as set out in Table 4 of Annex I.
+This paragraph and paragraph 2 shall not apply to shares, depositary receipts, ETFs, certificates and other similar financial instruments first admitted to trading or first traded on a trading venue after 30 November of the preceding year.
+4. Before a share, depositary receipt, ETF, certificate or other similar financial instrument is traded for the first time on a trading venue in the Union, the competent authority shall estimate and publish the average value of transactions for that financial instrument. In doing so, the competent authority shall take into account any previous trading history of that financial instrument as well as that of other financial instruments considered to have similar characteristics.
+5. The estimated average value of transactions laid down in paragraph 4 shall apply during a six-week period following the date that the share, depositary receipt, ETF, certificate or other similar financial instrument was first admitted to trading or first traded on a trading venue.
+6. Before the end of the six-week period, the competent authority shall calculate and publish the average value of transactions based on the first four weeks of trading.
+7. The average value of transactions in paragraph 6 shall apply immediately after its publication and until a new average value of transactions calculated in accordance with paragraphs 2 and 3 applies.
+8. For the purposes of this Article, the average value of transactions shall be calculated dividing the total turnover for a particular financial instrument as set out in Article 17(4) by the total number of transactions executed for that financial instrument in the period considered.
+CHAPTER III
+POST-TRADE TRANSPARENCY FOR TRADING VENUES AND INVESTMENT FIRMS TRADING OUTSIDE A TRADING VENUE
+Article 12
+(Article 6(1) and Article 20(1) and (2) of Regulation (EU) No 600/2014)
+Post-trade transparency obligations
+1. Investment firms trading outside the rules of a trading venue and market operators and investment firms operating a trading venue shall make public, by reference to each transaction, the details set out in Tables 2 and 3 of Annex I and use each applicable flag listed in Table 4 of Annex I.
+EN 19 EN
+2. Where a previously published trade report is cancelled, investment firms trading outside a trading venue and market operators and investment firms operating a trading venue shall make public a new trade report which contains all the details of the original trade report and the cancellation flag as specified in Table 4 of Annex I.
+3. Where a previously published trade report is amended, investment firms trading outside a trading venue and market operators and investment firms operating a trading venue shall make the following information public:
+(a) a new trade report that contains all the details of the original trade report and the cancellation flag as specified in Table 4 of Annex I;
+(b) a new trade report that contains all the details of the original trade report with all necessary details corrected and the amendment flag as specified in Table 4 of Annex I.
+4. Where a transaction between two investment firms is concluded outside the rules of a trading venue, either on own account or on behalf of clients, only the investment firm that sells the financial instrument concerned shall make the transaction public through an APA.
+5. By way of derogation to paragraph 4, if only one of the investment firms party to the transaction is a systematic internaliser in the given financial instrument and it is acting as the buying firm, only that firm shall make the transaction public through an APA, informing the seller of the action taken.
+6. Investment firms shall take all reasonable steps to ensure that the transaction is made public as a single transaction. For that purpose, two matching trades entered at the same time and for the same price with a single party interposed shall be considered to be a single transaction.
+Article 13
+(Article 20(1) of Regulation (EU) No 600/2014)
+Application of post-trade transparency to certain types of transactions executed outside a trading venue
+The obligation in Article 20(1) of Regulation (EU) 600/2014 shall not apply to the following:
+(a) excluded transactions listed under Article 3(5) of Commission Delegated Regulation (EU) No xxx/20xx [insert reference to RTS on obligation to report transactions] where applicable;
+(b) transactions executed by a management company as defined in Article 2(1)(b) of Directive 2009/65/EC or an alternative investment fund manager as defined in Article 4(1)(b) of Directive 2011/61/EU which transfers the beneficial ownership of financial
+EN 20 EN
+instruments from one collective investment undertaking to another and where no investment firm is a party to the transaction;
+(c) give-ups and give-ins;
+(d) transfers of financial instruments as collateral in bilateral transactions or in the context of a central counterparty margin or collateral requirements or as part of the default management process of a central counterparty.
+Article 14
+(Article 6(1) of Regulation (EU) No 600/2014)
+Real time publication of transactions
+1. For transactions that take place on a given trading venue, post-trade information shall be made public:
+(a) if the transaction takes place during the daily trading hours of the trading venue, as close to real-time as is technically possible and in any case within one minute of the relevant transaction;
+(b) if the transaction takes place outside the daily trading hours of the trading venue, before the opening of the next trading day for that trading venue.
+2. For transactions that take place outside a trading venue, post-trade information shall be made public in the following circumstances:
+(a) if the transaction takes place during the daily trading hours of the most relevant market in terms of liquidity determined in accordance with Article 4 for the share, depositary receipt, ETF, certificate or other similar financial instrument concerned, or during the investment firm's daily trading hours, as close to real-time as is technically possible and in any case within one minute of the relevant transaction;
+(b) in any case not covered by point (a), immediately upon the commencement of the investment firm's daily trading hours and at the latest before the opening of the next trading day of the most relevant market in terms of liquidity determined in accordance with Article 4.
+3. Information relating to a portfolio trade shall be made available with respect to each constituent transaction as close to real-time as is technically possible, having regard to the need to allocate prices to particular shares, depositary receipts, ETFs, certificates and other similar financial instruments. Each constituent transaction shall be assessed separately for the purposes of determining whether deferred publication in respect of that transaction is applicable pursuant to Article 14.
+EN 21 EN
+Article 15
+(Article 7(1) and 20(1) and (2) of Regulation (EU) No 600/2014)
+Deferred publication of transactions
+1. Where a competent authority authorises the deferred publication of the details of transactions, investment firms trading outside a trading venue and market operators and investment firms operating a trading venue shall make public each transaction no later than at the end of the relevant period set out in Tables 4, 5 and 6 of Annex II provided that the following criteria are satisfied:
+(a) the transaction is between an investment firm dealing on own account other than through matched principal trading and another counterparty;
+(b) the size of the transaction is equal to or exceeds the relevant minimum qualifying size, as specified in Tables 4 to 6 of Annex II as appropriate.
+2. The relevant minimum qualifying size for the purposes of point (b) in paragraph 1 shall be determined in accordance with the average daily turnover calculated as set out in Article 7.
+3. For transactions for which deferred publication is permitted until the end of the trading day, investment firms trading outside a trading venue and market operators and investment firms operating a trading venue shall make public the details of those transactions:
+(a) as close to real-time as possible after the end of the trading day which includes the closing auction, if applicable, for transactions executed more than two hours before the end of the trading day;
+(b) no later than noon local time on the next trading day for transactions not covered in point (a).
+For transactions that take place outside a trading venue, references to trading days and closing auctions shall be those of the most relevant market in terms of liquidity as determined in accordance with Article 4.
+4. Where a transaction between two investment firms is executed outside the rules of a trading venue, the competent authority for the purpose of determining the applicable deferral regime shall be the competent authority of the investment firm responsible for making the trade public through an APA in accordance with paragraphs 5 and 6 of Article 12.
+Article 16
+References to trading day and daily trading hours
+EN 22 EN
+1. A reference to a trading day in relation to a trading venue shall be a reference to any day during which that trading venue is open for trading.
+2. A reference to daily trading hours of a trading venue or an investment firm shall be a reference to the hours which the trading venue or investment firm establishes in advance and makes public as its trading hours.
+3. A reference to the opening of the trading day at a given trading venue shall be a reference to the commencement of the daily trading hours of that trading venue.
+4. A reference to the end of the trading day at a given trading venue shall be a reference to the end of the daily trading hours of that trading venue.
+CHAPTER IV
+PROVISIONS COMMON TO PRE-TRADE AND POST-TRADE TRANSPARENCY CALCULATIONS
+Article 17
+(Article 22(1) of Regulation (EU) No 600/2014)
+Methodology, date of publication and date of application of the transparency calculations
+1. By 1 March 2018 and by 1 March of each year thereafter, competent authorities shall, in relation to each financial instrument for which they are the competent authority, collect the data, calculate and ensure publication of the following information:
+(a) the trading venue which is the most relevant market in terms of liquidity as set out in Article 4(2);
+(b) the average daily turnover for the purpose of identifying the size of orders that are large in scale as set out in Article 7(3);
+(c) the average value of transactions for the purpose of determining the standard market size as set out in Article 11(2).
+2. The information published in accordance with paragraph 1 shall apply from 1 April following its publication.
+3. During the course of a calendar year, competent authorities shall ensure that the information made public as set out in paragraph 1 remains updated and appropriate for the purposes of Regulation (EU) No 600/2014. Updated calculations shall be provided whenever there is a change in relation to a specific share, depositary receipt, ETF, certificate or other similar financial instrument which significantly affects the previous calculations and the published information on an on-going basis.
+EN 23 EN
+4. For the purposes of the calculations referred to in paragraph 1, the turnover in relation to a financial instrument shall be calculated by summing the results of multiplying, for each transaction executed during a defined period of time, the number of units of that instrument exchanged between the buyers and sellers by the unit price applicable to such transaction.
+5. After the end of the trading day but before the end of the day, trading venues shall submit to competent authorities the details included in Annex III for performing the calculations referred to in paragraph 1 whenever the financial instrument is admitted to trading or first traded on that trading venue or whenever the details previously provided have changed.
+Article 18
+(Article 22(1) of Regulation (EU) No 600/2014)
+Reference to competent authorities
+The competent authority for a specific financial instrument responsible for performing the calculations and making public the information referred to in Articles 4, 7, 11 and 17 shall be the competent authority of the most relevant market in terms of liquidity as defined in Article 26 Regulation (EU) No 600/2014 and specified in Article xx of Commission Delegated Regulation (EU) [insert reference to Article 18 of RTS on reporting obligations under Article 26 of MiFIR].
+Article 19
+Transitional provisions
+1. Competent authorities shall collect the necessary data, calculate and ensure the first publication of the information referred to in points (a) to (c) of Article 17(1):
+(a) by 1 December 2016 for financial instruments traded for the first time on a trading venue in the Union before 21 October 2016;
+(b) by 3 January 2017 for financial instruments traded for the first time on a trading venue in the Union between 21 October 2016 and 2 January 2017.
+2. The calculations referred to in paragraph 1 shall be based on:
+(a) available data for the reference period of 1 January 2016 to 30 September 2016 for financial instruments traded for the first time on a trading venue in the Union before 1 September 2016;
+(b) available data for the first four weeks of trading for financial instruments traded for the first time on a trading venue in the Union between 1 September 2016 and 20 October 2016;
+EN 24 EN
+(c) previous trading history of that financial instrument or of other financial instruments considered to have similar characteristics for financial instruments traded for the first time on a trading venue in the Union between 21 October 2016 and 2 January 2017.
+3. The information published in accordance with paragraphs 1 and 2 shall apply from 3 January 2017 until 31 March 2018. During that period, for the financial instrument referred to in points (b) and (c) of paragraph 2, competent authorities shall ensure that the information made public remains appropriate for the purposes of Regulation (EU) No 600/2014 and, where necessary, update the information previously published on the basis of longer and more comprehensive trading history data.
+Article 20
+Entry into force and application
+This Regulation shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+It shall apply from 3 January 2017, except Article 19 which shall apply immediately following the entry into force of this Regulation.
+This Regulation shall be binding in its entirety and directly applicable in all Member States.
+Done at Brussels,
+For the Commission
+The President
+[For the Commission
+On behalf of the President
+[Position]
+EN 25 EN
+Annex I: Information to be made public
+Table 1
+Description of the type of trading systems and the related information to be made public in accordance with Article 3
+Type of trading system
+Description of the trading system
+Information to be made public
+Continuous auction order book trading system
+A system that by means of an order book and a trading algorithm operated without human intervention matches sell orders with buy orders on the basis of the best available price on a continuous basis.
+The aggregate number of orders and the shares, depositary receipts, ETFs, certificates and other similar financial instruments that they represent at each price level for at least the five best bid and offer price levels.
+Quote-driven trading system
+A system where transactions are concluded on the basis of firm quotes that are continuously made available to participants, which requires the market makers to maintain quotes in a size that balances the needs of members and participants to deal in a commercial size and the risk to which the market maker exposes itself.
+The best bid and offer by price of each market maker in shares, depositary receipts, ETFs, certificates and other similar financial instruments traded on the trading system, together with the volumes attaching to those prices.
+The quotes made public shall be those that represent binding commitments to buy and sell the financial instruments and which indicate the price and volume of financial instruments in which the registered market makers are prepared to buy or sell. In exceptional market conditions, however, indicative or one-way prices may be allowed for a limited time.
+Periodic auction trading system
+A system that matches orders on the basis of a periodic auction and a trading algorithm operated without human intervention.
+The price at which the auction trading system would best satisfy its trading algorithm in respect of shares, depositary receipts, ETFs, certificates and other similar financial instruments traded on the trading system and the volume that would potentially be executable at that price by participants in that system.
+Request for quote trading system
+A trading system where a quote or quotes are provided in response to a request for quote submitted by one or more members or participants. The quote is executable exclusively by the requesting member or participant. The requesting member or participant may conclude a transaction by accepting the quote or quotes provided to it on request.
+The quotes and the attached volumes from any member or participant which, if accepted, would lead to a transaction under the system’s rules. All submitted quotes in response to a request for quote may be published at the same time but not later than when they become executable.
+EN 26 EN
+Any other trading system
+Any other type of trading system, including a hybrid system falling into two or more of the types of trading systems referred to in this table.
+Adequate information as to the level of orders or quotes and of trading interest in respect of shares, depositary receipts, ETFs, certificates and other similar financial instruments traded on the trading system; in particular, the five best bid and offer price levels and/or two-way quotes of each market maker in that instrument, if the characteristics of the price discovery mechanism so permit.
+EN 27 EN
+Table 2
+Symbol table for Table 3
+Symbol
+Data type
+Definition
+{ALPHANUM-n}
+Up to n alphanumerical characters
+Free text field.
+{CURRENCYCODE_3}
+3 alphanumerical characters
+3 letter currency code, as defined by ISO 4217 currency codes
+{DATE_TIME_FORMAT}
+ISO 8601 date and time format
+Date and time in the following format:
+YYYY-MM-DDThh:mm:ss.ddddddZ.
+- ‘YYYY’ is the year;
+- ‘MM’ is the month;
+- ‘DD’ is the day;
+- ‘T’ – means that the letter ‘T’ shall be used
+- ‘hh’ is the hour;
+- ‘mm’ is the minute;
+- ‘ss.dddddd’ is the second and its fraction of a second;
+- Z is UTC time.
+Dates and times shall be reported in UTC.
+{DECIMAL-n/m}
+Decimal number of up to n digits in total of which up to m digits can be fraction digits
+Numerical field for both positive and negative values.
+- decimal separator is '.' (full stop);
+- negative numbers are prefixed with '-' (minus);
+Where applicable, values shall be rounded and not truncated.
+{ISIN}
+12 alphanumerical characters
+ISIN code, as defined in ISO 6166
+{MIC}
+4 alphanumerical characters
+Market identifier as defined in ISO 10383
+EN 28 EN
+Table 3
+List of details for the purpose of post-trade transparency
+Field identifier
+Description and details to be published
+Type of execution or publication venue
+Format to be populated as defined in Table 2
+Trading date and time
+Date and time when the transaction was executed.
+For transactions executed on a trading venue, the level of granularity shall be in accordance with the requirements set out in Article 3 of [RTS 25 on clock synchronization under article 50 of Directive 2014/65/EU].
+For transactions not executed on a trading venue, the date and time when the parties agree the content of the following fields: quantity, price, currencies in fields 31,34 and 44 as specified in Table 2 of Annex 1 of [Commission Regulation (EU) on reporting obligations under Article 26 of Regulation (EU) No 600/2014)], instrument identification code, instrument classification and underlying instrument code, where applicable. For transactions not executed on a trading venue the time reported shall be granular to at least the nearest second.
+Where the transaction results from an order transmitted by the executing firm on behalf of a client to a third party where the conditions for transmission set out in Article 5 of [draft RTS on reporting obligations under Article 26 of MiFIR] were not satisfied, this shall be the date and time of the transaction rather than the time of the order transmission.
+Regulated Market (RM), Multilateral Trading Facility (MTF) ,Organised Trading Facility (OTF)
+Approved Publication Arrangement (APA)
+Consolidated tape provider (CTP)
+{DATE_TIME_FORMAT}
+Instrument identification code
+Code used to identify the financial instrument
+RM, MTF
+APA
+CTP
+{ISIN}
+Price
+Traded price of the transaction excluding, where applicable, commission and accrued interest.
+Where price is reported in monetary terms, it shall be provided in the major currency unit.
+Where price is currently not available but pending, the value should be ‘PNDG’.
+Where price is not applicable the field shall not be populated.
+.
+RM, MTF
+APA
+CTP
+{DECIMAL-18/13} in case the price is expressed as monetary value
+{DECIMAL-11/10} in case the price is expressed as percentage or yield
+’PNDG’ in case the price is not available
+EN 29 EN
+The information reported in this field shall be consistent with the values provided in field Quantity.
+Price currency
+Currency in which the price is expressed (applicable if the price is expressed as monetary value).
+RM, MTF
+APA
+CTP
+{CURRENCYCODE_3}
+Quantity
+Number of units of the financial instruments.
+The nominal or monetary value of the financial instrument.
+The information reported in this field shall be consistent with the values provided in field Price.
+RM, MTF
+APA
+CTP
+{DECIMAL-18/17} in case the quantity is expressed as number of units
+{DECIMAL-18/5} in case the quantity is expressed as monetary or nominal value
+Venue of execution
+Identification of the venue where the transaction was executed.
+Use the ISO 10383 segment MIC for transactions executed on a trading venue, . Where the segment MIC does not exist, use the operating MIC.
+Use MIC code ‘XOFF’ for financial instruments admitted to trading or traded on a trading venue, where the transaction on that financial instrument is not executed on a trading venue, systematic internaliser or organised trading platform outside of the Union,.
+Use SINT for financial instruments admitted to trading or traded on a trading venue, where the transaction on that financial instrument is executed on a Systematic Internaliser.
+RM, MTF
+APA
+CTP
+trading venues: {MIC}
+Systematic internalisers: ’SINT’
+Publication date and time
+Date and time when the transaction was published by a trading venue or APA.
+For transactions executed on a trading venue, the level of granularity shall be in accordance with the requirements set out in Article 5 of [RTS 25 on clock synchronization under article 50 of Directive 2014/65/EU].
+For transactions not executed on a trading venue, the date and time shall be when the parties agree the content of the following fields: quantity, price, currencies in fields 31, 34 and 44 as specified in Table 2 of Annex 1 of [RTS Transaction Reporting], instrument identification code, instrument classification and underlying instrument code, where applicable. For transactions not executed on a trading venue the time reported shall be granular to at least the nearest second.
+RM, MTF
+APA
+CTP
+{DATE_TIME_FORMAT}
+EN 30 EN
+Where the transaction results from an order transmitted by the executing firm on behalf of a client to a third party where the conditions for transmission set out in Article 5 of [RTS Transaction Reporting] were not satisfied, this shall be the date and time of the transaction rather than the time of the order transmission.
+Venue of Publication
+Code used to identify the trading venue or APA publishing the transaction.
+CTP
+trading venue: {MIC}
+APA: ISO 10383 segment MIC (4 characters) where available. Otherwise, 4 character code as published in the list of data reporting services providers on ESMA’s website.
+Transaction identification code
+Alphanumerical code assigned by trading venues (pursuant to Article 12 of Regulation (EU) on [the maintenance of relevant data relating to orders in financial instruments under Article 25 of MiFIR]] and APAs and used in any subsequent reference to the specific trade.
+The transaction identification code shall be unique, consistent and persistent per ISO10383 segment MIC and per trading day. Where the trading venue does not use segment MICs, the transaction identification code shall be unique, consistent and persistent per operating MIC per trading day.
+Where the APA does not use MICs, it should be unique, consistent and persistent per 4-character code used to identify the APA per trading day.
+The components of the transaction identification code shall not disclose the identity of the counterparties to the transaction for which the code is maintained
+RM, MTF
+APA
+CTP
+{ALPHANUMERICAL-52}
+EN 31 EN
+Table 4
+List of flags for the purpose of post-trade transparency
+Flag
+Name
+Type of execution or publication venue
+Description
+‘BENC’
+Benchmark transactions flag
+RM, MTF
+APA
+CTP
+Transactions executed in reference to a price that is calculated over multiple time instances according to a given benchmark, such as volume-weighted average price or time-weighted average price.
+‘ACTX’
+Agency cross transactions flag
+RM, MTF
+APA
+CTP
+Transactions where an investment firm has brought together clients’ orders with the purchase and the sale conducted as one transaction and involving the same volume and price.
+‘NPFT’
+Non-price forming transactions flag
+RM, MTF
+CTP
+Transactions where the exchange of financial instruments is determined by factors other than the current market valuation of the financial instrument as listed under Article 13.
+‘TNCP’
+Transactions not contributing to the price discovery process for the purposes of Article 23 of Regulation (EU) No 600/2014 flag
+RM, MTF
+APA
+CTP
+Transaction not contributing to the price discovery process for the purposes of Article 23 of Regulation (EU) No 600/2014 and as set out in Article 2.
+‘SDIV’
+Special dividend transaction flag
+RM, MTF
+APA
+CTP
+Transactions that are either:
+executed during the ex-dividend period where the dividend or other form of distribution accrues to the buyer instead of the seller; or
+executed during the cum-dividend period where the dividend or other form of distribution accrues to the seller instead of the buyer.
+“LRGS”
+Post-trade large in scale transaction flag
+RM, MTF
+APA
+CTP
+Transactions that are large in scale compared with normal market size for which deferred publication is permitted under Article 14.
+EN 32 EN
+‘RFPT’
+Reference price transaction flag
+RM, MTF
+CTP
+Transactions which are executed under systems operating in accordance with Article 4(1)(a) of Regulation (EU) No 600/2014.
+‘NLIQ’
+Negotiated transaction in liquid financial instruments flag
+RM, MTF
+CTP
+Transactions executed in accordance with Article 4(1)(b)(i) of Regulation (EU) No 600/2014.
+‘OILQ’
+Negotiated transaction in illiquid financial instruments flag
+RM, MTF
+CTP
+Transactions executed in accordance with Article 4(1)(b)(ii) of Regulation (EU) No 600/2014.
+‘PRIC’
+Negotiated transaction subject to conditions other than the current market price flag
+RM, MTF
+CTP
+Transactions executed in accordance with Article 4(1)(b)(iii) of Regulation (EU) No 600/2014 and as set out in Article 6.
+‘ALGO’
+Algorithmic transaction flag
+RM, MTF
+CTP
+Transactions executed as a result of an investment firm engaging in algorithmic trading as defined in Article 4(1)(39) of Directive 2014/65/EU.
+‘SIZE’
+Transaction above the standard market size flag
+APA
+CTP
+Transactions executed on a systematic internaliser where the size of the incoming order was above the standard market size as determined in accordance with Article 11.
+‘ILQD’
+Illiquid instrument transaction flag
+APA
+CTP
+Transactions in illiquid instruments as determined in accordance with Articles 1 to 9 of Commission Delegated Regulation [MiFIR Level 2] executed on a systematic internaliser.
+‘RPRI’
+Transactions which have received price improvement flag
+APA
+CTP
+Transactions executed on a systematic internaliser with a price improvement in accordance with Article 15(2) of Regulation (EU) No 600/2014.
+‘CANC’
+Cancellation flag
+RM, MTF
+APA
+CTP
+When a previously published transaction is cancelled.
+‘AMND’
+Amendment flag
+RM, MTF
+APA
+CTP
+When a previously published transaction is amended.
+EN 33 EN
+‘DUPL’
+Duplicative trade reports flag
+APA
+When a transaction is reported to more than one APA in accordance with Article 17(1) of Commission Delegated Regulation (EU) on [DRSP RTS}
+EN 34 EN
+Annex II: Orders large in scale compared with normal market size, standard market sizes and deferred publications and delays
+Table 1
+Orders large in scale compared with normal market size for shares and depositary receipts
+Average daily turnover (ADT) in EUR
+ADT < 50 000
+50 000 ≤ ADT < 100 000
+100 000 ≤ ADT < 500 000
+500 000 ≤ ADT < 1 000 000
+1 000 000 ≤ ADT < 5 000 000
+5 000 000 ≤ ADT < 25 000 000
+25 000 000 ≤ ADT < 50 000 000
+50 000 000 ≤ ADT < 100 000 000
+ADT ≥ 100 000 000
+Minimum size of orders qualifying as large in scale compared with normal market size in EUR
+15 000
+30 000
+60 000
+100 000
+200 000
+300 000
+400 000
+500 000
+650 000
+Table 2
+Orders large in scale compared with normal market size certificates and other similar financial instruments
+Average daily turnover (ADT) in EUR
+ADT < 50 000
+ADT ≥ 50 000
+Minimum size of orders qualifying as large in scale compared with normal market size in EUR
+15 000
+30 000
+EN 35 EN
+Table 3
+Standard market sizes
+Average value of transactions (AVT) in EUR
+AVT< 20 000
+20 000 ≤ AVT < 40 000
+40 000 ≤ AVT < 60 000
+60 000 ≤ AVT < 80 000
+80 000 ≤ AVT < 100 000
+100 000 ≤ AVT < 120 000
+120 000 ≤ AVT < 140 000
+Etc.
+Standard market size
+10 000
+30 000
+50 000
+70 000
+90 000
+110 000
+130 000
+Etc.
+EN 36 EN
+Table 4
+Deferred publication thresholds and delays for shares and depositary receipts
+Average daily turnover (ADT) in EUR
+Minimum qualifying size of transaction for permitted delay in EUR
+Timing of publication after the transaction
+> 100m
+10,000,000
+60 minutes
+20,000,000
+120 minutes
+35,000,000
+End of the trading day
+50m – 100m
+7,000,000
+60 minutes
+15,000,000
+120 minutes
+25,000,000
+End of the trading day
+25m – 50m
+5,000,000
+60 minutes
+10,000,000
+120 minutes
+12,000,000
+End of the trading day
+5m – 25m
+2,500,000
+60 minutes
+4,000,000
+120 minutes
+5,000,000
+End of the trading day
+1m – 5m
+450,000
+60 minutes
+750,000
+120 minutes
+1,000,000
+End of the trading day
+500,000 – 1m
+75,000
+60 minutes
+150,000
+120 minutes
+225,000
+End of the trading day
+100,000 – 500,000
+30,000
+60 minutes
+80,000
+120 minutes
+120,000
+End of the trading day
+50,000 – 100,000
+15,000
+60 minutes
+30,000
+120 minutes
+50,000
+End of the trading day
+< 50,000
+7,500
+60 minutes
+15,000
+120 minutes
+25,000
+End of the next trading day
+EN 37 EN
+Table 5
+Deferred publication thresholds and delays for ETFs
+Minimum qualifying size of transaction for permitted delay in EUR
+Timing of publication after the transaction
+10 000 000
+60 minutes
+50 000 000
+End of the trading day
+Table 6
+Deferred publication thresholds and delays for certificates and other similar financial instruments
+Average daily turnover (ADT) in EUR
+Minimum qualifying size of transaction for permitted delay in EUR
+Timing of publication after the transaction
+ADT < 50 000
+15 000
+120 minutes
+30 000
+End of the trading day
+ADT ≥ 50 000
+30 000
+120 minutes
+60 000
+End of the trading day
+EN 38 EN
+Annex III: Reference data to be provided for the purpose of transparency calculations
+Table 1
+Symbol table Symbol Data Type Definition
+{ALPHANUM-n}
+Up to n alphanumerical characters
+Free text field.
+{ISIN}
+12 alphanumerical characters
+ISIN code, as defined in ISO 6166
+{MIC}
+4 alphanumerical characters
+Market identifier as defined in ISO 10383
+Table 2
+Details of the reference data to be provided for the purpose of transparency calculations # Field Details to be reported Format and standards for reporting
+1
+Instrument identification code
+Code used to identify the financial instrument
+{ISIN}
+2
+Instrument full name
+Full name of the financial instrument
+{ALPHANUM-350}
+3
+Trading venue
+Segment MIC for the trading venue or systematic internaliser, where available, otherwise operational MIC.
+{MIC}
+4
+MiFIR identifier
+Identification of equity financial instruments
+Shares as referred to in Article 4(44)(a) of Directive 2014/65/EU;
+Depositary receipts as defined in Article 4(45) of Directive 2014/65/EU;
+ETF ‘as defined in Article 4(46) of Directive 2014/65/EU;
+Certificates as defined in Article 2(1)(27) of Regulation (EU) No 600/2014;
+Other equity-like financial instrument is a transferable security which is an equity instrument similar to a share, ETF, depositary receipt or certificate but other than a share, ETF, depositary receipt or certificate.
+Equity financial instruments:
+SHRS = shares
+ETFS = ETFs
+DPRS = depositary receipts
+CRFT = certificates
+OTHE = other equity-like financial instruments
+EN
