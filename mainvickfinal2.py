@@ -1,4 +1,4 @@
-c# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Fri Apr 07 17:42:15 2017
 
@@ -11,6 +11,7 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 import pandas
+import gensim
 
 # country directory
 mydir="C:\\Users\\VickSella\\Desktop\\regtag\\REG Dump"
@@ -48,13 +49,28 @@ def preprocess(full_text):
     
 list_of_all_papers=[preprocess(paper) for paper in mydata]
 
-
 def tokenize(list_of_all_papers):
     return list_of_all_papers.strip().lower().split()
     
 cleanwords=[tokenize(x) for x in list_of_all_papers]
 
-
-
-
+def mk_split(paperlist):
+    gensim.utils.simple_preprocess(paperlist)
     
+#proswords = [mk_split(paperlist)]       
+#train_corpus = list(train)
+#for i in range(81, len(processed_list)):
+#    test_corpus.append(list(gensim.models.doc2vec.TaggedDocument(processed_list(i))))
+    
+
+#train_corpus = gensim.utils.simple_preprocess(list_of_all_papers[1])
+
+#a=gensim.utils.simple_preprocess(list_of_all_papers)
+
+
+#for i in enumerate(list_of_all_papers):
+#            if list_of_all_papers[30:]:
+#                gensim.utils.simple_preprocess(list_of_all_papers)
+#            else:
+#                # For training data, add tags
+#                gensim.models.doc2vec.TaggedDocument(gensim.utils.simple_preprocess(list_of_all_papers[i]))

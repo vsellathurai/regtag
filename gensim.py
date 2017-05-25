@@ -4,11 +4,15 @@ Created on Mon May 22 13:38:09 2017
 
 @author: vsellathurai
 """
+import gensim
+import os
+import collections
+import smart_open
+import random
+import mainvickfinal2 as m
 
-from gensim.models import doc2vec
-import mainvickfinal as m
+train_corpus = list(m.cleanwords[:10])
 
-fn = m.list_of_all_papers
-model = doc2vec.Doc2Vec.load(fn)
-model.most_similar('pregnant')
-matches = list(filter(lambda x: 'SENT_' in x[0], matches))
+model = gensim.models.doc2vec.Doc2Vec(size=50, min_count=2, iter=55)
+model.build_vocab(train_corpus)
+
