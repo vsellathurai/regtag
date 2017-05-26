@@ -1,0 +1,874 @@
+﻿ 
+
+ 
+
+ 
+
+ Draft  regulatory  technical  standards  on  the  tick  size 
+
+RTS 11:
+regime for shares, depositary receipts and exchange traded funds 
+
+ 
+
+ 
+
+  
+
+  
+
+ 
+
+EUROPEAN COMMISSION    
+
+  
+
+Brussels,  XXX     
+[…] (2012)  XXX  draft   
+
+    
+
+COMMISSION DELEGATED REGULATION (EU) No …/.. 
+
+  
+
+of  XXX   
+
+[…]   
+
+ 
+
+  
+
+ 
+
+EN 
+
+300 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+COMMISSION DELEGATED REGULATION (EU) …/.. 
+
+of [date] 
+
+supplementing Directive 2014/65/EU of the European Parliament and of the 
+
+Council on markets in financial instruments with regard to regulatory 
+
+technical standards on the tick size regime for shares, depositary receipts 
+
+and, exchange traded funds  
+
+ 
+
+(Text with EEA relevance) 
+
+ 
+
+THE EUROPEAN COMMISSION, 
+
+Having regard to the Treaty on the Functioning of the European Union,  
+
+Having regard to Directive 2014/65/EU of the European Parliament and of the Council of 15 
+May  2014  on  markets  in  financial  instruments  and  amending  Directive  2002/92/EC  and 
+Directive 2011/61/EU1, and in particular Article 49(3) and (4) thereof,  
+
+Whereas:  
+
+(1)
+
+ 
+
+(2)
+
+ 
+
+(3)
+
+ 
+
+A  tick  size  regime  or  minimum  tick  sizes  should  be  set  out  in  respect  of  certain 
+financial  instruments  to  ensure  the  orderly  functioning  of  the  markets.  In  particular, 
+the risk of an ever-decreasing tick size for shares, depositary receipts and certain types 
+of  exchange-traded  funds  and  its  impact  on  the  orderliness  of  the  market  should  be 
+controlled by means of a compulsory tick size regime. 
+
+For  other  financial  instruments,  given  the  nature  of  these  instruments  and  the 
+microstructures of the markets on which they are traded, the enactment of a tick size 
+regime  for  those  instruments  cannot  be  presumed  to  effectively  contribute  to  the 
+orderliness  of  the  markets  and,  hence,  these  instruments  should  not  be  subject  to  a 
+mandatory tick size regime.  
+
+In particular, certificates are only traded in certain Member States. Having taken into 
+consideration  the  liquidity,  scale  and  nature  of  these  specific  markets  and  the 
+characteristics of those financial instruments, no mandatory tick size regime is deemed 
+necessary to prevent the occurrence of disorderly trading conditions.  
+
+(4)
+
+  With  respect  to  non-equity  financial  instruments  and  fixed  income  products,  a  large 
+proportion  of  trading  remains  executed  OTC  with  only  a  limited  number  of 
+
+                                                 
+
+1 OJ L 173, 12.6.2014, p.349 
+
+EN 
+
+301 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(5)
+
+ 
+
+(6)
+
+ 
+
+(7)
+
+ 
+
+(8)
+
+ 
+
+(9)
+
+ 
+
+transactions  being  executed  on-venue.  Due  to  the  specific  characteristics  of  the 
+liquidity of these instruments on electronic platforms and their fragmentation it is not 
+deemed necessary to regulate a mandatory tick size regime for them.  
+
+The  correlation  between  exchange-traded  funds  (ETFs)  and  the  underlying  equity 
+instruments  makes  necessary  the  determination  of  a  minimum  tick  size  for  ETFs 
+having  as  underlying  shares  and  depositary  receipts.  However,  ETFs  having  as 
+underlying financial instruments which are not shares or depositary receipts should not 
+be subject to these regulatory technical standards. 
+
+For  ETFs,  in  order  to  reduce  the  risk  of  circumvention,  it  is  important  that  all  ETFs 
+covered by this Regulation have the same tick size regime based on a single liquidity 
+band regardless of their average daily number of transactions. 
+
+A  certain  number  of  technical  terms  should  be  clearly  defined  for  the  purposes  of 
+setting  out  a  tick  size  regime.  Those  technical  definitions  are  necessary  to  ensure 
+objective, effective and  harmonised application of the tick size regimes  in  the Union 
+and,  hence,  contribute  to  the  establishment  of  a  single  rulebook  for  Union  financial 
+markets in that respect. In particular, it appears essential to clarify the meaning of the 
+most relevant market in terms of liquidity since Regulation (EU) No 600/2014 of the 
+European Parliament and of the Council2 establishes two different definitions of most 
+relevant market in terms of liquidity respectively for the purpose of the reference price 
+waiver and for the purpose of transaction reporting. 
+
+The  tick  size  regime  only  determines  the  minimum  difference  between  two  price 
+levels  of  orders  sent  in  relation  to  a  financial  instrument  in  the  order-book.  As  a 
+consequence,  it  should  be  applied  equally  regardless  of  the  currency  of  the  financial 
+instrument. 
+
+Competent authorities should have the ability to react to events known in advance that 
+lead to a change in the number of transactions in a financial instrument whereby, as a 
+result,  the  applicable  tick  size  may  no  longer  be  appropriate.  To  that  end,  a  specific 
+procedure  should  be  set  out  to  avoid  disorderly  market  conditions  arising  from 
+corporate  actions  that  may  cause  the  tick  size  of  one  specific  instrument  to  be 
+unsuitable.  That  procedure  should  apply  to  corporate  actions  that  could  affect 
+significantly  the  liquidity  of  this  instrument  including  splits,  reverse  splits,  scrip 
+issues,  capital  repayments,  rights  issues,  entitlement  offers,  takeovers,  mergers  and 
+stock  conversions.  While  assessing  the  impact  of  a  corporate  action  on  a  specific 
+financial  instrument,  competent  authorities  should  take  account  of  any  previous 
+corporate actions with similar characteristics. 
+
+                                                 
+
+2 Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in 
+financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84) 
+
+EN 
+
+302 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(10)
+
+  The  new  legislation  of  the  European  Parliament  and  of  the  Council  on  markets  in 
+financial  instruments  set  out  in  Directive  2014/65/EU  and  Regulation  (EU)  No 
+600/2014  of  the  European  Parliament  and  of  the  Council3 applies  from  3  January 
+2017. To ensure consistency and legal certainty, this Regulation should apply from the 
+same date. However, to ensure that the tick size regime can operate effectively from 3 
+January 2017, and that market participants have sufficient time to implement the new 
+requirements  by  that  date,  it  is  necessary  for  certain  transitional  provisions  to  apply 
+from  the  date  of  entry  into  force  of  this  Regulation.  These  transitional  provisions 
+should  enable  the  collection  of  data  for  the  calculations  and  provide  for  an  earlier 
+publication of the average  daily  number of transactions for each  financial  instrument 
+covered by this Regulation. 
+
+(11)
+
+  This Regulation is based on the draft regulatory technical standards submitted by the 
+
+European Securities and Markets Authority (ESMA) to the Commission. 
+
+(12)
+
+  ESMA  has  conducted  open  public  consultations  on  the  draft  regulatory  technical 
+standards  on  which  this  Regulation  is  based,  analysed  the  potential  related  costs  and 
+benefits  and  requested  the  opinion  of  the  Securities  and  Markets  Stakeholder  Group 
+established  by  Article  37  of  Regulation  (EU)  No  1095/2010  of  the  European 
+Parliament and of the Council4, 
+
+ 
+
+HAS ADOPTED THIS REGULATION: 
+
+ 
+
+Article 1  
+
+Definitions 
+
+For the purposes of this Regulation, the following definitions shall apply: 
+
+(1)
+
+ 
+
+‘most relevant market in terms of liquidity’ means the most relevant market in terms 
+of  liquidity  as  defined  in  Article  4(1)(a)  of  Regulation  (EU)  No  600/2014  and 
+specified  in  Article  4  of  Commission  Delegated  Regulation  (EU)  No  [xxxx/xxxx] 
+[Draft  RTS  1  on  transparency  requirements  for  equity  and  equity-like  financial 
+instruments];  
+
+(2)
+
+ 
+
+‘liquidity  band’  means  the  liquidity  range  based  on  the  average  daily  number  of 
+transactions for a given financial instrument as set out in the Annex to this Regulation. 
+
+                                                 
+
+3 Regulation (EU) No 600/2014 of the European  Parliament and of the Council of 15 May 2014 on markets in 
+financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84). 
+4    Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010 
+establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision 
+No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84). 
+
+EN 
+
+303 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Article 2 
+
+(Article 49(1) and (2) of Directive 2014/65/EU) 
+
+Tick size for shares, depositary receipts and exchange-traded funds  
+
+1.  Trading venues shall apply to orders in shares or depositary receipts a tick size which is 
+equal to or greater than the one corresponding to: 
+
+(a)  the  liquidity  band  in  the  table  in  the  Annex  to  this  Regulation  corresponding  with  the 
+average  daily  number  of  transactions  in  the  most  relevant  market  in  terms  of  liquidity 
+for that instrument;   
+
+(b)  the price range in that liquidity band corresponding to the price of the order. 
+
+2.  By  way  of  derogation  from  paragraph  1(a),  where  the  most  relevant  market  in  terms  of 
+liquidity  for  a  share  or  depositary  receipt  operates  only  a  periodic  auction  trading  system, 
+trading  venues  shall  apply  the  liquidity  band  corresponding  to  the  lowest  average  daily 
+number of transactions in the table in the Annex. 
+
+For the purpose of the first subparagraph, a trading system shall be deemed to be a periodic 
+auction trading system where orders are matched on the basis of a periodic auction and of a 
+trading algorithm operated without human intervention. 
+
+3.  Trading venues shall apply to orders in ETFs a tick size which is equal to or greater than 
+the one corresponding to: 
+
+(a)  the  liquidity  band  in  the  table  in  the  Annex  to  this  Regulation  corresponding  with  the 
+
+highest average daily number of transactions;   
+
+(b)  the price range in that liquidity band according to the price of the order. 
+
+4.  The  requirements  set  out  in  paragraph  3  shall  apply  only  to  ETFs  having  as  sole 
+underlying equities or a basket of equities subject to the tick size regime under paragraph 1.  
+
+ 
+
+Article 3 
+
+(Article 49(1) and (2) of Directive 2014/65/EU) 
+
+Average daily number of transactions for shares and depositary receipts  
+
+1.  By 1 March 2018 and by 1 March of each year thereafter, the competent authority for a 
+specific share or depositary receipt shall, when determining the most relevant market in terms 
+of  liquidity  for  that  share  or  depositary  receipt  also  calculate  the  average  daily  number  of 
+transactions  for  that  financial  instrument  in  that  market  and  ensure  the  publication  of  that 
+information.  
+
+EN 
+
+304 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+The competent authority in the first sub-paragraph shall be the one specified in Article XX of 
+Commission  Delegated  Regulation  (EU)  [insert  reference  to  Article  18  of  RTS  on  reporting 
+obligations under Article 26 of MiFIR].  
+
+2.  The calculation referred to in paragraph 1 shall have the following characteristics: 
+
+(a)  it shall cover the period in the preceding year beginning on 1 January and ending on 31 
+December  or,  where  applicable,  that  part  of  the  year  during  which  the  financial 
+instrument was admitted to trading or traded on a trading venue and was not suspended 
+from trading;  
+
+(b)  it  shall  include  transactions  executed  under  the  rules  of  the  relevant  trading  venue 
+excluding reference price and negotiated transactions as set out in Table 4 of Annex I of 
+[RTS  1  on  equity  transparency]  and  transactions  executed  on  the  basis  of  at  least  one 
+order that has benefitted from a large in scale waiver and where the transactions’ size is 
+above the applicable large in scale threshold as determined in accordance with Article 7 
+of [RTS 1 on equity transparency].  
+
+This paragraph and paragraph 1 shall not apply to shares and depositary receipts first admitted 
+to trading or traded on a trading venue after 30 November of the preceding year. 
+
+3.  Trading  venues  shall  apply  the  tick  sizes  of  the  liquidity  band  corresponding  to  the 
+average  daily  number  of  transactions  as  published  in  accordance  with  paragraph  1  from  1 
+April following that publication.  
+
+4.  Before  the  first  admission  to  trading  or  before  the  first  day  of  trading  of  a  share  or 
+depositary receipt, the competent authority of the trading venue where that instrument is to be 
+first  admitted  to  trading  or  first  traded  shall  estimate  and  publish  the  estimate  average  daily 
+number of transactions for that venue, taking into account the previous trading history of that 
+instrument, where applicable, as well as the trading history of instruments that are considered 
+to have similar characteristics.  
+
+The  tick  size  of  the  liquidity  band  corresponding  to  that  published  estimate  average  daily 
+number of transactions shall apply immediately after the publication of that estimate and until 
+the publication of the average daily number of transactions for that instrument in accordance 
+with paragraph 5. 
+
+5.  No  later  than  six  weeks  after  the  share  or  depositary  receipt  has  started  trading,  the 
+competent authority of the trading venue where the instrument was first admitted to trading or 
+first traded on a trading venue shall calculate and ensure the publication of the average daily 
+number of transactions in that financial instrument for that venue using the data relating to the 
+first four weeks of trading of that financial instrument.  
+
+The  tick  size  of  the  liquidity  band  corresponding  to  that  published  average  daily  number  of 
+transactions  shall  apply  immediately  after  the  publication  and  continue  to  apply  until  a  new 
+
+EN 
+
+305 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+average  daily  number  of  transactions  for  that  instrument  calculated  and  published  in 
+accordance with the procedure set out in paragraphs 1, 2 and 3 applies.  
+
+6.  For  the  purposes  of  this  Article,  the  average  daily  number  of  transactions  for  a  given 
+financial  instrument  shall  be  calculated  by  dividing,  for  the  relevant  time  period  and  the 
+relevant  trading venue, the total  number of transactions in  that instrument  by the number of 
+trading days. 
+
+ 
+
+Article 4 
+
+(Article 49(1) and (2) of Directive 2014/65/EU) 
+
+Corporate actions 
+
+Where a competent authority considers that a corporate action may modify the average daily 
+number of transactions of a particular financial instrument such that this financial instrument 
+falls  within  a  different  liquidity  band,  the  competent  authority  shall  determine  and  make 
+public a new applicable liquidity band for that financial instrument treating it as if it were first 
+admitted to trading or first traded on a trading venue and apply the procedure set out in Article 
+3(4) and (5). 
+
+ 
+
+Article 5 
+
+Transitional provisions  
+
+1.  The competent authority of the trading venue where a share or depositary receipt was first 
+admitted  to  trading  or  traded  for  first  time  shall  collect  the  necessary  data,  calculate  and 
+ensure  the  publication  of  the  average  daily  number  of  transactions  for  that  financial 
+instrument and for that trading venue:  
+
+(a)  by  1  December  2016  for  financial  instruments  traded  for  the  first  time  on  a  trading 
+
+venue before 21 October 2016; 
+
+(b)  by 3 January 2017 for financial instruments traded for the first time on a trading venue 
+
+between 21 October 2016 and 2 January 2017. 
+
+2.  The calculations referred to in paragraph 1 shall be based on: 
+
+(a)  available  data  for  the  period  from  1  January  2016  to  30  September  2016  for  financial 
+instruments first admitted to trading or traded for first time on a trading venue before 1 
+September 2016; 
+
+(b)  available data for the first four weeks of trading for financial instruments first admitted 
+to trading or traded for first time on a trading venue between 1 September 2016 and 20 
+October 2016; 
+
+EN 
+
+306 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(c)  previous  trading  history  of  that  financial  instrument  or  of  other  financial  instruments 
+considered  to  have  similar  characteristics  for  financial  instruments  first  admitted  to 
+trading  or  traded  for  first  time  in  the  Union  between  21  October  2016  and  2  January 
+2017. 
+
+3.  The tick sizes of the liquidity band corresponding to that published average daily number 
+of  transactions  shall  apply  from  3  January  2017  to  31  March  2018.  During  that  period, 
+competent  authorities  shall  ensure  for  financial  instruments  referred  to  under  points  (b)  and 
+(c) of paragraph 2 and for which they are the competent authority that those tick sizes do not 
+contribute to disorderly trading conditions. Where a competent  authority identifies a risk for 
+the  orderly  functioning  of  the  markets  for  such  an  instrument,  it  shall  determine  and  make 
+public  an  updated  average  daily  number  of  transactions  for  that  financial  instrument  to 
+address that risk on the basis of longer and more comprehensive trading history data for that 
+instrument.  Trading  venues  shall  apply  the  liquidity  band  corresponding  to  this  updated 
+average  daily  number  of  transactions  immediately  and  until  1  April  2018  or  any  further 
+publication by the competent authority in accordance with this paragraph. 
+
+ 
+
+Article 6 
+
+Entry into force and application 
+
+This Regulation shall enter into force on the twentieth day following that of its publication in 
+the Official Journal of the European Union. 
+
+It shall apply from 3 January 2017, except Article 5 which shall apply immediately following 
+the entry into force of this Regulation.  
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+
+Done at Brussels,  
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+For the Commission 
+The President 
+ 
+
+[For the Commission 
+On behalf of the President 
+ 
+[Position] 
+
+EN 
+
+307 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Annex  
+
+ 
+
+Price ranges 
+
+0 ≤ price < 0.1 
+
+0.1 ≤ price < 0.2 
+
+0.2 ≤ price < 0.5 
+
+0.5 ≤ price < 1 
+
+1 ≤ price < 2 
+
+2 ≤ price < 5 
+
+5 ≤ price < 10 
+
+10 ≤ price < 20 
+
+20 ≤ price < 50 
+
+50 ≤ price < 100 
+
+100 ≤ price < 200 
+
+200 ≤ price < 500 
+
+500 ≤ price < 1000 
+
+1000 ≤ price < 2000 
+
+2000 ≤ price < 5000 
+
+5000 ≤ price < 10000 
+
+10000 ≤ price < 20000 
+
+20000 ≤ price < 50000 
+
+50000 ≤ price  
+
+Tick Size Table 
+
+Liquidity bands 
+
+0 ≤ Average 
+
+10 ≤ Average 
+
+daily number of 
+transactions < 10 
+
+daily number of 
+transactions < 80 
+
+80 ≤ Average 
+
+daily number of 
+transactions < 
+
+600 ≤ Average 
+daily number of 
+transactions < 
+
+2000 ≤ Average 
+daily number of 
+transactions < 
+
+600 
+
+2000 
+
+9000 
+
+9000 ≤ Average 
+daily number of 
+
+transactions  
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+20 
+
+50 
+
+100 
+
+200 
+
+500 
+
+0.0002 
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+20 
+
+50 
+
+100 
+
+200 
+
+0.0001 
+
+0.0002 
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+20 
+
+50 
+
+100 
+
+ 
+
+0.0001 
+
+0.0001 
+
+0.0002 
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+20 
+
+50 
+
+0.0001 
+
+0.0001 
+
+0.0001 
+
+0.0002 
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+20 
+
+0.0001 
+
+0.0001 
+
+0.0001 
+
+0.0001 
+
+0.0002 
+
+0.0005 
+
+0.001 
+
+0.002 
+
+0.005 
+
+0.01 
+
+0.02 
+
+0.05 
+
+0.1 
+
+0.2 
+
+0.5 
+
+1 
+
+2 
+
+5 
+
+10 
+
+ 
+
+ 
+
+EN 
+
+308 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 

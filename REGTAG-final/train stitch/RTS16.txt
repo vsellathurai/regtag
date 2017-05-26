@@ -1,0 +1,599 @@
+﻿ 
+
+ 
+
+ 
+
+ Draft regulatory technical standards on access in respect 
+
+RTS 16:
+of benchmarks 
+
+  
+
+  
+
+ 
+
+EUROPEAN COMMISSION    
+
+  
+
+Brussels,  XXX     
+[…] (2012)  XXX  draft   
+
+    
+
+COMMISSION DELEGATED REGULATION (EU) No …/.. 
+
+  
+
+of  XXX   
+
+[…]   
+
+ 
+
+  
+
+ 
+
+EN 
+
+359 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+COMMISSION DELEGATED REGULATION (EU) …/.. 
+
+of [Date] 
+
+supplementing Regulation (EU) No 600/2014 of the European Parliament 
+and of the Council with regard to regulatory technical standards on access 
+
+to benchmarks  
+
+THE EUROPEAN COMMISSION, 
+
+Having regard to the Treaty on the Functioning of the European Union,  
+
+Having  regard  to  Regulation  (EU)  No  600/2014  of  the  European  Parliament  and  of  the 
+Council of 15 May 2014 on markets in financial instruments and amending Regulation (EU) 
+No 648/20121, and in particular Article 37(4) (a), (b), and (c) thereof,  
+
+Whereas: 
+
+(1)
+
+ 
+
+(2)
+
+ 
+
+(3)
+
+ 
+
+(4)
+
+ 
+
+Regulation (EU) No 600/2014 provides for the non-discriminatory access for clearing 
+and  trading  between  central  counterparties  (CCPs)  and  trading  venues,  including 
+access  to  licences  of  and  information  relating  to  benchmarks  which  are  used  to 
+determine  the  value  of  some  financial  instruments  for  trading  and  clearing  purposes. 
+Given the variety of different types of benchmarks covered, the information CCPs and 
+trading venues need for clearing or trading purposes may vary depending on a number 
+of factors, including the relevant financial instrument being traded or cleared and the 
+type of benchmark that the financial instrument references.  
+
+Therefore, it is not desirable to have an exhaustive list of the types of information that 
+should be provided to CCPs and trading venues by a person with proprietary rights to 
+a  benchmark.  CCPs  and  trading  venues  should  be  allowed  to  request  access  to 
+information, provided it is required for clearing or trading purposes.  
+
+The diversity of benchmarks and the different uses identified render a one size fits all 
+approach  inappropriate  and  a  high  degree  of  harmonisation  on the  content  of  licence 
+agreements  unsuitable.  Limiting  the  conditions  under  which  access  is  granted  to 
+predetermined terms might therefore be detrimental to all parties. 
+
+A  person  with  proprietary  rights  to  a  benchmark  should  be  able  to  set  different 
+conditions  for  different  categories  of  CCPs  and  trading  venues  to  access  its 
+benchmarks only where objectively justified, such as in terms of the quantity, scope or 
+field of use demanded and applied in a proportionate manner. The different categories 
+
+                                                 
+
+1 OJ L 173, 12.6.2014, p. 84.  
+
+EN 
+
+360 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(5)
+
+ 
+
+(6)
+
+ 
+
+(7)
+
+ 
+
+(8)
+
+ 
+
+(9)
+
+ 
+
+(10)
+
+and the criteria defining the different categories of CCPs and trading venues should be 
+made publicly available.  
+
+The way a benchmark is assessed as new or not will vary on a case by case basis. The 
+person  with  proprietary  rights  to  a  benchmark  should  therefore  demonstrate  in  what 
+way  that  benchmark  is  new,  if  that  is  invoked  as  the  reason  for  denying  immediate 
+access. Each assessment of a declared new benchmark should consider a combination 
+of  various  factors  and  their  appropriate  weightings  and  not  rely  on  a  single  factor  to 
+assess  whether  or  not  the  benchmark  meets  the  criteria  specified  in  Regulation  (EU) 
+No 600/2014.  
+
+in 
+
+the  short  run, 
+
+Accordingly,  although  the  values  of  two  benchmarks  could  be  highly  correlated, 
+particularly 
+their  compositions  or  methodology  could  be 
+fundamentally  different.  The  long  run  correlation  and  similarities  in  the  composition 
+and the methodology of each of the benchmarks should therefore be taken into account 
+for assessing whether a benchmark is new. In addition to the factors laid down in this 
+Regulation,  a  person  with  proprietary  rights  to  a  benchmark  should  also  take  into 
+account  additional factors that are specific to  the type of benchmark concerned.)  For 
+commodity  benchmarks  other  factors  should  be  assessed,  including  whether  the 
+relevant  benchmarks  are  based  on  different  underlying  commodities  and  different 
+delivery locations. 
+
+Certain  benchmarks  release  a  new  series  on  a  periodic  basis,  such  as  credit  default 
+swaps  (CDS)  benchmarks.  In  those  cases,  the  newly  released  benchmark  is  a 
+continuation  of  the  previous  series  and  should  therefore  not  be  considered  a  new 
+benchmark. 
+
+The requirements in respect of non-discriminatory access to and obligation to licence 
+benchmarks set out in Regulation (EU) No 600/2014 apply from 3 January 2019. To 
+ensure  consistency  and  legal  certainty,  this  Regulation  should  apply  from  the  same 
+date. 
+
+This Regulation is based on the draft regulatory technical standards submitted by the 
+European Securities and Markets Authority (ESMA) to the Commission. 
+
+  ESMA  has  conducted  open  public  consultations  on  the  draft  regulatory  technical 
+standards  on  which  this  Regulation  is  based,  analysed  the  potential  related  costs  and 
+benefits  and  requested  the  opinion  of  the  Securities  and  Markets  Stakeholder  Group 
+established  by  Article  37  of  Regulation  (EU)  No  1095/2010  of  the  European 
+Parliament and of the Council2, 
+
+                                                 
+
+2  Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010 
+establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision 
+No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84). 
+
+EN 
+
+361 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+HAS ADOPTED THIS REGULATION: 
+
+ 
+
+Information to be made available to CCPs and trading venues 
+
+Article 1 
+
+1.  A  person  with  proprietary  rights  to  a  benchmark  shall,  upon  request,  make  available  to 
+central  counterparties  (CCPs)  and  trading  venues  the  information  necessary  for  performing 
+their clearing or trading functions, as appropriate to the specific type of benchmark to which 
+access is sought and to the relevant financial instrument to be traded or cleared.  
+
+2.  A CCP or trading venue shall in its request explain why such information is required for 
+clearing or trading purposes. 
+
+3.  For  the  purposes  of  paragraph  1,  relevant  trading  and  clearing  functions  include  the 
+following:  
+
+(a)  for a trading venue: 
+
+(i)  the initial assessment of the characteristics of the benchmark; 
+
+(ii)  marketing of the relevant product; 
+
+(iii) support  of  the  price  formation  process  for  the  contracts  admitted  or  being 
+
+admitted to trading; 
+
+(iv) supporting on-going market surveillance activities; 
+
+ 
+
+(b)  for a CCP: 
+
+(i) 
+
+performing  appropriate  risk  management  of  relevant  open  positions  in 
+exchange-traded derivatives, including netting; 
+
+(ii)  meeting relevant obligations set out in Regulation (EU) No 648/2012. 
+
+4.  Relevant information in respect of price and data feeds  shall at least include:  
+
+(a)  a feed of the benchmark’s values;  
+
+(b)  prompt notification of any inaccuracy in the calculation of the benchmark’s values and 
+
+of the updated or corrected benchmark values; 
+
+EN 
+
+362 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(c)  historical benchmark values where the person with proprietary rights to the benchmark 
+
+maintains such information. 
+
+5. 
+In respect of composition, methodology and pricing, the information provided shall allow 
+CCPs and trading venues to understand how each benchmark value is created, and the actual 
+methodology  used  to  make  the  benchmark’s  values.  Relevant  information  in  respect  of 
+composition, methodology and pricing shall at least include:  
+
+(a)  the definitions for all key terms used in relation to the benchmark; 
+
+(b)  the rationale for adopting a methodology and procedures for the review and approval of 
+
+the methodology; 
+
+(c)  the criteria and procedures used to determine the benchmark, including a description of 
+the input data, the priority given to different types of input data, the use of any models 
+or  methods  of  extrapolation  and  any  procedure  for  rebalancing  the  constituents  of  a 
+benchmark;  
+
+(d)  the  controls  and  rules  that  govern  any  exercise  of  discretion  or  judgement,  to  ensure 
+
+consistency in the use of such discretion or judgment; 
+
+(e)  the  procedures  which  govern  benchmark  determination  in  periods  of  stress,  or  periods 
+where  transaction-data  sources  may  be  insufficient,  inaccurate  or  unreliable  and  the 
+potential limitations of the benchmark in such periods; 
+
+(f)  the hours during which the benchmark is calculated; 
+
+(g)  the  procedures  which  govern  the  benchmark’s  rebalancing  methodology  and  the 
+
+resulting weightings of the constituents of the benchmark; 
+
+(h)  the  procedures  for  dealing  with  errors  in  input  data,  or  the  benchmark  determination, 
+
+including when a re-determination of the benchmark may be required; 
+
+(i) 
+
+information  regarding  the  frequency  for  any  internal  reviews  and  approvals  of  the 
+composition  and  methodology  and,  where  applicable,  information  regarding  the 
+procedures and frequency for external review of the composition and methodology. 
+
+ 
+
+Article 2 
+
+General conditions for the information through licensing to be made available to CCPs 
+
+and trading venues 
+
+1.  A  person  with  proprietary  rights  to  a  benchmark  shall  make  available  all  relevant 
+information referred to in Article 1 requested by CCPs and trading venues through licensing 
+without undue delay, either on a one-off basis, including amendments to previously supplied 
+
+EN 
+
+363 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+information,  or  on  a  continuous  or  periodic  basis,  depending  on  the  type  of  information 
+concerned.  
+
+2.  A person with proprietary rights to a benchmark shall provide all relevant information to 
+all  CCPs  and  trading  venues  through  licensing  on  the  same  timescales  and  under  the  same 
+conditions, unless different conditions can be objectively justified. 
+
+3. 
+If,  and  for  as  long  as,  a  person  with  proprietary  rights  to  a  benchmark  can  demonstrate 
+that certain information is available publicly or through other commercial means to CCPs and 
+trading  venues,  provided  such  information  is  reliable  and  timely,  it  need  not  supply  that 
+information through licensing. 
+
+ 
+
+Article 3 
+
+Differentiation and non-discrimination 
+
+1.  Where  a  person  with  proprietary  rights  to  a  benchmark  sets,  in  accordance  with  Article 
+37(1) of Regulation (EU) No 600/2014, different conditions, including fees and the conditions 
+for  paying  them,  those  conditions  shall  apply  in  a  manner  specific  to  each  category  of 
+licensees. 
+
+2.  A person with proprietary rights to a benchmark shall set the same rights and obligations 
+for the licensees within the same category.   
+
+3.  A  person  with  proprietary  rights  to  a  benchmark  shall  make  the  criteria  defining  the 
+different categories of licensees publicly available.  
+
+4.  A person with proprietary rights to a benchmark shall, on request, provide to any CCP or 
+trading  venue  for  free  the  conditions  applying  to  the  category  to  which  that  CCP  or  trading 
+venue belongs. 
+
+5.  A  person  with  proprietary  rights  to  a  benchmark  shall  make  available  to  all  licensees 
+within  the  same  category  any  additions  or  modifications  to  the  conditions  for  licensing 
+agreements agreed with a licensee within that category under the same conditions.  
+
+ 
+
+Article 4 
+
+Other conditions under which access is granted 
+
+1.  A  person  with  proprietary  rights  to  a  benchmark  shall  set  the  conditions  for  licensing 
+agreements and make them available to CCPs and trading venues upon request free of charge. 
+The conditions shall include the following: 
+
+(a)  the scope of use and content of information for each use under the licensing agreements, 
+
+clearly identifying in each case confidential information; 
+
+EN 
+
+364 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(b)  the conditions for redistribution, if allowed, of information by CCPs and trading venues; 
+
+(c)  the technical requirements for the delivery of the service;  
+
+(d)  the fees and the conditions for paying them; 
+
+(e)  the conditions under which the agreement expires taking into consideration the lifespan 
+
+of financial instruments that reference the benchmark; 
+
+(f)  the  contingency  circumstances  and  the  relevant  measures  to  regulate  the  continuation, 
+transitional  periods  and  interruption  of  the  service  during  this  contingency  period, 
+which:  
+
+(i)  cater for termination in an orderly manner; 
+
+(ii)  ensure  that  termination  is  not  triggered  by  minor  breaches  of  the  contract  and 
+that  the  relevant  party  is  given  a  reasonable  amount  of  time  to  remedy  any 
+breach that does not give rise to immediate termination.  
+
+(g)  the governing law and allocation of liabilities. 
+
+2.  The  licensing  agreement  shall  require  that  a  person  with  proprietary  rights  to  a 
+benchmark, CCPs and trading venues put in place adequate policies, procedures and systems 
+to ensure the following: 
+
+(a)  implementation of the service without undue delay according to a prearranged schedule; 
+
+(b)  keeping up to date all information provided by the parties throughout the duration of the 
+
+access arrangement, including information that could have a reputational impact; 
+
+(c)  a communication channel between the parties that is timely, reliable and secure during 
+
+the lifetime of the licence agreement;  
+
+(d)  consultation where any change to either entity’s operations is likely to have a material 
+impact on the licence agreement or on the risks to which the other entity is exposed and 
+notification  within  a  reasonable  notice  period  before  any  change  to  either  entity´s 
+operation is implemented; 
+
+(e)  the provision of information and the relevant instructions to transmit and use it through 
+
+the technical means agreed; 
+
+(f)  the  provision  of  up-to-date  information  to  persons  with  proprietary  rights  to  a 
+benchmark regarding the redistribution, if allowed, of information to clearing members 
+of CCPs and members or participants of trading venues;  
+
+(g)  resolution  of  disputes  and  termination  of  the  agreement  occurs  in  an  orderly  manner 
+
+according to the identified circumstances. 
+
+EN 
+
+365 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+  
+
+Standards guiding how a benchmark may be proven to be new 
+
+Article 5 
+
+1.  When establishing whether a new benchmark meets the cumulative criteria in accordance 
+with  paragraphs  2(a)  and  (b)  of  Article  37  of  Regulation  (EU)  No  600/2014,  a  person  with 
+proprietary rights to a benchmark shall take the following standards  into account  
+
+(a)  whether contracts based on the more recent benchmark are not capable of being netted 
+nor  substantially  offset  with  contracts  based  on  the  relevant  existing  benchmark  by  a 
+CCP; 
+
+(b)  whether the regions and industry sectors covered by the relevant benchmarks are not the 
+
+same, nor similar; 
+
+(c)  whether the values of the relevant benchmarks are not highly correlated; 
+
+(d)  whether  composition  of  the  relevant  benchmarks,  having  regard  to  the  number  of 
+constituents, the actual constituents, their values and their weightings are not the same, 
+nor similar; 
+
+(e)  whether the methodologies of each relevant benchmark are not the same, nor similar.  
+
+2.  For  commodity  benchmarks  the  following  additional  standards  shall  also  be  taken  into 
+account: 
+
+(a)  whether the relevant benchmarks are not based on the same underlying commodities; 
+
+(b)  whether the delivery locations of the underlying commodities are not the same. 
+
+3. 
+In  addition  to  the  standards  specified  in  paragraph  1  and  2,  a  person  with  proprietary 
+rights  to  a  benchmark  shall  also  take  into  account  other  standards  specific  to  the  types  of 
+benchmarks being assessed, as appropriate.  
+
+4.  A newly released series of a benchmark shall not constitute a new benchmark. 
+
+ 
+
+Article 6 
+
+Entry into force and application 
+
+This Regulation shall enter into force on the twentieth day following that of its publication in 
+the Official Journal of the European Union. 
+
+It shall apply from 3 January 2019.  
+
+EN 
+
+366 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+
+Done at Brussels,  
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+For the Commission 
+The President 
+ 
+
+[For the Commission 
+On behalf of the President 
+ 
+[Position] 
+
+EN 
+
+367 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+EN 
+
+368 
+
+EN 
+
+ 
+ 
+
+ 

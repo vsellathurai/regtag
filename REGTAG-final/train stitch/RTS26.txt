@@ -1,0 +1,577 @@
+﻿ 
+ 
+
+ 
+
+ 
+
+CHAPTER 8: POST-TRADING ISSUES  
+
+ Draft regulatory technical standards on the obligation to 
+RTS 26:
+clear  derivatives  traded  on  regulated  markets  and  timing  of 
+acceptance for clearing (STP) 
+
+ 
+
+ 
+
+  
+
+  
+
+EUROPEAN COMMISSION   
+
+  
+
+Brussels,  XXX     
+[…] (2012)  XXX  draft   
+
+    
+
+COMMISSION DELEGATED REGULATION (EU) No …/..   
+
+of  XXX   
+
+[…]   
+
+ 
+
+ 
+
+  
+
+ 
+
+EN 
+
+ 
+
+508 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+COMMISSION DELEGATED REGULATION (EU) …/.. 
+
+of [date] 
+
+supplementing Regulation (EU) No 600/2014 of the European Parliament 
+and of the Council with regard to regulatory technical standards specifying 
+the obligation to clear derivatives traded on regulated markets and timing 
+
+of acceptance for clearing  
+
+(Text with EEA relevance) 
+
+ 
+
+THE EUROPEAN COMMISSION,  
+
+Having regard to the Treaty on the Functioning of the European Union,  
+
+Having  regard  to  Regulation  (EU)  No  600/2014  of  the  European  Parliament  and  of  the 
+Council  of  15  May  on  markets  in  financial  instruments  and  amending  Regulation  (EU)  No 
+648/2012, and in particular Article 29(3) thereof, 
+
+Whereas: 
+
+(1)
+
+ 
+
+(2)
+
+ 
+
+(3)
+
+ 
+
+In  order  to  manage  operational  and  other  risks,  when  transactions  in  cleared 
+derivatives  are  submitted  and  accepted  for  clearing  and  to  provide  certainty  to 
+counterparties  as  soon  as  possible,  it  is  important  to  determine  whether  a  cleared 
+derivative  transaction  can  be  cleared  by  a  CCP  at  an  early  stage,  and  to  the  extent 
+possible before the transaction is entered into.  
+
+In  order  to  apply  scalable  technical  solutions  ensuring  that  transactions  in  cleared 
+derivatives  can  be  submitted  and  accepted  for  clearing  as  quickly  as  technologically 
+practicable,  the  information  needed  by  a  trading  venue  and  a  CCP  to  perform  their 
+tasks  should  be  pre-determined  and  clearly  set  in  the  documentation  of  the  trading 
+venue and the CCP. 
+
+In order to appropriately price a cleared derivative transaction, counterparties take into 
+account  that  centrally  cleared  transactions  are  subject  to  a  different  collateral  regime 
+than non-centrally cleared transactions, regardless of whether the transaction is cleared 
+because it is mandated to be cleared or whether the transaction is cleared because the 
+relevant  parties  have  otherwise  agreed  for  it  to  be  cleared.  Therefore,  counterparties 
+should  benefit  from  having  the  same  process  and  the  same  requirements  for  both 
+mandatorily  cleared  and  voluntarily  cleared  derivative  transactions  to  ensure  cleared 
+derivative  transactions  are  submitted  and  accepted  for  clearing  as  soon  as 
+technologically practicable. 
+
+EN 
+
+ 
+
+509 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(4)
+
+  When  cleared  derivative  transactions  are  entered  into  on  a  trading  venue,  in  order  to 
+identify before a transaction is entered into whether the transaction can be cleared by a 
+CCP, the trading venue and the CCP should have rules to ensure a transaction that is 
+entered into can be automatically cleared, otherwise the trading venue should provide 
+the  ability  to  clearing  members  of  the  CCP  to  check  orders  against  the  limits  set  for 
+their  clients.  When  a  trading  venue  or  a  clearing  member  are  using  the  services  of  a 
+service  provider  to  perform  part  or  all  of  the  pre-trade  checks  applicable  in  this 
+Regulation,  the  trading  venue  and  the  clearing  member  remain  responsible  for 
+complying with the requirements applicable to each of them. 
+
+(5)
+
+ 
+
+(6)
+
+ 
+
+(7)
+
+ 
+
+(8)
+
+ 
+
+(9)
+
+ 
+
+The time granted to a trading venue to process a cleared derivative transaction should 
+be  shorter  for  electronically  traded  cleared  derivative  transactions  than  for  non-
+electronically  traded  cleared  derivative  transactions  as  the  level  of  automated 
+processing should be higher in the former case.  
+
+A trading venue should send the information related to cleared derivative transactions 
+to  a  CCP  in  a  pre-agreed  electronic  format,  for  both  electronically  traded  and  non-
+electronically  traded  cleared  derivative  transactions.  Therefore,  the  time  granted  to  a 
+CCP  to  decide  whether  a  cleared  derivative  transaction  can  be  accepted  for  clearing 
+should  be  the  same  for  electronically  traded  and  non-electronically  traded  cleared 
+derivative transactions. 
+
+The  processing  of  cleared  derivative  transactions  entered  into  on  a  bilateral  basis  is 
+usually  less  automated  than  the  processing  of  cleared  derivative  transactions  entered 
+into  on  a  trading  venue.  Therefore,  the  time  granted  to  counterparties  to  submit  a 
+cleared  derivative  transaction  entered  into  on  a  bilateral  basis  to  a  CCP  should  be 
+longer than the time granted for a cleared derivative transaction executed on a trading 
+venue.  
+
+In  order  to  manage  the  credit  risks  related  to  cleared  derivative  transactions  that  are 
+entered into on a bilateral basis, a CCP should allow a clearing member to review the 
+transaction  details  of  its  client  and  to  decide  whether  to  accept  it.  As  the  process 
+between  a  CCP  and  a  clearing  member  is  usually  automated,  this  process  should 
+require limited time.  
+
+CCPs  as  well  as  clearing  members  manage  credit  risk  associated  to  the  build-up  of 
+current  exposures  resulting  from  the  clearing  of  cleared  derivatives.  Typically,  this 
+includes the setting of limits  by the CCP or the clearing member per counterparty in 
+order  to  mitigate  the  associated  exposure  risk,  which  can  result  in  new  requests  to 
+clear certain cleared derivative transactions not being accepted by the clearing member 
+or by the CCP. Ensuring that cleared derivative transactions are submitted to clearing 
+as quickly as technologically practicable does not eliminate the risk that some of these 
+cleared  derivative  transactions  could  not  be  accepted  for  clearing  under  specific 
+circumstances.  Therefore,  when  cleared  derivative  transactions  are  not  accepted  for 
+
+EN 
+
+ 
+
+510 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+clearing,  counterparties  should  have  clarity  on  the  treatment  of  the  not  accepted 
+transaction in order to take the status of the not accepted transaction into account when 
+hedging their risk and continuing on with their usual activity. 
+
+(10)
+
+  As  the  processing  of  a  cleared  derivative  transaction  executed  electronically  on  a 
+trading venue and submitted for clearing to a CCP requires limited time, the time for 
+the market to move and for the value and the risk of the cleared derivative transaction 
+to  change  in  between  the  order  and  the  non-acceptance  would  also  be  very  limited, 
+therefore  there  should  be  no  or  extremely  limited  damage  suffered  by  the 
+counterparties whose transactions are not accepted by the CCP. To provide certainty to 
+counterparties,  cleared  derivative  transactions  executed  electronically  on  a  trading 
+venue and not accepted by a CCP should be considered void.  
+
+(11)
+
+  As  the  processing  of  cleared  derivative  transactions  other  than  cleared  derivative 
+transactions  executed  electronically  on  a  trading  venue  usually  takes  some  time,  this 
+period of time may be sufficiently long for the market to have moved and for the value 
+and the risk of the cleared derivative transaction to  have changed significantly in  the 
+meantime,  therefore  the  voiding  of  the  transaction  could  not  be  applied  as  the 
+appropriate treatment for all non-acceptances. To provide certainty on the treatment of 
+such  transactions  not  accepted  by  a  CCP,  the  counterparties  should  still  know  in 
+advance how the transaction is to be treated, relying on the rules of the trading venue 
+or on the contractual arrangements between the counterparties where appropriate. 
+
+(12)
+
+  When  a  cleared  derivative  transaction  is  not  accepted  for  clearing  for  reasons  other 
+than credit reasons, the counterparties may still want to be counterparties to a cleared 
+derivative  transaction  with  the  same  economic  terms  and  that  could  be  accepted  for 
+clearing  if  not  for  these  non-credit  reasons.  When  both  counterparties  agree  to  re-
+submit the transaction, as long as it is within a relatively short period of time from the 
+first  submission,  and  that  it  allows  the  investigation  and  the  resolution  of  the  non-
+credit reasons why the transaction was not accepted, a second submission in the form 
+of  a  new  cleared  derivative  transaction  with  the  same  economic  terms  would  still 
+ensure proper management of operational or other risks.  
+
+(13)
+
+  The  new  legislation  of  the  European  Parliament  and  of  the  Council  on  markets  in 
+financial  instruments  set  out  in  Directive  2014/65/EU  and  Regulation  (EU)  No 
+600/2014  of  the  European  Parliament  and  of  the  Council 1 applies  from  3  January 
+2017. To ensure consistency and legal certainty, this Regulation should apply from the 
+same date. 
+
+                                                 
+
+1 Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in 
+financial instruments and amending Regulation (EU) No 648/2012 (OJ L 173, 12.6.2014, p. 84). 
+
+EN 
+
+ 
+
+511 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(14)
+
+  This Regulation is based on the draft regulatory technical standards submitted by the 
+
+European Securities and Markets Authority (ESMA) to the Commission. 
+
+(15)
+
+  ESMA  has  conducted  open  public  consultations  on  the  draft  regulatory  technical 
+standards  on  which  this  Regulation  is  based,  analysed  the  potential  related  costs  and 
+benefits  and  requested  the  opinion  of  the  Securities  and  Markets  Stakeholder  Group 
+established  by  Article  37  of  Regulation  (EU)  No  1095/2010  of  the  European 
+Parliament and of the Council2, 
+
+ 
+
+HAS ADOPTED THIS REGULATION: 
+
+ 
+
+Article 1 
+
+Arrangements to facilitate the transfer of information  
+
+1.  A trading venue shall detail in its rules the information it needs from counterparties to a 
+cleared derivative transaction in order to submit that cleared derivative transaction to a CCP 
+for clearing and the format in which that information shall be provided.  
+
+2.  A CCP shall detail  in  its rules the information  it  needs from counterparties to  a cleared 
+derivative  transaction  and  from  trading  venues  in  order  to  clear  a  cleared  derivative 
+transaction submitted to it and the format in which that information shall be provided. 
+
+ 
+
+Article 2 
+
+Pre-trade check for cleared derivative transactions executed on a trading venue 
+
+1.  Trading  venues  and  clearing  members  shall  subject  orders  for  the  execution  of  cleared 
+derivative transactions on a trading venue to  the requirements set out in paragraphs 2 and 3, 
+except where all the conditions set out in points (a), (b) and (c)  are satisfied:  
+
+(a)  the  rules  of  the  trading  venue  require  that  each  member  or  participant  of  the  trading 
+venue, which is not  a clearing member of a CCP through which the cleared derivative 
+transaction is cleared, has a contractual arrangement with a clearing member of the CCP 
+under  which  the  clearing  member  automatically  becomes  counterparty  to  the  cleared 
+derivative transaction;  
+
+                                                 
+
+2    Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010 
+establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision 
+No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84). 
+
+EN 
+
+ 
+
+512 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(b)  the  rules  of  the  CCP  provide  that  the  cleared  derivative  transaction  executed  on  a 
+trading  venue  is  cleared  automaticallyand  immediately,  with  the  clearing  member 
+referred to in point (a) becoming the counterparty to the CCP;  
+
+(c)  the  rules  of  the  trading  venue  provide  that  the  member  or  participant  of  the  trading 
+venue or its client becomes counterparty to the cleared derivative transaction, pursuant 
+to direct or indirect clearing arrangements. 
+
+2.  A  trading  venue  shall  provide  tools  to  ensure  pre-execution  screening  on  an  order-by-
+order basis by each clearing member of the limits set and maintained by that clearing member 
+for  its  client  pursuant  to  Commission  Delegated  Regulation  (EU)  xxx  (MiFIR  RTS  6 
+Regulation number OJ L […], […], p. […])).  
+
+3.  A trading venue shall ensure before the execution of the order that the order of the client 
+is within the limits applicable to this client in accordance with paragraph 2:  
+
+(a)  within  60  seconds  from  the  receipt  of  the  order  when  the  order  is  entered  into 
+
+electronically; 
+
+(b)  within  10  minutes  from  the  receipt  of  the  order  when  the  order  is  not  entered  into 
+
+electronically. 
+
+When the order is not within the limits applicable to the client in accordance with paragraph 
+2, the trading venue shall inform the client and the clearing member that the order cannot be 
+executed: 
+
+(c)  on a real time basis when the order is entered into electronically; 
+
+(d)  within 5 minutes from when the order was checked against the applicable limits as per 
+
+the first sub paragraph, when the order is not entered into electronically.  
+
+ 
+
+Article 3 
+
+Timeframes for the transfer of information for cleared derivative transactions executed 
+
+on a trading venue 
+
+1.  The trading venue, the CCP and the clearing member shall be subject to the requirements 
+set out in paragraphs 2 to 5 of this Article except where all the requirements of Article 2(1) 
+are met.  
+
+2.  For cleared derivative transactions that are executed on a trading venue electronically, the 
+trading  venue  shall  send  the  information  related  to  each  transaction  to  the  CCP  within  10 
+seconds from the execution of the transaction. 
+
+EN 
+
+ 
+
+513 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+3.  For  cleared  derivative  transactions  that  are  executed  on  a  trading  venue  non-
+electronically, the trading venue shall send the information related to  each transaction to the 
+CCP within 10 minutes from the execution of the transaction. 
+
+4.  A CCP shall accept or not accept the clearing of a cleared derivative transaction executed 
+on a trading venue within 10 seconds from receiving the information from the trading venue 
+and  inform  the  clearing  member  and  the  trading  venue  of  a  non-acceptance  on  a  real  time 
+basis.  
+
+5.  The  clearing  member  and  the  trading  venue  shall  inform  the  counterparty  that  executed 
+the cleared derivative transaction on the trading  venue of the non-acceptance as soon as the 
+CCP has informed them of a non-acceptance.  
+
+ 
+
+Article 4 
+
+Timeframes for the transfer of information for cleared derivative transactions executed 
+
+on a bilateral basis 
+
+1.  For  cleared  derivative  transactions  executed  by  counterparties  on  a  bilateral  basis,  the 
+clearing member shall:  
+
+(a)  obtain evidence from its client of the execution timeframe of the transaction they clear;  
+
+(b)  ensure that the counterparties send to the CCP the information referred to in Article 1(2) 
+
+related to the transaction within 30 minutes from the execution of the transaction. 
+
+2.  For  cleared  derivative  transactions  executed  by  counterparties  on  a  bilateral  basis,  the 
+CCP shall send to its clearing member the information referred to in point (b) of paragraph 1 
+related  to  the  transaction  within  60  seconds  from  receiving  this  information  from  the 
+counterparties.  The  clearing  member  shall  accept  or  not  accept  the  transaction  within  60 
+seconds from receiving the information from the CCP. 
+
+3.  The  CCP  shall  accept  or  not  accept  the  clearing  of  a  cleared  derivative  transaction 
+executed  on  a  bilateral  basis  within  10  seconds  from  the  receipt  of  the  clearing  member’s 
+acceptance or non-acceptance. 
+
+4.  However,  paragraphs  2  and  3  of  this  Article  shall  not  apply  where  all  the  following 
+conditions are met: 
+
+(a)  the rules of the CCP ensure the setting and the maintenance on a regular basis of limits 
+by a clearing member for its client pursuant to Commission Delegated Regulation (EU) 
+xxx (MiFIR RTS 6 Regulation number OJ L […], […], p. […]);  
+
+EN 
+
+ 
+
+514 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(b)  the rules of the CCP provide that a cleared derivative transaction that is within the limits 
+in  accordance  with  point  (a)  is  cleared  automatically  by  the  CCP  within  60  seconds 
+from  receiving  the  information  on  the  cleared  derivative  transaction  from  the 
+counterparties. 
+
+5.  The CCP that does not accept the clearing of a cleared derivative transaction executed on 
+a bilateral basis shall inform the clearing member of the non-acceptance on a real time basis. 
+The  clearing  member  shall  inform  of  the  non-acceptance  the  counterparty  that  executed  the 
+transaction as soon as it is informed by the CCP.  
+
+ 
+
+Treatment of cleared derivative transactions not accepted for clearing 
+
+Article 5 
+
+1.  Where a cleared derivative transaction that is executed on a trading venue electronically 
+is not accepted by the CCP, the trading venue shall void such contract.  
+
+2.  Where a cleared derivative transaction, other than cleared derivative transactions that are 
+executed on a trading venue electronically, is  not  accepted by the CCP, the treatment  of the 
+transaction shall be governed by: 
+
+(a)  the rules of the trading venue when the contract is submitted to clearing in accordance 
+
+with the rules of the trading venue; 
+
+(b)  the agreement between the counterparties in the other situations.  
+
+3.  Without prejudice to paragraphs 1 and 2 of this Article, when the non-acceptance is due 
+to  a  technical  or  clerical  problem,  the  cleared  derivative  transaction  can  be  submitted  for 
+clearing  once  more  within  one  hour  from  the  previous  submission  in  the  form  of  a  new 
+transaction but with the same economic terms, provided that both counterparties have agreed 
+to this second submission. The trading venue, on which the cleared derivative transaction was 
+initially executed shall not be subject to the requirements of Article 8 of Regulation (EU) No 
+600/2014 for the submission to clearing of the new cleared derivative transaction. 
+
+ 
+
+Article 6 
+
+Entry into force and application 
+
+This Regulation shall enter into force on the twentieth day following that of its publication in 
+the Official Journal of the European Union. 
+
+It shall apply from 3 January 2017.  
+
+EN 
+
+ 
+
+515 
+
+  EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+
+Done at Brussels,  
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+For the Commission 
+The President 
+ 
+
+[For the Commission 
+On behalf of the President 
+ 
+[Position]
+
+EN 
+
+ 
+
+516 
+
+  EN 
+
+ 
+ 
+
+ 

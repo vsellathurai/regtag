@@ -1,0 +1,3737 @@
+﻿
+
+
+RTS 6:
+standards 
+specifying  the  organisational  requirements  of  investment  firms 
+engaged in algorithmic trading, providing direct electronic access 
+and acting as general clearing members 
+
+ 
+
+ 
+
+  
+
+  
+
+ 
+
+EUROPEAN COMMISSION    
+
+  
+
+Brussels,  XXX     
+[…] (2012)  XXX  draft   
+
+    
+
+COMMISSION DELEGATED REGULATION (EU) No …/.. 
+
+  
+
+of  XXX   
+
+[…]   
+
+ 
+
+  
+
+ 
+
+EN 
+
+200 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+COMMISSION DELEGATED REGULATION (EU) No …/.. 
+
+of [date] 
+
+supplementing Directive 2014/65/EU of the European Parliament and of the 
+
+Council with regard to regulatory technical standards specifying the 
+
+organisational requirements of investment firms engaged in algorithmic 
+trading, providing direct electronic access and acting as general clearing 
+
+members 
+
+(Text with EEA relevance) 
+
+ 
+
+THE EUROPEAN COMMISSION, 
+
+Having regard to the Treaty on the Functioning of the European Union,  
+
+Having regard to Directive 2014/65/EU of the European Parliament and of the Council of 15 
+May 2014 on markets in financial instruments amending Directive 2002/92/EC and Directive 
+2011/61/EU1 , and in particular points (a) and (d) of Article 17(7) thereof. 
+
+Whereas: 
+
+(1)
+
+ 
+
+(2)
+
+ 
+
+(3)
+
+ 
+
+It is important to adopt  detailed regulatory technical standards to  ensure that systems 
+and risk controls used by investment  firms engaged in algorithmic trading, providing 
+direct electronic access and acting as general clearing members are efficient, resilient 
+and  have  an  adequate  capacity  in  a  manner  appropriate  to  the  nature,  scale  and 
+complexity  of  their  business  model.  It  is  also  important  to  set  out  the  content  and 
+format of the forms to be used by investment firms engaged in high frequency trading 
+for submitting to competent authorities the records of their orders upon request and the 
+length of time that these records must be kept.  
+
+These regulatory technical standards should address all risks that may affect the core 
+elements  of  a  trading  system,  including  the  hardware,  software  and  associated 
+communication  lines  which  investment  firms  use  to  perform  their  trading  activities 
+and  should  cover  any  type  of  execution  systems  or  order  management  systems 
+operated by investment firms.  
+
+To ensure proper calibration of the obligations provided in these regulatory technical 
+standards,  it  is  necessary  to  differentiate  trading  algorithms  that  are  investment 
+decision algorithms  from order execution algorithms.  Investment  decision algorithms 
+make  automated  trading  decisions  by  determining  which  assets  to  purchase  or  sell. 
+
+                                                 
+
+1 
+
+OJ L 173, 12.6.2014, p. 349. 
+
+EN 
+
+201 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(4)
+
+ 
+
+(5)
+
+ 
+
+(6)
+
+ 
+
+(7)
+
+ 
+
+(8)
+
+ 
+
+(9)
+
+ 
+
+Order  execution  algorithms  optimise  order-execution  processes  by  automatic 
+generation and submission of orders or quotes, to one or several trading venues once 
+the investment decision has been taken.  
+
+The  potential  impact  that  algorithms  may  have  on  the  overall  fair  and  orderly 
+functioning  of  the  market  should  constitute  a  guiding  principle  in  setting  out 
+regulatory technical standards regarding the testing of algorithms. In this regard, only 
+those  pure  investment  decision  algorithms  which  generate  orders  that  are  only  to  be 
+executed  by  non-automated  means  and  with  human  intervention  should  be  excluded 
+from the testing requirements.  
+
+Reference  should  be  made  to  elements  which  are  instrumental  for  the  resilience  and 
+capacity  of  investment  firms  engaged  in  algorithmic  trading  including  staffing  and 
+outsourcing policies. 
+
+Investment firms should be required to segregate tasks and functions at various levels 
+so as to reduce their dependency on a single person or unit.  
+
+Investment firms should operate a kill functionality enabling them to withdraw all or a 
+subset  of  their  orders  where  this  becomes  necessary.  For  such  a  functionality  to  be 
+effective, investment firms should always be in a position to know which algorithms, 
+traders or clients are responsible for an order.  
+
+These  regulatory  technical  standards  should  apply  jointly  with  other  regulatory 
+requirements  stemming  from  Directives  2005/60/EC2,  2014/65/EU3and  2013/36/EU4 
+of the European Parliament and of the Council and Regulation (EU) No 600/2014 of 
+the European Parliament and of the Council5. 
+
+Investment  firms  providing  direct  electronic  access  (DEA)  services  should  always 
+retain responsibility for the trading that their DEA clients carry out under their name. 
+Responsibility  for  those  services  should  constitute  the  key  factor  governing  the 
+framework  for  pre-trade  and  post-trade  controls  and  for  assessing  the  suitability  of 
+prospective DEA clients. Investment firms should therefore have sufficient knowledge 
+about  the  intentions,  capabilities,  financial  resources  and  trustworthiness  of  their 
+
+                                                 
+
+2 Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of 
+the use of the financial system for the purpose of money laundering and terrorist financing; OJL 309 25.11.2005 
+ 
+3 OJ L 173, 12.6.2014, p. 349. 
+4 Directive 2013/36/EU of the European Parliament and of the Council of 26 June 2013 on access to the activity 
+of  credit  institutions  and  the  prudential  supervision  of  credit  institutions  and  investment  firms,  amending 
+Directive 2002/87/EC and repealing Directives 2006/48/EC and 2006/49/EC; OJL 176 27.6.2013 
+ 
+5 Regulation (EU) No 600/2014 of the European Parliament and of the Council of 15 May 2014 on markets in 
+financial instruments and amending Regulation (EU) No 648/2012; OJL 173 12.6.2014 
+
+EN 
+
+202 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(10)
+
+ 
+
+clients, including information about the prospective DEA clients’ disciplinary history 
+with competent authorities and trading venues, where publicly available. 
+
+Investment  firms  which  provide  DEA  services  (“DEA  provider”)  may  provide  those 
+services to clients without being engaged in algorithmic trading themselves. However, 
+since the clients may use the DEA to engage in algorithmic trading, it is necessary to 
+ensure  that  the  DEA  providers  have  the  proper  systems  and  controls  in  place  and  be 
+subject  to  the  organisational  requirements  provided  in  these  regulatory  technical 
+standards.  
+
+(11)
+
+  The  specific  organisational  requirements  for  investment  firms  must  be  determined 
+according to a robust self-assessment where, at a minimum, the parameters set out in 
+this  Regulation  must  be  assessed.  That  self-assessment  should  include  any  other 
+circumstances not included in that list that might have an impact on their organisation, 
+thus constituting one of the cornerstones of the supervision of investment firms carried 
+out by the competent authorities. 
+
+(12)
+
+  Self-assessments should be undertaken periodically by investment firms to gain a full 
+understanding of the trading systems and algorithms they use and the risks stemming 
+from  algorithmic  trading.  An  investment  firm’s  understanding  should  be  irrespective 
+of whether the systems  and algorithms were developed by the investment  firm  itself, 
+purchased from a third party, designed or developed in close cooperation with a client 
+or a third party. 
+
+(13)
+
+ 
+
+Investment  firms  engaged  in  algorithmic  trading  should  monitor  that  their  trading 
+systems cannot be used for any purpose that is contrary to Regulation (EU) 596/2014 
+of  the  European  Parliament  and  of  the  Council6 or  to  the  rules  of  a  trading  venue  to 
+which they are connected. Where monitoring leads to the  identification of suspicious 
+transactions  or  orders,  the  submission  of  the  reports  to  the  competent  authorities 
+should take place in accordance with the requirements and the format set out in Article 
+16 of Regulation (EU) No 596/2014.  
+
+(14)
+
+  Conformance testing should be relied upon to establish that the trading systems of an 
+investment  firm  communicate  and  interact  properly  with  the  trading  systems  of  the 
+trading  venue  or  direct  market  access  (DMA)  provider  and  that  market  data  is  being 
+processed correctly.  
+
+(15)
+
+  Controlled  deployment  of  algorithms  should  be  observed  by  investment  firms  when 
+introducing  all  algorithms  regardless  of  whether  they  are  new  or  previously 
+successfully  deployed  in  another  trading  venue  or  that  their  architecture  has  been 
+
+                                                 
+
+6 Regulation (EU) No 596/2014 of the European Parliament and of the Council of 16 April 2014 on market abuse 
+(market abuse regulation) and repealing Directive 2003/6/EC of the European Parliament and of the Council and 
+Commission Directives 2003/124/EC, 2003/125/EC and 2004/72/EC;  
+
+EN 
+
+203 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+materially  modified.  The  controlled  deployment  of  algorithms  should  ensure  that  the 
+algorithms perform as expected in a live environment by setting cautious limits on the 
+number of  financial instruments being  traded, the price, value  and number of orders, 
+the  strategy  positions  and  the  number  of  markets  involved  and  by  monitoring  the 
+activity of the algorithm more intensively. 
+
+(16)
+
+  The  generation  of  alerts  following  real  time  monitoring  should  be  done  as  close  to 
+instantaneously as technically possible. Any actions following that monitoring should 
+be  undertaken  as  soon  as  possible  assuming  a  reasonable  level  of  efficiency  and 
+expenditure of the persons and systems concerned.  
+
+(17)
+
+  Due diligence of prospective DEA clients should be adapted to the risks posed by the 
+nature, scale and complexity of their expected trading activities, and the service being 
+provided. In particular, it should include an assessment of the expected level of trading 
+and order volume and the type of connection offered to the relevant trading venues.  
+
+(18)
+
+  Different  types  of  risks  should  be  addressed  by  different  types  of  controls.  Pre-trade 
+controls  should  be  conducted  before  an  order  is  submitted  to  a  trading  venue. 
+Investment  firms  should  also  monitor  their  trading  activity  and  implement  real-time 
+alerts  which  identify  signs  of  disorderly  trading  or  a  breach  of  their  pre-trade  limits. 
+Post-trade  controls  should  be  put  in  place  to  at  least  monitor  the  market  and  credit 
+risks  of  the  investment  firm  through  post-trade  reconciliation.  In  addition,  potential 
+market  abuse  or  breach  with  rules  of  trading  venues  should  be  prevented  through 
+specific  surveillance  systems  generating  alerts  on  the  following  day  at  the  latest, 
+having been calibrated to minimise false positive and false negative alerts.  
+
+(19)
+
+  To  ensure  consistency  with  the  general  order  record-keeping  obligations  for 
+investment firms under Article 25(1) of Regulation (EU) No 600/2014, the time limits 
+of  the  order  record  keeping  obligation  for  investment  firm  engaging  in  a  high-
+frequency algorithmic trading technique should be aligned with ones prescribed under 
+Article 25(1) of Regulation (EU) No 600/2014.  
+
+(20)
+
+  The  new  legislation  of  the  European  Parliament  and  of  the  Council  on  markets  in 
+financial  instruments  as  set  out  in  Directive  2014/65/EU  and  Regulation  (EU)  No 
+600/2014 applies from 3 January 2017. To ensure consistency and legal certainty, this 
+Regulation should apply from the same date. 
+
+(21)
+
+  This Regulation is based on the draft regulatory technical standards submitted by the 
+
+European Securities and Markets Authority (ESMA) to the Commission. 
+
+(22)
+
+  ESMA  has  conducted  open  public  consultations  on  the  draft  regulatory  technical 
+standards  on  which  this  Regulation  is  based,  analysed  the  potential  related  costs  and 
+benefits  and  requested  the  opinion  of  the  Securities  and  Markets  Stakeholder  Group 
+
+EN 
+
+204 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+established  by  Article  37  of  Regulation  (EU)  No  1095/2010  of  the  European 
+Parliament and of the Council7, 
+
+HAS ADOPTED THIS REGULATION: 
+
+CHAPTER I 
+
+GENERAL ORGANISATIONAL REQUIREMENTS 
+
+Article 1  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Governance, general requirements and proportionality  
+
+As  part  of  their  overall  governance  and  decision  making  framework,  investment  firms  shall 
+develop  and monitor trading systems  and trading algorithms, taking into account  the nature, 
+scale and complexity of their business and setting out:  
+
+(a)  clear  lines  of  accountability,  including  procedures  and  processes  to  approve  the 
+development,  deployment  and  subsequent  updates  of  trading  algorithms  and  for  the 
+resolution of problems identified through monitoring;  
+
+(b)  effective  procedures  and  processes  for  the  communication  of  information  within  the 
+investment  firm,  such  that  relevant  issues  can  be  escalated  and  instructions  can  be 
+implemented in an efficient and timely manner;  
+
+(c)  segregation  of  functions  and  responsibilities  between  trading  desks  and  supporting 
+functions  including  risk  control  and  compliance  functions  ensuring  that  unauthorised 
+trading activity cannot be concealed. 
+
+ 
+
+Article 2 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Role of compliance function  
+
+1. 
+Investment  firms  shall  ensure  that  their  compliance  staff  has  at  least  a  general 
+understanding  of  the  way  in  which  the  algorithmic  trading  systems  and  algorithms  of  the 
+investment firm operate. The compliance function shall be in continuous contact with persons 
+with detailed technical knowledge of the firm’s algorithmic trading systems or algorithms.  
+
+                                                 
+
+7 Regulation  (EU)  No  1095/2010  of  the  European  Parliament  and  of  the  Council  of  24  November  2010 
+establishing a European Supervisory Authority (European Securities and Markets Authority), amending Decision 
+No 716/2009/EC and repealing Commission Decision 2009/77/EC (OJ L 331, 15.12.2010, p. 84). 
+
+EN 
+
+205 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+2. 
+Investment firms shall also enable their compliance function to, at all times, have access 
+to the kill functionality as referred to under Article 12 or have direct contact with the persons 
+who have access to it, and to those who are responsible for each trading system or algorithm. 
+
+3.  Where  part  or  all  of  the  compliance  function  is  outsourced  to  an  external  compliance 
+consultant,  investment  firms  shall  engage  with,  and  provide  information  and  access  to,  the 
+external  compliance  consultant  as  it  would  with  its  own  compliance  staff.  Investment  firms 
+shall ensure that: 
+
+(a)  data privacy is guaranteed;  
+
+(b)  auditing  of  the  compliance  function  by  internal  and  external  auditors  or  by  the  firms' 
+
+competent authority is not constrained. 
+
+ 
+
+Article 3 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Staffing 
+
+1. 
+Investment  firms  shall  employ  an  adequate  number  of  staff  with  the  necessary  skills  to 
+manage  their  algorithmic  trading  systems  and  trading  algorithms  and  sufficient  technical 
+knowledge of: 
+
+(a)  relevant trading systems and algorithms;  
+
+(b)  the monitoring and testing of such systems and algorithms;  
+
+(c)  the trading strategies that the firm deploys through its algorithmic trading systems and 
+
+algorithms;  
+
+(d)  the investment firm’s legal and regulatory obligations and in particular the requirements 
+imposed by the relevant trading venues and all other requirements established by Article 
+17 of Directive 2014/65/EU and Regulation (EU) No 596/2014. 
+
+2. 
+Investment firms shall define the skills necessary to comply with the obligation set out in 
+paragraph  1.  These  skills  shall  be  acquired  through  recruitment  or  through  training  of 
+appropriate staff and shall be evaluated periodically to ensure that they remain up-to-date. 
+
+3. 
+Initial and ongoing training shall be tailored to the experience and responsibilities of the 
+staff it is being delivered to, taking into account the nature, scale and complexity of the staff 
+activity.  In  particular,  staff  involved  in  order  submission  shall  receive  initial  and  ongoing 
+training on order submission systems and market abuse. 
+
+EN 
+
+206 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+4. 
+Investment firms shall have procedures in place to ensure that the staff responsible for the 
+risk  and  compliance  functions  for  algorithmic  trading  have  sufficient  knowledge  of 
+algorithmic trading and strategies and sufficient skill and authority in order to: 
+
+(a)  follow up information provided by automatic alerts; 
+
+(b)  challenge staff responsible for algorithmic trading when the trading activity gives rise to 
+
+disorderly trading conditions or suspicions of market abuse.  
+
+ 
+
+Article 4 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+IT outsourcing and procurement 
+
+1.  When outsourcing or procuring software or hardware which is used in algorithmic trading 
+activities, investment firms shall remain fully responsible for fulfilling their obligations as set 
+out in this Regulation. 
+
+Investment  firms  shall  have  sufficient  knowledge  and  all  the  necessary  documentation 
+
+2. 
+regarding any procured or outsourced hardware or software used in algorithmic trading. 
+
+ 
+
+CHAPTER II 
+
+RESILIENCE OF TRADING SYSTEMS  
+
+SECTION 1  
+
+Testing and deployment of trading algorithms and systems 
+
+Article 5  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+General methodology 
+
+1.  Prior  to  the  initial  deployment  or  substantial  update  of  an  algorithmic  trading  system, 
+trading  algorithm  or  algorithmic  trading  strategy,  investment  firms  shall  set  up  clearly 
+delineated development and testing methodologies. 
+
+2.  A responsible party designated by senior management of the investment firm shall sign-
+off  the  initial  deployment  or  substantial  update  of  an  algorithmic  trading  system,  trading 
+algorithm or algorithmic trading strategy. 
+
+3.  The development and testing methodologies shall address the design and performance of 
+the system, algorithm  or strategy, the division  of responsibilities, the allocation of sufficient 
+resources, escalation procedures, recordkeeping and approval.  
+
+EN 
+
+207 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+4.  The development and testing methodologies and scenarios shall ensure that: 
+
+(a)  the  algorithmic  trading  system,  trading  algorithm  or  algorithmic  trading  strategy  does 
+
+not behave in an unintended manner;  
+
+(b)  the operation of the algorithmic trading system, trading algorithm or algorithmic trading 
+strategy 
+investment  firm’s  obligations  under  Directive 
+2014/65/EU and in particular, that embedded compliance and risk management control 
+functions as intended;  
+
+is  compliant  with 
+
+the 
+
+(c)  the trading systems, trading algorithms or trading strategies conform with the rules and 
+
+systems of the trading venues accessed;  
+
+(d)  the  trading  system,  trading  algorithm  or  trading  strategy  does  not  contribute  to 
+disorderly  trading  conditions,  and  can  continue  to  work  effectively  in  stressed  market 
+conditions,  and  where  necessary  under  those  conditions,  allows  the  trading  system  or 
+algorithm to be switched off. 
+
+5. 
+Investment  firms  shall  adapt  their  testing  methodologies  to  the  trading  venues  and 
+markets  where  the  algorithms  will  be  deployed.  Investment  firms  shall  undertake  further 
+testing  if  there  are  substantial  changes  to  the  trading  system  or  the  access  to  the  venue  in 
+which the algorithmic trading system, trading algorithm  or algorithmic trading strategy is  to 
+be used. 
+
+6.  Paragraphs 2 to 5 shall only apply to algorithms leading to order execution with limited 
+or no human intervention.  
+
+Investment  firms  shall  keep  records  of  any  material  changes  made  to  the  software  used 
+
+7. 
+for algorithmic trading, allowing them to accurately determine: 
+
+(a)  when a change was made; 
+
+(b)  who made the change; 
+
+(c)  who approved the change; 
+
+(d)  the nature of the change. 
+
+ 
+
+Article 6 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Conformance testing 
+
+1. 
+
+Investment firms shall test the conformance of their trading systems and algorithms with: 
+
+(a) 
+
+the trading venue in any of the following cases: 
+
+EN 
+
+208 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(i)  when accessing the venue as a member; 
+
+(ii)  when  connecting  to  the  venue  through  a  sponsored  access  arrangement  for  the 
+
+first time;  
+
+(iii) when there is a material change of the systems of the trading venue; 
+
+(iv) prior  to  the  initial  deployment  or  material  update  of  an  algorithmic  trading 
+
+system, trading algorithm or algorithmic trading strategy. 
+
+(b)  the DMA provider in any of the following cases:  
+
+(i)  when  they  access  the  trading  venue  through  a  DMA  arrangement  for  the  first 
+
+time; 
+
+(ii)  when there is a material change affecting the DMAfunctionality of the provider;  
+
+(iii) prior  to  the  initial  deployment  or  material  update  of  an  algorithmic  trading 
+
+system, trading algorithm or algorithmic trading strategy. 
+
+2.  Conformance testing shall ensure that the basic elements of the system or the algorithm 
+operate  correctly  and  according  to  the  requirements  of  the  trading  venue  or  the  DMA 
+provider, including the ability of the algorithm to interact as expected with the trading venue’s 
+matching logic, and adequately process the data flows downloaded from the trading venue. 
+
+ 
+
+Article 7 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Testing environments 
+
+1. 
+Investment  firms  shall  ensure  that  testing  under  Article  5(4)(a),  (b)  and  (d)  shall  be 
+undertaken in non-live environments, segregated from their production environments, that are 
+used specifically for the testing and development of trading algorithms and trading systems. 
+
+For  the  purposes  of  the  first  subparagraph,  the  production  environment  shall  include  the 
+environments  where  algorithmic  trading  systems  effectively  operate  and  comprise  software 
+and  hardware  used  by  traders,  order  routing  to  trading  venues,  market  data,  dependent 
+databases, risk control systems, data capture and analysis systems, and post-trade processing 
+systems. 
+
+2. 
+Investment  firms  may  fulfil  the  testing  requirements  under  Article  5(4)(a),  (b)  and  (d) 
+using their own testing environment, or a testing environment as provided by a trading venue, 
+a DEA provider, or a vendor. 
+
+EN 
+
+209 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Investment  firms  shall  retain  full  responsibility  for  testing  and  for  making  the  required 
+
+3. 
+changes to their algorithms, strategies or systems. 
+
+ 
+
+Article 8 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Controlled deployment of algorithms 
+
+Investment  firms  shall  maintain  control  over  the  trading  algorithms  that  they  deploy  in  the 
+production environment by setting limits on the number of financial instruments being traded, 
+on  the  price,  value  and  numbers  of  orders,  on  the  strategy  positions,  and  on  the  number  of 
+trading venues to which orders are sent.  
+
+ 
+
+SECTION 2 
+
+Post-deployment management 
+
+Article 9 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Annual self-assessment and validation of systems 
+
+1. 
+Investment  firms  shall  perform  an  annual  self-assessment  and  validation  process  to 
+elaborate  a  validation  report.  Investment  firms  shall  review  and  evaluate  their  algorithmic 
+trading  systems  and  trading  algorithms,  their  governance,  accountability  and  sign-off 
+framework  and  relevant  business  continuity  and  their  overall  compliance  with  Article  17  of 
+Directive 2014/65/EU, taking into account the nature, scale and complexity of their business. 
+The self-assessment shall include an analysis of at least all the parameters set out in Annex I 
+to this Regulation. 
+
+2.  The risk management control function of the investment firm shall be responsible for the 
+creation  of  the  validation  report,  and  shall  involve  staff  with  the  necessary  technical 
+knowledge.  Compliance  function  shall  be  made  aware  of  any  issues  identified  in  the 
+validation reports. The validation reports shall be audited by the firm’s internal audit function, 
+where such function exists. 
+
+3.  The validation reports shall be approved by the investment firm’s senior management. 
+
+Investment  firms  shall  act  on  the  basis  of  the  review  processes  and  validation  reports 
+
+4. 
+described in this Article to remedy any deficiencies identified.  
+
+ 
+
+EN 
+
+Article 10 
+
+210 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Stress testing 
+
+As  part  of  their  annual  self-assessment  referred  to  in  Article  9,  investment  firms  shall  test 
+their algorithmic trading systems  and related procedures and controls to  ensure that they are 
+capable  of  withstanding  increased  order  flows  or  market  stresses.  Investment  firms  shall 
+design  such  tests  to  be  specific  to  the  nature  of  their  trading  activity  and  to  their  trading 
+systems. Investment firms shall ensure that the tests are carried out in such a way that they do 
+not impact the production environment. Such tests shall at least consist of the following: 
+
+(a)  running  high  messaging  volume  tests  using  at  least  twice  the  highest  volume  of 
+
+messaging received and sent by the firm over the previous six month period;  
+
+(b)  running  high  trade  volume  tests  using  at  least  twice  the  highest  volume  of  trading 
+
+reached by the firm over the previous six month period. 
+
+ 
+
+Article 11 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Management of material changes 
+
+1. 
+Investment  firms  shall  ensure  that  any  material  changes  to  the  production  environment 
+related to algorithmic trading shall be subject to a review by a responsible party designated by 
+senior management of the investment firm. The depth of the review shall be proportionate to 
+the magnitude of the proposed change.  
+
+Investment firms shall establish procedures for internally communicating changes to the 
+
+2. 
+functionality of their systems.  
+
+ 
+
+SECTION 3 
+
+Means to ensure resilience 
+
+Article 12 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Kill functionality 
+
+1. 
+Investment  firms  shall  be  in  the  position  to  know  which  algorithm  and  which  trader, 
+trading  desk or, where  applicable, client  is  responsible for each order that  is  being sent  to  a 
+trading  venue  and  shall  have  the  ability,  as  an  emergency  measure,  to  cancel  unexecuted 
+orders submitted to  individual trading venues originated by individual traders, trading desks 
+or, where applicable, clients. 
+
+EN 
+
+211 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Investment  firms  shall  also  have  the  ability,  as  an  emergency  measure,  to  immediately 
+
+2. 
+cancel all the firm’s outstanding orders at all trading venues to which the firm is connected.  
+
+ 
+
+Article 13  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Prevention and identification of potential market abuse or breaches  
+
+1. 
+Investment  firms  shall monitor  all  trading  activity  that  takes  place  through  their  trading 
+systems,  including  that  of  their  clients,  for  signs  of  potential  market  abuse  as  specified  in 
+Article 12 of Regulation (EU) No 596/2014.  
+
+2. 
+In addition to the obligations contained in Article 16 of Regulation (EU) 596/EU/2014 as 
+specified by [Article XX of Regulation on regulatory technical standards for the appropriate 
+arrangements,  systems  and  procedures  as  well  as  notification  templates  to  be  used  for 
+preventing,  detecting  and  reporting  abusive  practices  or  suspicious  orders  or  transactions], 
+investment  firms  shall  establish  and  maintain  surveillance  systems  that  are  automated  and 
+adapted to the nature, scale and complexity of the firm’s trading activity to conduct effective 
+monitoring  of  orders  and  transactions,  generating  alerts  and  reports  and,  where  appropriate, 
+employing  visualisation  tools.  The  surveillance  system  shall  cover  the  full  range  of  trading 
+activities  undertaken  by  the  investment  firms  and  all  orders  submitted  by  those  firms. 
+Investment firms shall cross-check any indications of suspicious trading activity generated by 
+their  surveillance  systems  during  the  investigation  phase  against  other  relevant  trading 
+activities undertaken by those firms. 
+
+3. 
+Investment  firms’  surveillance  system  shall  be  adaptable  to  changes  to  their  regulatory 
+obligations and their trading behaviour, including changes to the firm’s own trading strategy 
+or that of its clients, the type and volume of instruments traded, the size and complexity of its 
+order flow, and the markets accessed.  
+
+4.  The surveillance system shall be subject to review at least once a year, in order to assess 
+whether the system itself and the parameters and filters that it employs are still adequate to the 
+firm’s  regulatory  obligations  and  its  trading  behaviour,  including  the  minimisation  of  false 
+positive and false negative surveillance alerts generated by the surveillance system.  
+
+5.  Using  a sufficiently detailed level  of time  granularity, the investment  firms’ monitoring 
+systems  shall  be  able  to  read,  replay  and  analyse  order  and  transaction  data  on  an  ex-post 
+basis,  with  sufficient  capacity  to  be  able  to  operate  in  an  automated  low-latency  trading 
+environment  where  relevant,  and  generate  operable  alerts  at  the  beginning  of  the  following 
+trading day or, only in cases where manual processes are involved, at the end of the following 
+trading day. In order to ensure adequate documentation and follow-up to alerts generated by 
+the  surveillance  system,  the  system  shall  be  used  in  parallel  with  a  workflow  creation  and 
+management system.  
+
+EN 
+
+212 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+6.  Staff  responsible  for  monitoring  the  firm’s  trading  activities  for  the  purposes  of  the 
+previous paragraphs shall report any trading  activity which may be not  compliant with  their 
+firm’s  policies  and  procedures  or  with  the  firm’s  regulatory  obligations  to  the  compliance 
+function to assess that information and take any appropriate actions, including reporting to the 
+trading  venue  or  submitting  a  suspicious  transaction  or  order  report  in  accordance  with 
+Regulation  (EU)  No  596/2014  for  the  appropriate  arrangements,  systems  and  procedures  as 
+well  as  notification  templates  to  be  used  for  preventing,  detecting  and  reporting  abusive 
+practices or suspicious orders or transactions. 
+
+7. 
+Investment  firms  shall  maintain  accurate,  complete,  and  consistent  trade  and  account 
+information  by  reconciling  as  soon  as  practicable  their  own  electronic  trading  logs  with 
+records  provided  by  trading  venues,  their  brokers,  clearing  members,  central  counterparties 
+(CCPs), data providers, or other relevant business partners, as applicable and as appropriate to 
+the nature, scale and complexity of the business. 
+
+ 
+
+Article 14  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Business continuity arrangements  
+
+1. 
+Investment  firms  shall  have  business  continuity  arrangements  in  place  with  respect  to 
+their algorithmic trading systems which are appropriate to the nature, scale and complexity of 
+their  business.  Those  arrangements  shall  be  documented  in  writing  or  any  other  durable 
+medium.  
+
+2.  Business  continuity  arrangements  of  investment  firms  shall  effectively  deal  with 
+disruptive  incidents  and,  where  appropriate,  ensure  a  timely  resumption  of  algorithmic 
+trading. The arrangements shall cover at least the following:  
+
+(a)  governance for the development and deployment of the arrangements; 
+
+(b)  a range of possible adverse scenarios relating to the operation of the algorithmic trading 
+systems including at least unavailability of systems, staff, work space, external suppliers 
+or dependencies and critical data and documents through loss or alteration;  
+
+(c)  procedures  for  relocating  to,  and  operating  the  trading  system  from  a  back-up  site, 
+where  having  such  a  site  is  appropriate  to  the  nature,  scale  and  complexity  of  the 
+algorithmic trading activities of the investment firm;  
+
+(d)  staff training on the operation of the arrangements and individuals’ roles;  
+
+(e)  arrangements that are bespoke to each of the venues accessed;  
+
+(f)  usage policy regarding the firm’s kill functionality;  
+
+EN 
+
+213 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(g)  arrangements for shutting down the relevant trading algorithm or trading system where 
+
+appropriate;  
+
+(h)  alternative  arrangements  for  the  investment  firm  to  manage  outstanding  orders  and 
+
+positions; 
+
+3. 
+Investment firms shall ensure that their trading algorithm or trading system are shut down 
+in  application  of  their  business  continuity  arrangements  without  creating  disorderly  trading 
+conditions.  
+
+Investment  firms  shall  review  and  test  their  business  continuity  arrangements  on  an 
+
+4. 
+annual basis and modify the arrangements in light of the review.  
+
+ 
+
+Article 15  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Pre-trade controls on order entry 
+
+Investment firms shall have in place the following pre-trade controls on order entry with 
+
+1. 
+respect to all financial instruments, reinforced by appropriate continuous post-trade controls:  
+
+(a)  price  collars  which  automatically  block  or  cancel  orders  that  do  not  meet  set  price 
+parameters, differentiating between different financial instruments, both on an order-by-
+order basis and over a specified period of time;  
+
+(b)  maximum  order  value,  which  prevents  orders  with  an  uncommonly  large  order  value 
+
+from entering the order book; 
+
+(c)  maximum  order  volume  which  prevents  orders  with  an  uncommonly  large  order  size 
+
+from entering the order book; 
+
+(d)  maximum messages limit which prevents sending an excessive number of messages to 
+
+order books pertaining to the submission, modification or cancellation of an order.  
+
+2. 
+Investment  firms  shall  have  in  place,  repeated  automated  execution  throttles  which 
+control  the  number  of  times  a  strategy  was  already  applied.  After  a  configurable  number  of 
+repeated executions, the system shall be disabled until re-enabled by a designated member of 
+staff. 
+
+Investment  firms  shall  immediately  include  all  orders  sent  to  a  trading  venue  into  their 
+
+3. 
+pre-trade limit calculation system. 
+
+4. 
+Investment  firms  shall  establish  and  enforce  pre-trade  risk  limits  that  are  appropriately 
+calibrated for the their capital base, clearing arrangements, trading strategy, risk tolerance and 
+experience,  including  variables  such  as  length  of  time  since  engaged  in  algorithmic  trading 
+
+EN 
+
+214 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+and  its  reliance  on  third  party  vendors.  Investment  firms  shall  re-calibrate  the  pre-trade 
+controls in order to account for the changing impact of the orders on the relevant market due 
+to different price and liquidity levels.  
+
+5. 
+Investment  firms  shall  be  able  to  automatically  block  or  cancel  orders  from  a  trader  if 
+they  are  aware  that  a  trader  does  not  have  permission  to  trade  a  particular  financial 
+instrument. Investment firms shall be able to automatically block or cancel orders where they 
+risk  compromising  the  firm’s  own  risk  thresholds.  Controls  shall  be  applied,  where 
+appropriate, on exposures to individual clients, financial instruments, traders, trading desks or 
+the investment firm as a whole.  
+
+6.  An  investment  firm  shall  have  procedures  and  arrangements  for  dealing  with  orders 
+which have been automatically blocked by its pre-trade controls but which the firm wishes to 
+submit  upon  authorisation  of  an  empowered  individual  within  the  investment  firm.  Such 
+procedures and arrangements shall apply on a temporary and exceptional basis.  
+
+7.  Pre-trade  controls  may  only  be  overridden  in  relation  to  a  specific  trade  with  the  full 
+knowledge of relevant staff responsible in the risk management function.  
+
+ 
+
+Article 16 
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Real-time monitoring 
+
+1. 
+Investment  firms  shall,  during  the  hours  they  are  sending  orders  to  trading  venues, 
+monitor  in  real  time  all  algorithmic  trading  activity  that  takes  place  under  their  code, 
+including that of their clients, for signs of disorderly trading, including from a cross-market, 
+cross-asset class, or cross-product perspective, in cases where the firm or its clients engage in 
+such activities.  
+
+2.  Real-time  monitoring  of  algorithms  shall  be  undertaken  by  the  trader  in  charge  of  the 
+algorithm and also by an independent risk control function. The risk control function shall be 
+considered as independent, regardless of whether the real-time monitoring is conducted by a 
+member  of  the  staff  or  by  an  outsourced  function,  provided  that  it  is  not  hierarchically 
+dependent  on  the  trader  and  can  offer  appropriate  challenge  as  necessary  within  the 
+governance framework. 
+
+3.  Staff  members  in  charge  of  real-time  monitoring  shall  respond  to  operational  and 
+regulatory issues in a timely manner, initiating remedial action where necessary. 
+
+4. 
+Investment firms shall have procedures in place to ensure that their competent authorities, 
+the relevant trading venues and, where applicable, DEA providers, clearing member or CCP 
+have  access  to  staff  members  in  charge  of  real-time  monitoring.  Communication  channels 
+shall be identified  and tested periodically to  ensure that in  an emergency, the adequate staff 
+
+EN 
+
+215 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+members  with  the  adequate  level  of  authority  may  reach  each  other  in  a  timely  fashion  in 
+order  to  ensure  a  fair  and  orderly  market.  In  addition,  contact  procedure  for  out-of-trading 
+hours shall also be established.  
+
+5.  Monitoring  systems  shall  have  real-time  alerts  to  assist  staff  in  identifying  any 
+unanticipated activities undertaken by an algorithm. Investment firms shall have a process in 
+place  to  take  remedial  action  as  soon  as  possible  after  an  alert  is  generated,  including,  as 
+necessary,  an  orderly  withdrawal  from  the  market.  These  monitoring  systems  shall  also 
+provide alerts in relation to algorithms and DEA orders triggering circuit breakers of a trading 
+venue. 
+
+6.  Real-time alerts shall be generated within five seconds of the relevant event. 
+
+ 
+
+Article 17 
+
+(Article 17(1) of Directive 2014/65/EU)  
+
+Post-trade controls 
+
+1. 
+Investment  firms  shall  continuously  operate  the  post-trade  controls  that  they  have  in 
+place.  Where  a  post-trade  control  is  triggered,  the  firm  shall  undertake  appropriate  action 
+which  may  include  adjusting  or  shutting  down  the  relevant  trading  algorithm  or  trading 
+system or an orderly withdrawal from the market.  
+
+2.  Post-trade controls referred to in paragraph 1 shall include as a minimum the continuous 
+assessment  and  monitoring  of  market  and  credit  risk  of  the  investment  firm  in  terms  of 
+effective exposure.  
+
+3. 
+Investment  firms  shall  maintain  trade  and  account  information  which  is  complete, 
+accurate  and  consistent.  Investment  firms  shall  reconcile  their  own  electronic  trading  logs 
+with  information  regarding  their  outstanding  orders  and  risk  exposures  as  provided  by  the 
+trading venue to which they send orders, their broker or DEA provider, their clearing member 
+or CCP, their data providers, or other relevant business partners. Reconciliation shall be made 
+in  real  time  where  the  aforementioned  market  participants  provide  the  information  in  real-
+time.  Investment  firms  shall  have  the  capability  to  calculate  their  outstanding  exposure  and 
+that of their traders and clients in real time.  
+
+4.  For  derivatives,  the  post-trade  controls  referred  to  in  paragraph  1  shall  include  as  a 
+minimum, controls regarding the maximum long and short and overall strategy positions, with 
+trading limits to be set in units appropriate to the types of instruments involved. 
+
+5.  Post-trade  monitoring  shall  be  undertaken  by  the  relevant  traders  responsible  for  the 
+algorithm and one or more risk control functions within the firm. 
+
+ 
+
+EN 
+
+216 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Article 18  
+
+(Article 17(1) of Directive 2014/65/EU) 
+
+Security and limits to access  
+
+Investment firms shall implement an IT strategy with defined objectives and measures in 
+
+1. 
+line with:  
+
+(a)  the  business  and  risk  strategy  of  the  firm  as  well  as  its  operational  activities  and  the 
+
+risks to which the firm is exposed;  
+
+(b)  a reliable IT organisation, including service, production, and development;  
+
+(c)  an effective IT security management.  
+
+2. 
+Investment  firms  shall  set  up  and  maintain  appropriate  arrangements  for  physical  and 
+electronic  security  that  minimise  the  risks  of  attacks  against  their  information  systems. 
+Measures shall ensure the confidentiality, integrity, authenticity, and availability of data, and 
+the reliability and robustness of their systems. 
+
+3. 
+Investment  firms  shall  promptly  inform  their  competent  authorities  of  any  material 
+breaches  in  their  physical  and  electronic  security  measures.  An  incident  report  shall  be 
+provided to its competent authority indicating the nature of the incident, the measures adopted 
+to cope in an emergency and the initiatives taken to avoid similar incidents from recurring.  
+
+4. 
+Investment  firms  shall  undertake  penetration  tests  and  vulnerability  scans  to  safeguard 
+against cyber-attacks at least on a yearly basis. They shall implement appropriate safeguards 
+against attackers which may include effective identity and access management.  
+
+5. 
+Investment firms shall ensure that they are able to identify all persons who have critical 
+user  access  rights  to  IT  systems.  Investment  firms  shall  restrict  the  number  of  such  persons 
+and shall monitor their access to IT systems to ensure traceability at all times. 
+
+ 
+
+CHAPTER III  
+
+DIRECT ELECTRONIC ACCESS 
+
+Article 19  
+
+(Article 17(5) of Directive 2014/65/EU) 
+
+General provisions for DEA 
+
+1.  DEA  providers  shall  always  retain  responsibility  for  the  trading  that  their  DEA  clients 
+carry out in their name.  
+
+EN 
+
+217 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+2.  DEA  providers  shall  establish  policies  and  procedures  to  ensure  that  trading  of  DEA 
+clients  complies  with  the  trading  venue’s  rules  and  allows  the  DEA  providers  to  meet  the 
+requirements applicable to DEA.  
+
+ 
+
+Article 20  
+
+(Article 17(5) of Directive 2014/65/EU) 
+
+Systems and controls of DEA providers  
+
+1.  DEA providers shall apply pre-trade and post-trade controls on the order flow of each of 
+their  DEA  clients  as  well  as  real-time  monitoring  and  market  surveillance  controls  in 
+accordance with Articles 13, 15, 16 and 17. The controls to be applied by DEA providers shall 
+be  separate  and  distinct  from  those  of  DEA  clients.  In  particular,  and  regardless  of  the 
+application  by  the  DEA  client  of  its  own  pre-trade  and  post-trade  controls,  real-time 
+monitoring  and  market  surveillance  controls,  the  orders  of  DEA  clients  shall  always  pass 
+through the pre-trade controls that are set and controlled by the DEA provider. 
+
+2.  DEA providers may use their own proprietary pre-trade and post-trade controls, controls 
+provided  by  a  third  party  or  controls  offered  by  the  trading  venue.  In  all  circumstances  the 
+DEA provider shall remain responsible for the effectiveness of those controls and shall ensure 
+that at  all time the DEA provider is  solely entitled to  set  or modify the  parameters or limits 
+that  apply  to  these  pre-trade  and  post-trade  controls.  The  DEA  provider  shall  monitor  the 
+performance of the pre-trade and post-trade controls on an on-going basis.  
+
+3.  The limits of the pre-trade controls on order submission shall be based on the credit and 
+risk limits  which the DEA provider  applies to the trading activity of its  DEA clients.  Those 
+limits shall be based on the initial due diligence and periodic review of the client.  
+
+4.  The parameters and limits of the controls applied to clients using sponsored access shall 
+be at least as stringent as those imposed on clients using DMA.  
+
+ 
+
+Article 21  
+
+(Article 17(5) of Directive 2014/65/EU) 
+
+Specifications for DEA provider systems  
+
+1.  DEA providers shall have the ability to:  
+
+(a)  monitor  any  orders  submitted  by  DEA  clients  using  the  trading  code  of  the  DEA 
+
+provider;  
+
+EN 
+
+218 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(b)  automatically  block  or  cancel  orders  from  individuals  operating  trading  systems  that 
+submit  orders  related  to  algorithmic  trading  which  are  not  the  ones  specifically 
+authorised to send orders through DEA; 
+
+(c)  automatically block or cancel orders from  a DEA client in  financial instruments that a 
+DEA client does not have permission to trade. The investment firm must use an internal 
+flagging system to identify and to block single clients or a group of clients;  
+
+(d)  automatically  block  or  cancel  orders  of  a  DEA  client  when  they  breach  the  DEA 
+provider’s  risk  management  thresholds.  Controls  shall  be  applied  to  exposures  of 
+individual clients, financial instruments or groups of clients; 
+
+(e)  stop order flow transmitted by their DEA clients;  
+
+(f)  suspend  or  withdraw  DEA  services  to  any  clients  where  the  DEA  provider  is  not 
+satisfied that continued  access  would be consistent with  their rules and  procedures for 
+fair and orderly trading and market integrity;  
+
+(g)  carry out,  whenever necessary, a review of the internal  risk control systems  of a DEA 
+
+client.  
+
+2.  DEA providers shall have procedures to evaluate, manage and mitigate market disruption 
+and firm-wide risk, and shall be able to identify the persons to be notified in the event of an 
+error  resulting  in  violations  of  the  risk  profile,  or  potential  violations  of  the  trading  venue's 
+rules.  
+
+3.  DEA providers shall at all times have the ability to identify the different clients, and the 
+trading  desks  and  traders  of  those  clients,  who  submit  orders  through  the  DEA  provider’s 
+systems by assigning unique identification code to them.  
+
+4.  Where a DEA provider allows a client to sub-delegate the DEA access it receives to its 
+own  clients,  the  DEA  provider  shall  be  able  to  identify  the  different  order  flows  from  the 
+beneficiaries of the sub-delegation. For these purposes, it will not be necessary for the DEA 
+provider to know the identity of these beneficiaries of the sub-delegation.  
+
+5.  DEA  providers  shall  record  the  relevant  data  relating  to  the  orders  submitted  by  their 
+DEA  clients,  including  modifications  and  cancellations,  the  alerts  generated  by  their 
+monitoring systems and the modifications made to their filtering process.  
+
+ 
+
+Article 22  
+
+(Article 17(5) of Directive 2014/65/EU) 
+
+Due diligence on prospective DEA clients  
+
+EN 
+
+219 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+1. 
+Investment  firms  offering  DEA  shall  conduct  due  diligence  on  their  prospective  DEA 
+clients  to  ensure they meet  the  requirements set  out  in  this Regulation  and the standards set 
+out by the trading venue to which they offer access to.  
+
+2.  Due diligence shall cover at least:  
+
+(a)  governance and ownership structure;  
+
+(b)  types of strategies to be undertaken by the prospective DEA client;  
+
+(c)  operational  set-up,  systems  and  pre-trade  and  post-trade  controls  of  the  prospective 
+DEA client. Where the DEA provider allows clients to use third-party trading software 
+for accessing trading venues it shall ensure that the software includes pre-trade controls 
+at least equivalent to the pre-trade controls set out in this Regulation;  
+
+(d)  allocation of responsibilities for dealing with actions and errors;  
+
+(e)  the historical trading pattern and behaviour of the prospective DEA client;  
+
+(f)  an assessment of the level of expected trading and order volume of the prospective DEA 
+
+client; 
+
+(g)  the ability of the prospective DEA client to meet their financial obligations to the firm; 
+
+(h)  the disciplinary history of the prospective DEA client, where available.  
+
+3.  Where  a  DEA  provider  allows  a  client  to  sub-delegate  the  access  it  receives  to  its  own 
+clients,  the  DEA  provider  shall  ensure  that  its  prospective  DEA  client  has  a  due  diligence 
+framework in place at least equivalent to the one described in this Article.  
+
+ 
+
+Article 23 
+
+(Article 17(5) of Directive 2014/65/EU) 
+
+Periodical review of DEA clients 
+
+1.  DEA  providers  shall  review  their  due  diligence  assessment  processes  at  least  on  an 
+annual basis. 
+
+2.  DEA providers shall carry out an annual risk-based reassessment of the adequacy of their 
+clients’ systems and controls, in particular taking into account changes to the scale, nature or 
+complexity  of  their  trading  activities  or  strategies,  or  changes  to  their  staffing,  ownership 
+structure, trading or bank account, regulatory status, or financial position or whether the DEA 
+client will sub-delegate the access it receives from the DEA provider.  
+
+ 
+
+EN 
+
+220 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+CHAPTER IV 
+
+FIRMS ACTING AS GENERAL CLEARING MEMBERS 
+
+Article 24  
+
+(Article 17(6) of Directive 2014/65/EU) 
+
+Systems and controls of firms acting as general clearing members  
+
+Any systems used by clearing firms to support the provision of their clearing services to their 
+clients shall be subject to appropriate due diligence, controls, and monitoring.  
+
+ 
+
+Article 25  
+
+(Article 17(6) of Directive 2014/65/EU) 
+
+Due diligence on clients 
+
+1.  Clearing  firms  shall  make  an  initial  assessment  of  any  prospective  clearing  client 
+according  to  the  nature,  scale  and  complexity  of  the  prospective  client’s  business.  Each 
+potential client shall be assessed against at least the following criteria:  
+
+(a)  credit strength including consideration of any guarantees;  
+
+(b)  internal risk control systems;  
+
+(c)  intended trading strategy;  
+
+(d)  payment  systems  and  arrangements  that  enable  clients  to  ensure  a  timely  transfer  of 
+assets or cash as margin required by the clearing firm in relation to the clearing services 
+it provides;  
+
+(e)  systems setting and/or access to information that helps clients to respect any maximum 
+
+trading limit agreed with the clearing firm;  
+
+(f)  any collateral provided to the clearing firm by the client;  
+
+(g)  operational resources including technological interfaces and connectivity;  
+
+(h)  any  involvement  in  breach  of  financial  markets  integrity,  including  market  abuse, 
+
+financial crime and money laundering activities, where available.  
+
+2.  Clearing firms shall review their clients’ on-going performance against the criteria listed 
+above, and any additional criteria that the clearing firm has imposed, on an annual basis. The 
+binding  written  agreement  between  the  clearing  firm  and  its  clients  shall  include  the  above 
+criteria,  including  the  frequency  at  which  the  clearing  firm  will  review  its  clients’ 
+performance against these criteria and the consequences of clients not complying with them.  
+
+EN 
+
+221 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+Article 26  
+
+(Article 17(6) of Directive 2014/65/EU) 
+
+Position limits  
+
+1.  Clearing firms shall set and communicate appropriate trading and position limits to their 
+clients in order to mitigate and manage their own counterparty, liquidity, operational and any 
+other risks.  
+
+2.  Clearing firms  shall monitor their clients’ positions against these limits  as close to  real-
+time basis as possible and have appropriate pre-trade and post-trade procedures for managing 
+the risk of breaches, by way of appropriate margining practice and other means.  
+
+3.  Clearing  firms  shall  document  such  procedures  in  writing  and  maintain  records  of  their 
+compliance.  
+
+ 
+
+Article 27  
+
+(Article 17(6) of Directive 2014/65/EU) 
+
+Disclosure of information about the services provided 
+
+1.  Clearing  firms  shall  publicly  disclose  their  general  policy  concerning  conditions 
+applicable to clients to whom clearing services are offered.  
+
+2.  Clearing  firms  shall  publicly  disclose  the  levels  of  protection  and  the  costs  associated 
+with  the  different  levels  of  segregation  that  they  provide  and  shall  offer  those  services  on 
+reasonable  commercial  terms.  Details  of  the  different  levels  of  segregation  shall  include  a 
+description  of  the  main  legal  implications  of  the  respective  levels  of  segregation  offered 
+including information on the insolvency law applicable in the relevant jurisdiction.  
+
+ 
+
+CHAPTER V 
+
+HIGH-FREQUENCY ALGORITHMIC TRADING TECHNIQUE AND FINAL 
+
+PROVISIONS 
+
+Article 28 
+
+(Article 17(2) of Directive 2014/65/EU) 
+
+Content and format of order records 
+
+1. 
+Investment  firms  that  engage  in  a  high-frequency  algorithmic  trading  technique  shall 
+immediately record the details of each placed order set out in the second and third column of 
+tables 2 and 3 of Annex II insofar as they pertain to the order concerned. 
+
+EN 
+
+222 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+2. 
+Investment  firms  that  engage  in  a  high-frequency  algorithmic  trading  technique  shall 
+maintain the information referred to in paragraph 1 in the standards and formats specified in 
+the fourth column of tables 2 and 3 of Annex II. 
+
+ 
+
+Article 29 
+
+(Article 17(2) of Directive 2014/65/EU) 
+
+Time limits 
+
+Investment firms that engage in a high-frequency algorithmic trading technique shall keep the 
+records  required  as  set  out  in  Article  28  for  a  period  of  five  years  as  from  the  date  of  their 
+submission to a trading venue or to another investment firm for execution.  
+
+ 
+
+Article 30 
+
+Entry into force and application 
+
+This Regulation shall enter into force on the twentieth day following that of its publication in 
+the Official Journal of the European Union. 
+
+It shall apply from 3 January 2017.  
+
+ 
+
+This Regulation shall be binding in its entirety and directly applicable in all Member States. 
+
+Done at Brussels,  
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+For the Commission 
+The President 
+ 
+
+[For the Commission 
+On behalf of the President 
+ 
+[Position] 
+
+EN 
+
+223 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Annex  I:  Parameters  to  be  considered  in  the  investment  firm’s 
+self-assessment  
+
+1.  When considering the nature of its business, an investment firm shall consider at least the 
+following, where applicable: 
+
+(a)  the regulatory status of the firm and, where applicable of its DEA clients, including the 
+regulatory  requirements  to  which  it  is  subject  as  an  investment  firm  under  Directive 
+2014/65/EU, and to other regulatory requirements as relevant; 
+
+(b)  the  firm’s  roles  in  the  market  including  whether  it  is  a  market  maker,  whether  it 
+
+executes orders for clients, or whether it only trades on own account; 
+
+(c)  the level of automation of trading and other processes or activities of the firm; 
+
+(d)  the  types  and  regulatory  status  of  the  instruments,  products  and  asset  classes  that  the 
+
+firm trades in; 
+
+(e)  the  types  of  strategies  the  firm  employs  and  the  risks  contained  in  these  strategies  for 
+the firm’s own risk management and for the fair and orderly functioning of the markets ; 
+the firm shall consider in particular the nature of these strategies, such as market making 
+or arbitrage, and whether these strategies are long-term, short-term, directional, or non-
+directional; 
+
+(f)  the latency sensitivity of the firm’s strategies and trading activities; 
+
+(g)  the type and regulatory status of trading venues and other liquidity pools accessed and 
+
+in particular whether they are lit, dark, over-the-counter (OTC) trading; 
+
+(h)  the  connectivity  solutions  of  the  firm  and  whether  it  accesses  trading  venues  as  a 
+
+member, as a DEA client or DEA provider; 
+
+(i) 
+
+the extent to which the firm relies on third parties for the development and maintenance 
+of its algorithms or trading systems and whether these algorithms or trading systems are 
+self-developed, co-developed with a third party, or purchased from, or outsourced to, a 
+third party; 
+
+(j) 
+
+the firm’s ownership and governance structure, how it is structured organisationally and 
+operationally,  and  whether  it  is  a  partnership,  subsidiary,  publicly  traded  company,  or 
+otherwise; 
+
+(k)  the firm’s risk management, compliance, and audit structure and organisation; and, 
+
+EN 
+
+ 
+
+224 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+(l) 
+
+the  date  of  establishement  of  the  firm  and  level  of  experience  and  competency  of  its 
+personnel and  whether it is a start-up or an incumbent. 
+
+2.  When considering the scale of its business, an investment firm shall consider at least the 
+following, where applicable:  
+
+(a)  the number of algorithms and strategies running in parallel; 
+
+(b)  the number of individual instruments, products, and asset classes traded; 
+
+(c)  the number of trading desks operated and individual trading identifiers used; 
+
+(d)  the  messaging  volume  capacities  and  in  particular  the  number  of  orders  submitted, 
+
+adjusted, cancelled and executed; 
+
+(e)  the monetary value of its gross and net positions intraday and overnight; 
+
+(f)  the number of markets accessed either as a member or participant or via DEA; 
+
+(g)  the number and size of the firm’s clients  and notably the firm’s DEA clients; 
+
+(h)  the number of co-location or proximity hosting sites to which the firm has connectivity; 
+
+(i) 
+
+the throughput size of connectivity infrastructure of the firm; 
+
+(j) 
+
+the number of clearing members or CCP memberships of the firm; 
+
+(k)  the firm’s size in terms of number of traders and front-office, middle-office and back-
+
+office staff employed as full-time equivalent; 
+
+(l) 
+
+the number of the firm’s physical locations; 
+
+(m) the number of countries and regions in which the firm is undertaking trading activities; 
+
+(n)  the firm’s annual earnings and profits.  
+
+3.  When  considering  the  complexity  of  its  business,  an  investment  firm  shall  consider  at 
+least the following, where applicable:  
+
+(a)  the  nature  of  the  strategies  carried  out  by  the  firm  or  by  its  clients,  to  the  extent  that 
+these strategies are known by the firm and, in particular, whether these strategies imply 
+algorithms  initiating  orders  related  to  correlated  instruments  or  on  several  trading 
+venues or liquidity pools; 
+
+(b)  the firm’s algorithms, in terms of coding, inputs upon which the algorithms are reliant, 
+
+interdependencies, and the rule exceptions contained in the algorithms, or otherwise; 
+
+EN 
+
+ 
+
+225 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(c)  the  firm’s  trading  systems  in  terms  of  diversity  of  trading  systems  employed,  and  the 
+extent to which the firm’s has control over setting, adjusting, testing, and reviewing of 
+its trading systems; 
+
+(d)  the  structure  of  the  firm  in  terms  of  ownership  and  governance  and  its  organisational, 
+
+operational, technical, physical, or geographical set up; 
+
+(e)  the diversity of the firm’s connectivity, technology or clearing solutions;  
+
+(f)  the diversity of the firm’s physical trading infrastructures;  
+
+(g)  the level of outsourcing undertaken or offered by the firm and in particular where key 
+
+functions are being outsourced; 
+
+(h)  the firm’s provision or usage of DEA, whether it is DMA or sponsored access, and the 
+
+conditions under which DEA is offered to clients; and, 
+
+(i) 
+
+the speed of trading by the firm or its clients. 
+
+ 
+
+EN 
+
+ 
+
+226 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Annex II: Content and format of order records  
+
+Table 1 
+
+Legend for Tables 2 and 3 
+
+SYMBOL 
+
+DATA TYPE  DEFINITION 
+
+{ALPHANUM-
+n}  
+
+{CURRENCYC
+ODE_3} 
+
+{DATE_TIME_
+FORMAT} 
+
+Up to n 
+alphanumerical 
+characters 
+
+3 
+alphanumerical 
+characters 
+
+ISO 8601 date 
+and time 
+format 
+
+{DECIMAL-
+n/m} 
+
+{INTEGER-n} 
+
+{ISIN} 
+
+Decimal 
+number of up 
+to n digits in 
+total of which 
+up to m digits 
+can be fraction 
+digits 
+
+Integer number 
+of up to n 
+digits in total 
+
+12 
+alphanumerical 
+characters 
+
+Free text field. 
+
+3 letter currency code, as defined by ISO 4217 currency 
+codes 
+
+Date and time in the following format:  
+YYYY-MM-DDThh:mm:ss.ddddddZ.  
+
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+
+‘YYYY’ is the year; 
+‘MM’ is the month; 
+‘DD’ is the day; 
+‘T’ – means that the letter ‘T’ shall be used 
+‘hh’ is the hour; 
+‘mm’ is the minute; 
+‘ss.dddddd’ is the second and its fraction of a 
+second; 
+
+-  Z is UTC time.  
+
+Dates and times shall be reported in UTC. 
+
+Numerical field for both positive and negative values. 
+
+-  decimal separator is '.' (full stop);  
+-  negative numbers are prefixed with '-' (minus); 
+-  values are rounded and not truncated. 
+
+Numerical field for both positive and negative integer 
+values. 
+
+ISIN code as defined in ISO 6166 
+
+EN 
+
+ 
+
+227 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+{LEI} 
+
+{MIC} 
+
+Legal entity identifier as defined in ISO 17442 
+
+Market identifier as defined in ISO 10383 
+
+20 
+alphanumerical 
+characters 
+
+4 
+alphanumerical 
+characters 
+
+{NATIONAL_I
+D} 
+
+40 
+alphanumerical 
+characters 
+
+The ID is that set out in Article 6 and ANNEX II of [RTS 
+22 on transaction reporting obligations under Article 26 
+of Regulation (EU) No 600/2014]. 
+
+ 
+
+ 
+
+ 
+
+EN 
+
+ 
+
+228 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Information relating to every initial decision to deal and incoming orders from clients 
+
+Table 2 
+
+N. 
+1 
+
+Field 
+Client first name (s) 
+
+2 
+
+Client surname (s) 
+
+3 
+
+Client identification 
+code  
+ 
+
+4 
+
+5 
+
+6 
+
+Name(s) of person 
+acting on behalf of the 
+client 
+
+Surname(s) of person 
+acting on behalf of the 
+client 
+
+Investment decision 
+within firm 
+
+EN 
+
+ 
+
+Description 
+Full first name(s) of the client. In case of 
+more than one first name, all names shall 
+be included in this field separated by a 
+comma. 
+This field shall be left blank in case of 
+coverage by the Legal Entity Identifier 
+(LEI) 
+ Full surname(s) of the client. In case of 
+more than one surname, all surnames 
+shall be included in this field separated 
+by a comma. 
+This field shall be left blank in case of 
+coverage by the Legal Entity Identifier 
+(LEI) 
+Code used to identify the client of the 
+investment firm. In case of DEA, the 
+code of the DEA user shall be used. 
+Where the client is a legal entity, the LEI 
+code of the client shall be used. 
+Where the client is not a legal entity, the 
+{NATIONAL_ID} shall be used. 
+In the case of aggregated orders, the flag 
+AGGR as specified in Article 2(3) of 
+[RTS 24 on maintenance of relevant data 
+relating to orders in financial instruments 
+under article 25(2) of Regulation (EU) 
+No 600/2014] shall be used 
+In case of pending allocations, the flag 
+PNAL as specified in Article 2(2) of 
+[RTS 24 on maintenance of relevant data 
+relating to orders in financial instruments 
+under article 25(2) of Regulation (EU) 
+No 600/2014] shall be used.  
+This field shall be left blank only if the 
+investment firm has no client. 
+This field shall contain the full first 
+name(s) of the person acting on behalf of 
+the client. 
+In case of more than 1 first name, all 
+names shall be included in this field 
+separated by a comma. 
+This field shall contain the full 
+surname(s) of the person acting on 
+behalf of the client. In case of more than 
+1 surname, all surnames shall be 
+included in this field separated by a 
+comma. 
+Code used to identify the person or the 
+algorithm within the investment firm 
+who is responsible for the investment 
+
+229 
+
+EN 
+
+Standards and Format 
+{ALPHANUM-140} 
+
+{ALPHANUM-140} 
+
+{LEI} 
+{NATIONAL_ID} 
+‘AGGR’ – aggregated orders 
+‘PNAL’ – pending allocations  
+
+{ALPHANUM-140} 
+
+{ALPHANUM-140} 
+
+{NATIONAL_ID} - Natural 
+persons 
+{ALPHANUM-50} - Algorithms 
+
+ 
+ 
+
+ 
+
+ 
+
+7 
+
+Initial order 
+designation 
+
+8 
+
+Buy-Sell indicator 
+
+EN 
+
+ 
+
+decision in accordance with Article 8 of 
+[RTS 22 on transaction reporting under 
+Article 26 of Regulation (EU) No 
+600/2014.].  
+Where a natural person was responsible 
+for the investment decision the person 
+who was responsible or had primary 
+responsibility for the investment 
+decision shall be identified with the 
+{NATIONAL_ID} 
+Where an algorithm was responsible for 
+the investment decision the field shall be 
+populated as set out in Article 8(3) of 
+[RTS 22 on transaction reporting under 
+Article 26 of of Regulation (EU) No 
+600/2014]. . 
+This field shall be left blank when the 
+investment decision was not made by a 
+person or an algorithm within the 
+investment firm. 
+Code used to identify the order that was 
+received from the client or generated by 
+the investment firm before the order is 
+processed and submitted to the trading 
+venue or investment firm. 
+To show if the order is to buy or sell. 
+In case of options and swaptions, the 
+buyer shall be the counterparty that 
+holds the right to exercise the option and 
+the seller shall be the counterparty that 
+sells the option and receives a premium. 
+In case of futures and forwards other 
+than futures and forwards relating to 
+currencies, the buyer shall be the 
+counterparty buying the instrument and 
+the seller the counterparty selling the 
+instrument. 
+In the case of swaps relating to 
+securities, the buyer shall be the 
+counterparty that gets the risk of price 
+movement of the underlying security and 
+receives the security amount. The seller 
+shall be the counterparty paying the 
+security amount. 
+In the case of swaps related to interest 
+rates or inflation indices, the buyer shall 
+be the counterparty paying the fixed rate. 
+The seller shall be the counterparty 
+receiving the fixed rate. In case of basis 
+swaps (float-to-float interest rate swaps), 
+the buyer shall be the counterparty that 
+pays the spread and the seller the 
+counterparty that receives the spread. 
+In the case of swaps and forwards related 
+to currencies and of cross currency 
+swaps, the buyer shall be the 
+
+230 
+
+EN 
+
+{ALPHANUM-50} 
+
+‘BUYI’ – buy 
+‘SELL’ – sell  
+
+ 
+ 
+
+ 
+
+ 
+
+9 
+
+10 
+
+Financial instrument 
+identification code  
+Price  
+
+EN 
+
+ 
+
+counterparty receiving the currency 
+which is first when sorted alphabetically 
+by ISO 4217 standard and the seller shall 
+be the counterparty delivering this 
+currency. 
+In the case of swap related to dividends, 
+the buyer shall be the counterparty 
+receiving the equivalent actual dividend 
+payments. The seller is the counterparty 
+paying the dividend and receiving the 
+fixed rate. 
+In the case of derivative instruments for 
+the transfer of credit risk except options 
+and swaptions, the buyer shall be the 
+counterparty buying the protection. The 
+seller is the counterparty selling the 
+protection. 
+In case of derivative contracts related to 
+commodities, the buyer shall be the 
+counterparty that receives the 
+commodity specified in the report and 
+the seller the counterparty delivering this 
+commodity. 
+In case of forward rate agreements, the 
+buyer shall be the counterparty paying 
+the fixed rate and the seller the 
+counterparty receiving the fixed rate 
+For an increase in notional the buyer 
+shall be the same as the acquirer of the 
+financial instrument in the original 
+transaction and the seller shall be the 
+same as the disposer of the financial 
+instrument in the original transaction.  
+For a decrease in notional the buyer shall 
+be the same as the disposer of the 
+financial instrument in the original 
+transaction and the seller shall be the 
+same as the acquirer of the financial 
+instrument in the original transaction. 
+ 
+Unique and unambiguous identifier of 
+the financial instrument 
+Limit price of the order excluding, where 
+applicable, commission and accrued 
+interest. 
+For stop orders, this shall be the stop 
+price for the order. 
+In the case of option contracts, it is the 
+premium of the derivative contract per 
+underlying security or index point. 
+In the case of spread bets it shall be the 
+reference price of the direct underlying 
+instrument. 
+For credit default swaps, it shall be the 
+coupon in basis points.  
+Where price reported in monetary terms, 
+
+231 
+
+EN 
+
+{ISIN} 
+
+{DECIMAL-18/13} in case the 
+price is expressed as monetary 
+value value 
+{DECIMAL-11/10} in case the 
+price is expressed as percentage 
+or yield 
+’PNDG’ in case the price is not 
+available 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+11 
+
+Price notation 
+
+12 
+
+Price multiplier 
+
+13 
+
+Price currency  
+
+ 
+
+14 
+
+Currency of leg 2 
+
+15 
+
+Underlying instrument 
+code 
+
+EN 
+
+ 
+
+it shall be provided in the major currency 
+unit. 
+Where price is not applicable the field 
+shall be left blank. 
+Where price is currently not available 
+but pending, the value shall be ’PNDG’. 
+If the agreed price is zero a price of zero 
+shall be used. 
+Where applicable, values shall not be 
+rounded or truncated 
+Indication as to whether the price and the 
+strike price is expressed in monetary 
+value, in percentage or in yield. 
+Number of units of the underlying 
+instruments represented by a single 
+derivative contract.  
+Monetary value covered by a single 
+swap contract where the quantity field 
+indicates the number of swap contracts 
+in the transaction. For a future or option 
+on an index, the amount per index point.  
+For spreadbets the movement in the 
+price of the underlying instrument on 
+which the spreadbet is based.  
+The information reported in this field 
+shall be consistent with the values 
+provided in fields 10 and 26. 
+Currency in which the price for the 
+financial instrument related to the order 
+is expressed (applicable if the price is 
+expressed as monetary value). 
+In the case of multi-currency or cross-
+currency swaps the currency in which 
+leg 2 of the contract is denominated. 
+For swaptions where the underlying 
+swap is multi-currency, the currency in 
+which leg 2 of the swap is denominated. 
+This field is only applicable to interest 
+rate and currency derivatives contracts 
+ISIN code of the underlying instrument. 
+For ADRs, GDRs and similar 
+instruments, the {ISIN} of the financial 
+instrument on which the instruments is 
+based. 
+For Convertible bonds, the {ISIN} of the 
+instrument into which the bond can be 
+converted. 
+For derivatives or other instruments 
+which have an underlying, the ISIN code 
+for the underlying instrument, when the 
+underlying is admitted to trading, or 
+traded on a trading venue. Where the 
+underlying is a stock dividend, then ISIN 
+code of the related share entitling the 
+underlying dividend. 
+For Credit Default Swaps, the ISIN of 
+
+232 
+
+EN 
+
+‘MONE’ – Monetary value 
+‘PERC’ – Percentage 
+‘YIEL’ – Yield 
+{DECIMAL- 18/17} 
+‘1’ - If non-derivative financial 
+instruments not traded by 
+contracts. 
+
+{CURRENCYCODE_3} 
+
+{CURRENCYCODE_3} 
+
+{ISIN}  
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+16 
+
+Option type  
+
+17 
+
+Strike price 
+
+18 
+19 
+
+Strike price currency 
+Up-front payment 
+
+EN 
+
+ 
+
+the reference obligation shall be 
+provided.  
+In case the underlying is an Index and 
+has an ISIN, the ISIN code for that 
+index. 
+When the underlying is a basket, include 
+all the ISINs for each constituent of the 
+basket that is admitted to trading or is 
+traded on a trading venue. This field 
+shall be repeated as many times as 
+necessary to list all instruments in the 
+basket. 
+Indication as to whether the derivative 
+contract is a call (right to purchase a 
+specific underlying asset) or a put (right 
+to sell a specific underlying asset) or 
+whether it cannot be determined whether 
+it is a call or a put at the time the order is 
+placed. In case of swaptions it shall be: 
+- “PUTO”, in case of receiver swaption, 
+in which the buyer has the right to enter 
+into a swap as a fixed-rate receiver. 
+-“CALL”, in case of payer swaption, in 
+which the buyer has the right to enter 
+into a swap as a fixed-rate payer.  
+In case of Caps and Floors it shall be: 
+-“PUTO”, in case of a Floor. 
+-“CALL”, in case of a Cap.  
+Field only applies to derivatives that are 
+options or warrants. 
+Predetermined price at which the holder 
+will have to buy or sell the underlying 
+instrument or an indication that the price 
+cannot be determined at the time the 
+order is placed. 
+Field only applies to an option or 
+warrant where strike price can be 
+determined at the time the order is 
+placed. 
+Where strike price is not applicable the 
+field shall not be populated. 
+ 
+Currency of the Strike Price 
+Monetary value of any up-front payment 
+in basis points of notional received or 
+paid by the seller. 
+Where the seller receives the up-front 
+payment, the value populated is positive. 
+Where the seller pays the up-front 
+payment, the value populated is 
+negative. 
+For an increase or decrease of notional in 
+derivative contracts, the number shall 
+reflect the absolute value of the change 
+and shall be expressed as a positive 
+number. 
+
+233 
+
+EN 
+
+'PUTO' – Put 
+'CALL' – Call 
+‘OTHR’ – where it cannot be 
+determined whether it is a call or 
+a put  
+ 
+
+{DECIMAL-18/13} in case the 
+price is expressed as monetary 
+value. 
+{DECIMAL-11/10} in case the 
+price is expressed as percentage 
+or yield. 
+’PNDG’ in case the price is not 
+available 
+ 
+
+{CURRENCYCODE_3} 
+{DECIMAL-18/5} 
+
+ 
+ 
+
+ 
+
+ 
+
+20 
+
+Delivery type 
+
+21 
+
+Option exercise style 
+ 
+
+22 
+
+Maturity date 
+
+23 
+
+Expiry date 
+
+24 
+
+Quantity currency 
+
+25 
+
+Quantity notation 
+
+26 
+
+Initial quantity 
+
+27 
+
+Date and time 
+
+EN 
+
+ 
+
+‘PHYS’ - Physically settled 
+‘CASH’ - Cash settled 
+‘OPTL’ - Optional for 
+counterparty or when determined 
+by a third party 
+
+‘EURO’ - European 
+‘AMER’ - American 
+‘ASIA’ - Asian 
+‘BERM’ - Bermudan 
+‘OTHR’ - Any other type 
+
+{DATEFORMAT} 
+
+{DATEFORMAT} 
+
+{CURRENCYCODE_3} 
+
+ ‘UNIT’ - Number of units 
+‘NOML’ - Nominal value 
+‘MONE’ - Monetary or nominal 
+value 
+{DECIMAL-18/17} in case the 
+quantity is expressed as number 
+of units 
+{DECIMAL-18/5} in case the 
+quantity is expressed as monetary 
+or nominal value 
+
+{DATE_TIME_FORMAT} 
+ 
+The number of digits after the 
+‘seconds’ shall be determined in 
+accordance with Table 2 in the 
+Annex of the [RTS 25 on clock 
+synchronisation under article 50 
+of Directive 2014/65/EU]. 
+
+Indication as to whether the transaction 
+is settled physically or in cash. 
+Where delivery type cannot be 
+determined at time of order placement, 
+the value shall be ’OPTL’. 
+The field is only applicable for 
+derivatives. 
+Indication as to whether the option may 
+be exercised only at a fixed date 
+(European, and Asian style), a series of 
+pre-specified dates (Bermudan) or at any 
+time during the life of the contract 
+(American style).  
+ 
+This field is only applicable for options 
+Date of maturity of the financial 
+instrument.  
+Field only applies to debt instruments 
+with defined maturity. 
+Expiry date of the reported financial 
+instrument. Field only applies to 
+derivatives with defined expiry date. 
+Currency in which the quantity is 
+expressed. 
+Only applicable if quantity is expressed 
+as nominal or monetary value. 
+Indication as to whether the quantity 
+reported is expressed in number of units, 
+in nominal value or in monetary value. 
+ 
+The number of units of the financial 
+instrument, or the number of derivative 
+contracts in the order. 
+The nominal or monetary value of the 
+financial instrument. 
+For spread bets, the quantity shall be the 
+monetary value wagered per point 
+movement in the underlying financial 
+instrument. 
+For increase or decrease in notional 
+derivative contracts, the number shall 
+reflect the absolute value of the change 
+and shall be expressed as a positive 
+number. 
+For credit default swaps, the quantity 
+shall be the notional amount for which 
+the protection is acquired or disposed of. 
+The exact date and time of the receipt of 
+the order or the exact date and time 
+when the decision to deal was made. 
+This field shall be maintained in 
+accordance with Article 3 and table 2 in 
+the Annex of the [RTS 25 on clock 
+synchronisation under article 50 of 
+Directive 2014/65/EU].  
+ 
+
+234 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+28 
+
+ 
+
+Additional information 
+from the client 
+
+Any instructions, parameters, conditions 
+and any other details of the order that 
+was transmitted by the client to the 
+investment firm. 
+
+Free text 
+
+ 
+
+ 
+
+EN 
+
+ 
+
+235 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+Table 3 
+
+Information relating to outgoing and executed orders 
+
+Format 
+‘BUYI’ – buy 
+‘SELL’ – sell  
+
+‘DEAL’ - Dealing on own 
+account 
+‘MTCH’ - Matched 
+principal 
+‘AOTC’ - Any other 
+capacity 
+
+'true' 
+'false' 
+
+{NATIONAL_ID} - 
+Natural persons 
+{ALPHANUM-50} - 
+Algorithms 
+
+N.  Field/Content 
+1 
+
+Description 
+
+Buy-Sell indicator   To show if the order is to buy or sell 
+
+2 
+
+The trading 
+capacity 
+
+3 
+
+Liquidity provision 
+activity 
+
+4 
+
+Execution within 
+firm 
+
+as determined in the description of 
+field 8 of the above table. 
+Indication of whether the order 
+submission result from the member 
+or participant or client of the trading 
+venue carrying out matched principal 
+trading under Article 4(38) of 
+Directive 2014/65/EU or dealing on 
+own account under Article 4(6) of 
+Directive 2014/65/EU.  
+Where the order submission does not 
+result from the member, participants 
+or client of the trading venue 
+carrying out matched principal 
+trading or dealing on own account, 
+the field shall indicate that the 
+transaction was carried out under any 
+other capacity. 
+Indication as to whether an order is 
+submitted to a trading venue as part 
+of a market making strategy pursuant 
+to Articles 17 and 48 of Directive 
+2014/65/EU or other activity carried 
+out on the basis of terms which have 
+been pre-determined by the issuer of 
+the instrument which is the subject of 
+the order or by the trading venue to 
+which the order is submitted. 
+Code used to identify the person or 
+algorithm within the investment firm 
+who is responsible for the execution 
+of the transaction resulting from the 
+order in accordance with Article 10 
+of RTS on reporting obligations 
+under Article 26 of MiFIR. 
+Where a natural person is responsible 
+for the execution of the transaction, 
+the person shall be identified by 
+{NATIONAL_ID} 
+Where an algorithm is responsible 
+for the execution of the transaction, 
+
+EN 
+
+ 
+
+236 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+5 
+
+6 
+
+7 
+
+The identification 
+code of the order 
+submitted to the 
+trading venue or 
+another investment 
+firm 
+The identification 
+code of the order 
+assigned by another 
+investment firm or 
+trading venue to 
+whom the order 
+was submitted 
+Order receiver 
+identification code 
+
+8 
+
+Order type  
+
+9 
+
+Limit price 
+
+this field shall be populated in 
+accordance with Article 10(3) of 
+RTS on reporting obligations under 
+Article 26 of MiFIR. 
+Where more than one person or a 
+combination of persons and 
+algorithms are involved in the 
+execution of the transaction the firm 
+shall determine the trader or 
+algorithm primarily responsible as 
+specified in Article 10(4) of RTS on 
+reporting obligations under Article 
+26 of MiFIR and populate this field 
+with the identity of that trader or 
+algorithm. 
+This field shall only be applicable for 
+executed orders. 
+Internal code used by the investment 
+firm to identify the order submitted 
+to the trading venues or other 
+investment firm provided that it is 
+unique per trading day and per 
+financial instrument 
+Where the investment firm submits 
+the order to another investment firm 
+or trading venue for execution, this 
+field shall be populated with the 
+identification code assigned by the 
+latter investment firm or trading 
+venue upon receipt of the order. 
+The code of the investment firm to 
+whom the order was transmitted or 
+code of the trading venue to whom 
+the order was transmitted. 
+Identification of the type of order 
+submitted to the trading venue as per 
+the trading venue specifications. 
+The maximum price at which a buy 
+order can trade or the minimum price 
+at which a sell order can trade. 
+The spread price for a strategy order. 
+It can be negative or positive.  
+For orders that do not have a limit 
+price or for any unpriced orders this 
+field shall be left blank. 
+In case of a convertible bond the real 
+
+{ALPHANUM-50} 
+
+{ALPHANUM-50} 
+
+For investment firm: 
+{LEI} 
+For trading venue:{MIC} 
+
+{ALPHANUM-50} 
+
+{DECIMAL-18/13} in 
+case the price is expressed 
+as monetary value. 
+Where price reported in 
+monetary terms, it shall be 
+provided in the major 
+currency unit. 
+{DECIMAL-11/10} in 
+case the price is expressed 
+
+EN 
+
+ 
+
+237 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+10  Price Currency 
+
+11  Price notation 
+
+12  Additional limit 
+
+price 
+
+13  Stop price 
+
+14  Pegged limit price 
+
+price (clean or dirty) used for the 
+order shall be reflected in this field. 
+If an order is executed, the 
+investment firm shall also record the 
+price at which the transaction was 
+executed at. 
+Currency in which the trading price 
+is expressed (applicable if the price 
+is expressed as monetary value) for 
+the financial instrument related to the 
+order. 
+Indication as to whether the price 
+and strike price is expressed in 
+monetary value, in percentage or in 
+yield.  
+Any other limit price which may 
+apply to the order. This field shall be 
+left blank if not relevant. 
+
+The price that must be reached for 
+the order to become active. 
+For stop orders triggered by events 
+independent of the price of the 
+financial instrument, this field shall 
+be populated with a stop price equal 
+to zero.  
+This field shall be left blank if not 
+relevant. 
+
+The maximum price at which a 
+pegged order to buy can trade or the 
+minimum price at which a pegged 
+order to sell can trade. 
+This field shall be left blank if not 
+relevant. 
+
+as a percentage or yield. 
+
+{CURRENCYCODE_3} 
+
+‘MONE’ – Monetary 
+value 
+‘PERC’ – Percentage 
+‘YIEL’ – Yield 
+{DECIMAL-18/13} in 
+case the price is expressed 
+as monetary value. 
+Where price reported in 
+monetary terms, it shall be 
+provided in the major 
+currency unit. 
+ 
+{DECIMAL-11/10} in 
+case the price is expressed 
+as a percentage or yield. 
+{DECIMAL-18/13} in 
+case the price is expressed 
+as monetary value. 
+Where price reported in 
+monetary terms, it shall be 
+provided in the major 
+currency unit. 
+ 
+{DECIMAL-11/10} in 
+case the price is expressed 
+as a percentage or yield. 
+{DECIMAL-18/13} in 
+case the price is expressed 
+as monetary value. 
+Where price reported in 
+monetary terms, it shall be 
+provided in the major 
+currency unit. 
+ 
+{DECIMAL-11/10} in 
+
+EN 
+
+ 
+
+238 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+15  Remaining quantity 
+
+including hidden 
+
+The total quantity that remains in the 
+order book after a partial execution 
+or any other event affecting the 
+order.  
+On a partial fill order event this is the 
+total remaining volume after that 
+partial execution. On an order entry 
+this will equal the initial quantity. 
+
+16  Displayed quantity  The quantity that is visible (as 
+
+opposed to hidden) in the order book. 
+
+17  Traded quantity  
+
+Where there is a partial or full 
+execution this field shall be 
+populated with the executed quantity. 
+
+18  Minimum 
+
+Acceptable 
+Quantity (MAQ) 
+
+This is the minimum acceptable 
+quantity for an order to be filled 
+which can consist of multiple partial 
+executions and is normally only for 
+non-persistent order types. 
+This field shall be left blank if not 
+relevant. 
+
+19  Minimum 
+
+executable size 
+(MES) 
+
+This is the minimum execution size 
+of any individual potential execution.  
+This field shall be left blank if not 
+relevant. 
+
+20  MES first 
+
+execution only 
+
+Specification as to whether the MES 
+is relevant only for the first 
+execution. 
+Can be left blank if field 19 is not 
+
+EN 
+
+ 
+
+239 
+
+EN 
+
+case the price is expressed 
+as a percentage or yield. 
+{DECIMAL-18/17} in 
+case the quantity is 
+expressed as number of 
+units 
+{DECIMAL-18/13} in 
+case the quantity is 
+expressed as monetary or 
+nominal value 
+{DECIMAL-18/17} in 
+case the quantity is 
+expressed as number of 
+units 
+{DECIMAL-18/13} in 
+case the quantity is 
+expressed as monetary or 
+nominal value 
+{DECIMAL-18/17} in 
+case the quantity is 
+expressed as number of 
+units 
+{DECIMAL-18/13} in 
+case the quantity is 
+expressed as monetary or 
+nominal value 
+ {DECIMAL-18/17} in 
+case the quantity is 
+expressed as number of 
+units 
+{DECIMAL-18/13} in 
+case the quantity is 
+expressed as monetary or 
+nominal value 
+{DECIMAL-18/17} in 
+case the quantity is 
+expressed as number of 
+units 
+{DECIMAL-18/13} in 
+case the quantity is 
+expressed as monetary or 
+nominal value 
+'true' 
+'false' 
+
+ 
+ 
+
+ 
+
+ 
+
+21  Passive only 
+
+indicator 
+
+22  Self-Execution 
+
+Prevention 
+
+23  Date and time 
+(submission of 
+order) 
+
+populated. 
+Indicates if the order is set so that it 
+enters the order book only if it does 
+not result in an immediate execution 
+with any visible volume. 
+This field shall be left blank if not 
+relevant. 
+Indicates if the order has been 
+entered with self-execution 
+prevention criteria so that it would 
+not execute with an order on the 
+opposite side of the book entered by 
+the same member or participant. 
+The exact date and time of the 
+submission of an order to the trading 
+venue or other investment firm. 
+
+24  Date and time 
+
+(receipt of order) 
+
+The exact date and time of any 
+message that is transmitted to and 
+received from the trading venue or 
+other investment firm in relation to 
+the order. 
+
+25  Sequence number 
+
+26  New order, order 
+
+modification, order 
+cancellation, order 
+rejections, partial 
+or full execution 
+
+EN 
+
+ 
+
+Each and every event listed in the 
+field 26 shall be identified by the 
+investment firm using a positive 
+integer that is in ascending order. 
+The sequence number shall be 
+unique to each type of event, be 
+consistent across all events 
+timestamped by the investment firm 
+and be persistent for the date that the 
+event occurs. 
+New order: receipt of a new order by 
+the operator of the trading venue. 
+ 
+Triggered: an order which becomes 
+executable or, as the case may be, 
+
+240 
+
+EN 
+
+'true' 
+'false' 
+
+'true' 
+'false' 
+
+{DATE_TIME_FORMAT
+} 
+The number of digits after 
+the ‘seconds’ shall be 
+determined in accordance 
+with the draft technical 
+standard on clock 
+synchronisation (Table 2 
+of the Annex) 
+{DATE_TIME_FORMAT
+} 
+The number of digits after 
+the ‘seconds’ shall be 
+determined in accordance 
+with the draft technical 
+standard on clock 
+synchronisation (Table 2 
+of the Annex) 
+{INTEGER-50} 
+
+‘NEWO’ – New order 
+ 
+‘TRIG’ – Triggered 
+or 
+‘REME’ - Replaced by the 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+EN 
+
+ 
+
+member or participant or 
+client of the trading venue 
+or 
+‘REMA’ - Replaced by 
+market operations 
+(automatic) 
+or 
+‘REMH’ - Replaced by 
+market operations (human 
+intervention) 
+or 
+‘CHME’ - Change of 
+status at the initiative of 
+the 
+Member/Participant/client 
+of the trading venue 
+or 
+‘CHMO’ - Change of 
+status due to market 
+operations  
+or 
+‘CAME’ - Cancelled at the 
+initiative of the member or 
+participant or client of the 
+trading venue 
+or 
+‘CAMO’ -Cancelled by 
+market operations 
+or 
+‘REMO’ - Rejected order 
+or 
+‘EXPI’ - Expired order 
+or 
+‘PARF’ - Partially filled 
+or 
+‘FILL’ - Filled 
+or 
+{ALPHANUM-4} 
+characters not already in 
+use for the trading venue’s 
+own classification. 
+ 
+
+non-executable upon the realisation 
+of a pre-determined condition. 
+ 
+Replaced by the member or 
+participant or client of the trading 
+venue: where a member or 
+participant or client of the trading 
+venue decides upon its own initiative 
+to change any characteristic(s) of the 
+order it has previously entered into 
+the order book. 
+ 
+Replaced by market operations 
+(automatic): where any 
+characteristic(s) of an order is 
+changed by the trading venue 
+operator’s IT systems. This includes 
+where a peg order’s or a trailing stop 
+order’s current characteristics are 
+changed to reflect how the order is 
+located within the order book. 
+ 
+Replaced by market operations 
+(human intervention): where any 
+characteristic(s) of an order is 
+changed by a trading venue 
+operator’s staff. This includes where 
+a member or participant or client of 
+the trading venue has IT issues and 
+needs its orders to be cancelled 
+urgently. 
+ 
+Change of status at the initiative of 
+the Member/Participant/client of the 
+trading venue. This includes 
+activation, deactivation. 
+ 
+Change of status due to market 
+operations.  
+ 
+Cancelled at the initiative of the 
+member or participant or client of the 
+trading venue; where a member or 
+participant or client decides upon its 
+own initiative to cancel the order it 
+has previously entered. 
+ 
+
+241 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+27  Short selling 
+
+indicator 
+
+28  Waiver indicator 
+
+EN 
+
+ 
+
+Cancelled by market operations. This 
+includes a protection mechanism 
+provided for investment firms 
+carrying out a market making 
+activity as per Articles 17 and 48 of 
+Directive 2014/65/EU. 
+ 
+Rejected order: an order received but 
+rejected by the operator of the 
+trading venue. 
+ 
+Expired order. where the order is 
+removed from the order book upon 
+the end of its validity period. 
+ 
+Partially filled: where the order is not 
+fully executed so that there remains a 
+quantity to be executed. 
+ 
+Filled: where there is no more 
+quantity to be executed. 
+A short sale concluded by an 
+investment firm on its own behalf or 
+on behalf of a client, as described in 
+Article 12 of RTS on reporting 
+obligations under Article 26 of 
+MiFIR. 
+Where the transaction is for a 
+transmitted order that has met the 
+conditions for transmission set out in 
+Article 5 RTS on reporting 
+obligations under Article 26 of 
+MiFIR of this Regulation, this field 
+shall be populated using the 
+information received from the 
+transmitting firm.  
+This field is only applicable when, 
+the instrument is covered by 
+Regulation (EU) 236/2012, and the 
+seller is the investment firm or a 
+client of the investment firm. 
+This field shall only be applicable for 
+executed orders. 
+Indication as to whether the 
+transaction was executed under a 
+pre-trade waiver in accordance with 
+
+242 
+
+EN 
+
+‘SSHO’ - Short sale with 
+no exemption 
+‘SSEX’ - Short sale with 
+exemption 
+‘SELL’ - No short sale 
+
+Populate one or more of 
+the following flags: 
+‘LRGS’ - Large in scale 
+
+ 
+ 
+
+ 
+
+ 
+
+29  Routing Strategy 
+
+30  Trading venue 
+
+transaction 
+identification code  
+
+31  Validity period 
+
+ 
+
+Articles 4 and 9 of Regulation (EU) 
+600/2014. 
+For all instruments: 
+‘LRGS’ = Large in scale 
+For equity instruments: 
+‘RFPT’ = Reference price 
+transaction  
+‘NLIQ’ = Negotiated transactions in 
+liquid financial instruments 
+‘OILQ’ = Negotiated transactions in 
+illiquid financial instruments  
+‘PRIC’ = Negotiated transactions 
+subject to conditions other than the 
+current market price of that equity 
+financial instrument. 
+For non-equity instruments: 
+‘SIZE’ = Above specific size 
+transaction 
+‘ILQD’ = Illiquid instrument 
+transaction 
+This field shall only be applicable for 
+executed orders where the 
+transaction was executed under a 
+waiver on a trading venue. 
+The applicable routing strategy as 
+per the trading venue specification. 
+This field shall be left blank if not 
+relevant. 
+Alphanumerical code assigned by the 
+trading venue to the transaction 
+pursuant to Article 12 of RTS on the 
+maintenance of relevant data relating 
+to orders in financial instruments. 
+This field shall only be applicable for 
+executed orders that were executed 
+on a trading venue. 
+Good-For-Day: the order expires at 
+the end of the trading day on which it 
+was entered in the order book. 
+ 
+Good-Till-Cancelled: the order will 
+remain active in the order book and 
+be executable until it is actually 
+cancelled.  
+ 
+Good-Till-Time: the order expires at 
+
+‘RFPT’ - Reference price 
+‘NLIQ’ - Negotiated 
+(liquid) 
+‘OILQ’ - Negotiated 
+(illiquid) 
+‘PRIC’ - Negotiated 
+(conditions) 
+‘SIZE’ - Above specified 
+size 
+‘ILQD’ - Illiquid 
+instrument 
+
+{ALPHANUM-50} 
+
+{ALPHANUM-52} 
+
+‘DAYV’ – Good-For-Day 
+‘GTCV’ – Good-Till-
+Cancelled  
+‘GTTV’ – Good-Till-Time  
+‘GTDV’ – Good-Till-Date  
+‘GTSV’ – Good-Till-
+Specified Date and Time  
+‘GATV’ – Good After 
+Time  
+‘GADV’ – Good After 
+
+EN 
+
+ 
+
+243 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+32  Order restriction 
+
+EN 
+
+ 
+
+the latest at a pre-determined time 
+within the current trading session.  
+ 
+Good-Till-Date: the order expires at 
+the end of a specified date.  
+ 
+Good-Till-Specified Date and Time: 
+the order expires at a specified date 
+and time.  
+ 
+Good After Time: the order is only 
+active after a pre-determined time 
+within the current trading session. 
+ 
+Good After Date: the order is only 
+active from the beginning of a pre-
+determined date.  
+ 
+Good After Specified Date and 
+Time: the order is only active from a 
+pre-determined time on a pre-
+determined date.  
+ 
+Immediate-Or-Cancel: an order 
+which is executed upon its entering 
+into the order book (for the quantity 
+that can be executed) and which does 
+not remain in the order book for the 
+remaining quantity (if any) that has 
+not been executed. 
+ 
+Fill-Or-Kill: an order which is 
+executed upon its entering into the 
+order book provided that it can be 
+fully filled: in the event the order can 
+only be partially executed, then it is 
+automatically rejected and cannot 
+therefore be executed. 
+ 
+Other: any additional indications that 
+are unique for specific business 
+models, trading platforms or 
+systems. 
+Good For Closing Price Crossing 
+Session: when an order qualifies for 
+the closing price crossing session. 
+Valid For Auction: the order is only 
+
+244 
+
+EN 
+
+Date  
+‘GASV’ – Good After 
+Specified Date and Time  
+‘IOCV’ – Immediate-Or-
+Cancel or  
+‘FOKV’ – Fill-Or-Kill  
+or  
+{ALPHANUM-4} 
+characters not already in 
+use for the trading venue’s 
+own classification. 
+
+‘SESR’ – Good For 
+Closing Price Crossing 
+Session 
+‘VFAR’ – Valid For 
+
+ 
+ 
+
+ 
+
+ 
+
+33  Validity period and 
+
+time 
+
+EN 
+
+ 
+
+Auction  
+‘VFCR’ – Valid For 
+Continuous Trading only  
+{ALPHANUM-4} 
+characters not already in 
+use for the trading venue’s 
+own classification. 
+If multiple types are 
+applicable, this field shall 
+be populated with multiple 
+flags separated by comma. 
+
+{DATE_TIME_FORMAT
+} 
+The number of digits after 
+the ‘seconds’ shall be 
+determined in accordance 
+with table 2 in the annex 
+of the draft technical 
+standard on clock 
+synchronisation (Table 2 
+of the Annex) 
+
+active and can be executed only at 
+auction phases (which can be pre-
+defined by the member or 
+participants or client of the trading 
+venue who submitted the order, e.g. 
+opening and/or closing auctions 
+and/or intraday auction). 
+Valid For Continuous Trading only: 
+the order is only active during 
+continuous trading. 
+Other: any additional indications that 
+are unique for specific business 
+models, trading platforms or 
+systems. 
+ 
+This refers to the time stamp 
+reflecting the time on which the 
+order becomes active or it is 
+ultimately removed from the order 
+book  
+ 
+Good for day: will be the date of 
+entry with the timestamp 
+immediately prior to midnight  
+ 
+Good till time: will be the date of 
+entry and the time to that specified in 
+the order. 
+Good till date: Default will be the 
+specified date of expiry with the 
+timestamp immediately prior to 
+midnight. 
+ 
+Good till specified date and time: 
+will be the specified date and time of 
+expiry 
+ 
+Good after time: will be the date of 
+entry and the specified time at which 
+the order becomes active. 
+ 
+Good after date: will be the specified 
+date with the timestamp immediately 
+after midnight  
+ 
+Good after specified date and time: 
+Default will be the specified date and 
+
+245 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+34  Aggregated order 
+
+35  Additional 
+information 
+relating to the 
+outgoing order 
+ 
+
+‘true’ 
+‘false’ 
+
+Free text 
+ 
+
+time at which the order becomes 
+active. 
+ 
+Good till Cancel: will be the ultimate 
+date and time the order is 
+automatically removed by market 
+operations 
+ 
+Other: timestamp for any additional 
+validity type. 
+Indicates if the order is an 
+aggregated order in accordance with 
+Article 2(3) of RTS on the 
+maintenance of relevant data relating 
+to orders in financial instruments.  
+Any instructions, parameters, 
+conditions and any other details of 
+the order that is: 
+transmitted by the investment firm to 
+the trading venue and in particular 
+those instructions, parameters, 
+conditions and details which are 
+necessary for the trading venue to 
+have a clear understanding of how 
+the order has to be handled by it; and  
+transmitted by the trading venue to 
+the investment firm and in particular 
+those instructions, parameters, 
+conditions and details which are 
+necessary for the investment firm to 
+have a clear feedback information on 
+how the order has been handled. 
+
+ 
+
+ 
+
+ 
+
+EN 
+
+ 
+
+246 
+
+EN 
+
+ 
+ 
+
+ 
+
+ 
+
+ Draft  regulatory  technical  standards  on  organisational 
+ 
