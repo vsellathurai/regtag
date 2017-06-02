@@ -11,11 +11,11 @@ import os
 #os.chdir("F:\\Python docs\\AREG\\test2")
 #from BucketClassifier import BucketClassifier
 #from ProdClassifier import ProdClassifier
-os.chdir("S:\\mikelin\\areg-master")
+os.chdir("C:\\Users\\VickSella\\Desktop\\regtag\\REGTAG-final")
 
 ###############################################################################
 # country directory
-mydir="S:\\mikelin\\REG dump"
+mydir="C:\\Users\\VickSella\\Desktop\\regtag\\REGTAG-final"
 root, country_dir, files = os.walk(mydir).next()
 #country_dir = ["Australia","China","Hong Kong","New Zealand"]
 # loop through country directories
