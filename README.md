@@ -7,6 +7,8 @@ In this example, i have used "Regulatory technical and implementing standards – 
 I have then tried to find cosine similarites between smaller regulatory documents (consultation papers) to see how similar 2 documents are. 
 Given the model has been trained on a larger, more technical paper, the similarities should provide some insight into regualtions that are similar
 to each other.
+
+Please run d2v2docsim.py found in REGTAG-final folder
      
 p.s 
 My sincere apologies that a small part of this is hardcoded and you will run into some issues. After download the repository, you will need to open
